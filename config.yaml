@@ -45,57 +45,98 @@ topics:
   - "e-procurement and data standards"
 
 # --- Sources (Phase 1) ----------------------------------------------------
-# license field is recorded in the manifest for the citation KPI.
+# 15 open sources, rebalanced toward authoritative law/policy/standards.
+# Only ~33% Wikipedia, kept for definitional/conceptual topics where it is
+# genuinely reliable. license is recorded in the manifest (citation KPI).
 # type: "html" (scrape readable text) | "pdf" (extract text)
+#
+# NOTE: gov/legal portals can be JS-heavy or large. Phase 1 fetches each
+# source independently and fails gracefully, so one bad URL never kills the
+# run; if a source extracts poorly we swap it during Phase 1 inspection.
 sources:
+
+  # --- Authoritative law / policy ----------------------------------------
+  - id: eurlex_directive_2014_24
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0024"
+    license: "© European Union, free reuse (Decision 2011/833/EU)"
+    type: html
+    topic: "procurement policy and compliance"
+  - id: uncitral_model_law
+    url: "https://uncitral.un.org/en/texts/procurement/modellaw/public_procurement"
+    license: "UN open / free reuse"
+    type: html
+    topic: "tender process"
+  - id: oecd_integrity
+    url: "https://www.oecd.org/en/topics/sub-issues/integrity-in-public-procurement.html"
+    license: "OECD terms, free reuse with attribution"
+    type: html
+    topic: "procurement policy and compliance"
+  - id: us_far
+    url: "https://www.acquisition.gov/far/part-1"
+    license: "US Government public domain"
+    type: html
+    topic: "contract management"
+  - id: sam_gov_help
+    url: "https://www.fpds.gov/wiki/index.php/FAQ"
+    license: "US Government public domain"
+    type: html
+    topic: "procurement policy and compliance"
+
+  # --- Standards / official guidance -------------------------------------
   - id: ocds_getting_started
     url: "https://standard.open-contracting.org/latest/en/getting_started/"
     license: "Apache-2.0 / CC-BY (Open Contracting Partnership)"
     type: html
-  - id: ocds_principles
+    topic: "e-procurement and data standards"
+  - id: ocds_primer
     url: "https://standard.open-contracting.org/latest/en/primer/"
     license: "CC-BY (Open Contracting Partnership)"
     type: html
-  - id: wikipedia_procurement
-    url: "https://en.wikipedia.org/wiki/Procurement"
-    license: "CC BY-SA 4.0"
+    topic: "e-procurement and data standards"
+  - id: worldbank_beginners_guide
+    url: "https://thedocs.worldbank.org/en/doc/caf6a3f677305292d799dbe55fd83bfe-0290012023/original/PROCUREMENT-Beginners-Guide-to-IPF-WEB-VERSION-Nov-2023.pdf"
+    license: "CC BY 3.0 IGO (World Bank open access)"
+    type: pdf
+    topic: "supplier evaluation"
+  - id: usaspending_about
+    url: "https://www.usaspending.gov/about"
+    license: "US Government public domain"
     type: html
+    topic: "logistics and KPIs"
+
+  # --- Open-access research ----------------------------------------------
+  - id: arxiv_digital_procurement
+    url: "https://arxiv.org/pdf/2303.03882"
+    license: "arXiv.org perpetual non-exclusive license (open access)"
+    type: pdf
+    topic: "risk and sustainability"
+
+  # --- Wikipedia (definitional / conceptual topics only) -----------------
   - id: wikipedia_tco
     url: "https://en.wikipedia.org/wiki/Total_cost_of_ownership"
     license: "CC BY-SA 4.0"
     type: html
-  - id: wikipedia_scm
-    url: "https://en.wikipedia.org/wiki/Supply_chain_management"
-    license: "CC BY-SA 4.0"
-    type: html
-  - id: wikipedia_eauction
-    url: "https://en.wikipedia.org/wiki/E-procurement"
-    license: "CC BY-SA 4.0"
-    type: html
-  - id: wikipedia_rfp
-    url: "https://en.wikipedia.org/wiki/Request_for_proposal"
-    license: "CC BY-SA 4.0"
-    type: html
-  - id: wikipedia_sla
-    url: "https://en.wikipedia.org/wiki/Service-level_agreement"
-    license: "CC BY-SA 4.0"
-    type: html
+    topic: "supplier evaluation"
   - id: wikipedia_incoterms
     url: "https://en.wikipedia.org/wiki/Incoterms"
     license: "CC BY-SA 4.0"
     type: html
-  - id: wikipedia_kpi
-    url: "https://en.wikipedia.org/wiki/Performance_indicator"
+    topic: "logistics and KPIs"
+  - id: wikipedia_sla
+    url: "https://en.wikipedia.org/wiki/Service-level_agreement"
     license: "CC BY-SA 4.0"
     type: html
+    topic: "contract management"
   - id: wikipedia_supplier_risk
     url: "https://en.wikipedia.org/wiki/Supply_chain_risk_management"
     license: "CC BY-SA 4.0"
     type: html
+    topic: "risk and sustainability"
   - id: wikipedia_green_proc
     url: "https://en.wikipedia.org/wiki/Sustainable_procurement"
     license: "CC BY-SA 4.0"
     type: html
+    topic: "risk and sustainability"
 
 # --- Paths ----------------------------------------------------------------
 paths:
