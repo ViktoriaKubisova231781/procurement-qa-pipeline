@@ -1,0 +1,14 @@
+# Procurement Q&A Pipeline — dependencies
+# (grown phase by phase; versions pinned loosely for reproducibility)
+
+# --- Phase 1: source collection ---
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.1
+pypdf>=4.0
+PyYAML>=6.0
+pydantic>=2.6
+
+# --- Phase 2: semantic chunking + topic tagging ---
+sentence-transformers>=2.6
+numpy>=1.26

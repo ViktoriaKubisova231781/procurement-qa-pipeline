@@ -1,0 +1,505 @@
+From Wikipedia, the free encyclopedia
+Preventing failures in logistics
+Supply-chain risk management is aimed at managing risks in complex and dynamic supply and demand networks.
+(cf. Wieland/Wallenburg, 2011)
+Supply chain risks
+are risks which affect an organization but arise within a supplier organization or otherwise within the
+supply chain
+for its goods and services.
+Supply chain risk management
+(also abbreviated as
+SCRM
+) is "the implementation of strategies to manage both everyday and exceptional risks along the supply chain". Good practice SCRM is based on "continuous
+risk assessment
+with the objective of reducing vulnerability and ensuring continuity",
+and applies risk management process tools after consultation with risk management services, either in collaboration with supply chain partners or independently, to deal with risks and uncertainties. Risks often highlighted in a supply chain context include,
+logistics
+-related activities, product availability (
+goods and services
+) and the availability of labour and other
+resources
+in the supply chain.
+Supply chain risks and disruptions
+edit
+In a
+McKinsey
+global survey on supply chain risk conducted in 2006, a majority of executives who responded said that they perceived "increasing risks to their ability to supply their customers with goods and services cost effectively", with "the availability of well-trained labor" posing the greatest risk.
+A survey in 2011 conducted by the
+Business Continuity Institute
+(BCI) and Zurich, with responses from over 559 companies across 65 countries, found that over 85% of companies had suffered at least one supply chain disruption during the year.
+Later BCI surveys have reported some reduction in this percentage (70% in 2016, down from 74% the previous year).
+The 2011 survey respondents also noted that 40% of the reported disruptions originated upstream with
+sub-contractors
+rather than prime contractors or first-tier suppliers.
+A 2016 survey also noted that one in three organizations had experienced cumulative losses of over €1 million per year because of supply chain disruptions, and 22% of businesses had experienced 11 or more disruptions.
+Mitigation of supply chain risks can involve an organisation's logistics,
+cybersecurity
+, finance and risk management disciplines, the ultimate goal being to maintain supply chain continuity in the event of scenarios or incidents which otherwise would have interrupted normal business and hence profitability. The cost-effectiveness of resilience and other measures is an important factor since, as long as things are running smoothly, they add to the costs of production. To reduce interruptions to supply chain management in terms of logistic there are logistics risk management programs which includes Defensive Driver Trainings, Fleet Audits, Cargo Loss Minimization, Road Safety, Warehouse Safety etc.
+SCRM attempts to reduce supply chain vulnerability via a coordinated, holistic approach ideally involving all supply chain stakeholders, collectively identifying, analysing and addressing potential failure points or modes within or affecting the supply chain. Risks to the supply chain range from unpredictable natural events (such as
+tsunamis
+and
+pandemics
+) to
+counterfeit products
+, and reach across quality, security, to resiliency and product integrity.
+Some current supply chain logistics techniques, such as
+supply chain optimization
+and
+lean manufacturing
+, can prejudice continuity and resilience. It is also becoming more common among businesses especially manufacturers to extend supplier quality management practices throughout supply chains. This approach is shown to increase transparency, reduce overhead costs, and improve operational efficiency.
+Resilience
+edit
+Supply chain risk management typically involves four processes: identification, assessment, treatment, risk reporting and communication, and monitoring of supply chain risks.
+However, due to the complexity of many supply chains, these processes might not be sufficient to ensure that all eventualities are prepared for. Therefore, the concept of supply chain risk management, which is cause-oriented, is often combined with the concept of
+supply chain resilience
+, which aims to ensure that the supply chain can cope with or bounce back from incidents irrespective of their cause or nature. Supply chain resilience is defined as "the capacity of a
+supply chain
+to persist, adapt, or transform in the face of change".
+10
+Some theorists believe that technological updating to modernize management methods along the entire path of a supply chain will make a significant contribution to the chain's sustainability and resilience: examples include including digitalization,
+artificial intelligence
+big data
+and
+robotics
+11
+Time to recover
+edit
+"Time to recover" (TTR) is a valuable metric measured in weeks, originally introduced by
+Cisco
+and adopted by the Supply Chain Risk Leadership Council.
+12
+TTR measures the time it takes a company to restore full operational output following a major supply chain disruption. The determination of TTR assumes that a facility is essentially unusable due to a major event, requiring extensive repairs and reconstruction, as well as re-sourcing and re-qualifying of key equipment used in manufacturing and other operations.
+In essence, Time To Recovery is a measure of how long it would take a supply chain to return to normal after suffering
+13
+from a disruption. For manufacturers and allied industry stakeholders, even an hour of downtime can have significant financial ramifications. The ability to quickly get production back on track or minimize downtime to the barest minimum can make or break a stock's profitability, and a company’s reputation.
+Another term for Time to recover is supply chain resilience. By reducing the effects of interruptions and guaranteeing client satisfaction, supply networks preserve continuity. Collaboration, flexibility, visibility, and contingency are important components of supply chain resilience
+14
+. Businesses can quickly adjust to changing conditions and address weaknesses thanks to these pillars.
+Supply chain risks are unavoidable in the connected world of today. The COVID-19 pandemic exposed the weaknesses of international supply chains and the speed at which interruptions can have a domino effect on other industries. For instance, the global production of cars, smartphones, and gaming systems was significantly impacted by the shortages and delays that semiconductor manufacturers experienced for essential raw materials.
+15
+In many practical settings, companies need analysis tools to estimate the impacts of recovery measures subject to different disruptions and performance indicators. This provides evidence that recovery policies belong to the most important drivers of supply chain resilience or time to recovery
+16
+. Such recovery options are highly optimised by the following backup strategies; backup suppliers, warehouses, depots and transportation channels, inventory and capacity expansion.
+It could be political shifts, conflicts, infrastructure damage for example, damage to subsea cables. Change in consumer behaviour. To make supply chains resilient, or optimising time of recovery, companies need a proactive strategy for mitigating local, regional, and global supply chain disruptions and the right technologies to empower it
+17
+. The overarching goal of such strategy is to make supply chains lean and fast to pivot any disruptions it might encounter.
+Time to recover can be optimised by increasing the number of response options or decreasing the time to execute those options
+18
+. TTR  is also improved by risk monitoring and control.
+Measuring risk
+edit
+Supply chain risk is a function of likelihood of an event's occurrence and its impact. Although this is the most popular methodology for quantifying risk, a drawback in the context of supply-chain risk is that it requires assessing likelihood or probability of many different event types across a number of supply-chain organisations and locations (potentially hundreds of thousands for, say, a major vehicle manufacturer). Thus, the range of possibilities is huge, frustrating and limiting the analysis possible in practice. The methodology may be appropriate for a smaller subset of locations and/or types or categories of risk.
+Most companies rely on 'risk scores' of various types such as
+financial risk
+score, operational risk score, resiliency score (R Score). These are readily available, relatively simple to understand and analyse, and hence can be effective, at least for first-pass identification of risks worthy of further analysis. Standards and certified compliance (such as ISO 9001) are also effective ways to raise the baseline to a known level.
+Traditional risk metrics (likelihood × consequence) have been complemented in recent literature by systemic, behavioural measures that seek to capture how complex supply chains respond to and survive disruptions.
+Resilience
+is typically defined as the capacity of a supply chain to resist, absorb, recover from, or adapt to disruptions, emphasising persistence, adaptation, or transformation in the face of change.
+19
+Robustness
+refers to the ability of the network structure and policies to maintain functionality under stress without reconfiguration, often studied via cascading-failure models; for example, underload and overload propagation dynamics reveal discontinuous fragilities and recovery levers in interdependent supply networks.
+20
+Extending these,
+viability
+frames a supply chain not just as recoverable or structurally stable, but as capable of ongoing survival and service provision under both acute disruptions and long-term, evolving pressures by integrating resilience with sustainability and adaptive reconfiguration.
+21
+22
+Viability can be derived through explicit measurement of outcomes in
+adaptive systems
+, achieved via
+complex adaptive system
+models of supply chains expressing certain risk dynamics, such as
+ripple effects
+or
+bullwhip effects
+23
+Predictive analysis of supply chain risks
+edit
+Supply chain disruptions can affect a company's normal business and profitability, so supply chain risk prediction requires a more modern management approach: artificial intelligence. AI predicts and analyzes and helps to discover risks earlier, so that companies can respond faster to avoid risks.
+24
+Therefore, AI predictive analysis helps with supply chain visibility and reduces uncertainty. The data analysis capabilities of AI models can provide companies with more informed decisions, thereby improving resilience.
+25
+Supply chain resilience options
+edit
+Some options to engineer an acceptable risk level in supply chains include:
+Addressing sourcing risks as an integral part of the product design and engineering (e.g. preferring standardized multi-sourced commodities over custom or unique supplies from sole suppliers)
+Managing stock levels both statically and dynamically
+Considering alternative sourcing and flexible logistical arrangements (e.g. trucks to supplement or replace trains)
+General purpose contingency arrangements such as business interruption insurance and proactive business relationship management (building mutual understanding and trust)
+Supplier questionnaires, risk assessments, audits and certification, both for initial supplier selection and subsequently (e.g. refreshed prior to major changes such as new products, or in response to issues arising)
+Awareness campaigns and training programs
+The use of
+business intelligence
+from big data analytics and continuous monitoring for predictive security measures vs. clean up
+Redundancy optimization (e.g. focusing redundancy efforts on business- or mission-critical products)
+Slick incident management where time is of the essence
+Postponement, product substitution and other forms of downstream supply chain management (assisting customers)
+Comprehensive digitalization and modernization of management methods
+11
+Collaboration
+26
+See also
+edit
+Supply chain security
+Cybersecurity
+Volume risk
+References
+edit
+cf. Andreas Wieland, Carl Marcus Wallenburg (2011):
+Supply-Chain-Management in stürmischen Zeiten
+. Berlin.
+Heckmann, Iris; Comes, Tina; Nickel, Stefan (2015).
+"A Critical Review on Supply Chain Risk – Definition, Measure and Modeling"
+Omega
+52
+(April 2015):
+119–
+132.
+doi
+10.1108/09600031211281411
+hdl
+10398/9016
+Brindley, Clare (2004).
+Supply Chain Risk
+. England: Ashgate Publishing Ltd. p.
+80.
+ISBN
+0-7546-3902-9
+McKinsey,
+Understanding supply chain risk: A McKinsey Global Survey
+, published in October 2006, accessed on 8 April 2026
+"Majority of companies suffered supply-chain disruption in 2011: Survey - Business Insurance"
+Business Insurance
+. Retrieved
+2017-04-26
+BCI,
+Counting the cost of supply chain disruption
+, published 8 November 2016, accessed 20 February 2021
+"Logistics Safety | Risk management | Safety Management"
+Cholarisk
+. Retrieved
+2021-02-11
+"Managing the Supply Chain with Quality Management Software"
+. Sparta Systems. 2015-03-11
+. Retrieved
+27 July
+2015
+Wieland & Wallenburg (2012)
+Wieland, Andreas; Durach, Christian F. (2021).
+"Two perspectives on supply chain resilience"
+Journal of Business Logistics
+42
+(3): _–_.
+doi
+10.1111/jbl.12271
+hdl
+10398/0a703fa5-c14c-4c2a-b427-9640a30b6c09
+ISSN
+0735-3766
+S2CID
+233812114
+Sanders, Nada R.; Boone, Tonya; Ganeshan, Ram; Wood, John D. (2019-09-01).
+"Sustainable Supply Chains in the Age of AI and Digitization: Research Challenges and Opportunities"
+Journal of Business Logistics
+40
+(3):
+229–
+240.
+doi
+10.1111/jbl.12224
+ISSN
+0735-3766
+S2CID
+203336486
+Supply Chain Risk Leadership Council.
+"How TTR drives SCRM"
+www.scrlc.com
+. Retrieved
+2017-04-26
+"Optimize Time to Recovery & Boost Manufacturing Supply Chain Resilience"
+FourKites
+. Retrieved
+2026-06-30
+Diaz, Tom K., Alexandra J. Shari (2024).
+"What Is Supply Chain Resilience? | IBM"
+www.ibm.com
+. Retrieved
+2026-06-30
+{{
+cite web
+}}
+:  CS1 maint: multiple names: authors list (
+link
+Xu, Zhitao; Elomri, Adel; Kerbache, Laoucine; El Omri, Abdelfatteh (2020-09-01).
+"Impacts of COVID-19 on Global Supply Chains: Facts and Perspectives"
+IEEE Engineering Management Review
+48
+(3):
+153–
+166.
+doi
+10.1109/EMR.2020.3018420
+ISSN
+0360-8581
+PMC
+8768947
+Ivanov, Dmitry; Dolgui, Alexandre; Sokolov, Boris; Ivanova, Marina (2017).
+"Literature review on disruption recovery in the supply chain*"
+International Journal of Production Research
+55
+(20):
+6158–
+6174.
+doi
+10.1080/00207543.2017.1330572
+ISSN
+0020-7543
+"Supply Chain Disruptions: 10 Tips to Improve Resilience | SAP"
+www.sap.com
+. Retrieved
+2026-06-30
+"What is Supply Chain Resilience?"
+www.ascm.org
+. Retrieved
+2026-06-30
+Wieland, Andreas; Durach, Christian F. (2021).
+"Two perspectives on supply chain resilience"
+Journal of Business Logistics
+42
+(3):
+315–
+322.
+doi
+10.1111/jbl.12271
+hdl
+10398/0a703fa5-c14c-4c2a-b427-9640a30b6c09
+ISSN
+2158-1592
+Yang, Qihui; Scoglio, Caterina M.; Gruenbacher, Don M. (2021-02-01).
+"Robustness of supply chain networks against underload cascading failures"
+Physica A: Statistical Mechanics and its Applications
+563
+125466.
+arXiv
+1908.02616
+doi
+10.1016/j.physa.2020.125466
+ISSN
+0378-4371
+Ivanov, Dmitry; Dolgui, Alexandre; Blackhurst, Jennifer V.; Choi, Tsan-Ming (2023-04-18). "Toward supply chain viability theory: from lessons learned through COVID-19 pandemic to viable ecosystems".
+International Journal of Production Research
+61
+(8):
+2402–
+2415.
+doi
+10.1080/00207543.2023.2177049
+ISSN
+0020-7543
+Ivanov, Dmitry (2022-12-01).
+"Viable supply chain model: integrating agility, resilience and sustainability perspectives—lessons from and thinking beyond the COVID-19 pandemic"
+Annals of Operations Research
+319
+(1):
+1411–
+1431.
+doi
+10.1007/s10479-020-03640-6
+ISSN
+1572-9338
+PMC
+7243232
+PMID
+32836614
+Proselkov, Yaniv; Zhang, Jie; Xu, Liming; Hofmann, Erik; Choi, Thomas Y.; Rogers, Dale; Brintrup, Alexandra (2024-02-01).
+"Financial ripple effect in complex adaptive supply networks: an agent-based model"
+International Journal of Production Research
+62
+(3):
+823–
+845.
+doi
+10.1080/00207543.2023.2173509
+ISSN
+0020-7543
+Mourtzis, Dimitris (2020-04-02).
+"Simulation in the design and operation of manufacturing systems: state of the art and new trends"
+International Journal of Production Research
+58
+(7):
+1927–
+1949.
+doi
+10.1080/00207543.2019.1636321
+ISSN
+0020-7543
+Vlachos, Ilias; Reddy, Pulagam Gautam (15 February 2025). "Machine learning in supply chain management: systematic literature review and future research agenda".
+International Journal of Production Research
+1–
+30.
+doi
+10.1080/00207543.2025.2466062
+Tang, Christopher S. (2006). "Robust strategies for mitigating supply chain disruptions".
+International Journal of Logistics Research and Applications
+(1):
+33–
+45.
+doi
+10.1080/13675560500405584
+S2CID
+167713868
+Books
+edit
+Choi, T.M., C.H. Chiu, Risk Analysis in Stochastic Supply Chains: A Mean-Risk Approach, Springer, International Series in Operations Research and Management Science, 2012.
+Brindley, Clare (2004),
+Supply Chain Risk
+. Ashgate Publishing Ltd., England, Ed. 1.
+External links
+edit
+World Economic Forum Supply Chain and Transport Risk Initiative
+Risk management
+Risk type & source
+Risk type
+Business risks
+Reputational damage
+Personal risk
+Health risk
+Psychosocial hazard
+Natural risk
+Natural disaster
+Anthropogenic hazard
+Political risk
+Technology risk
+IT risk
+AI
+Macro risk
+External risk
+Extreme risk
+Global catastrophic risk
+Safety hazard
+Security risk
+Vulnerability
+Threat
+Accident
+Operational risk
+Execution risk
+Model risk
+Reputational risk
+Country risk
+Legal risk
+Financial risk
+Credit risk
+Liquidity risk
+Interest rate risk
+Exchange rate risk
+Market risk
+Profit risk
+Systemic risk
+Strategic risk
+Residual risk
+Risk source
+Hazard
+Conflict
+Uncertainty
+Vulnerability
+Countermeasures
+Enterprise risk management
+Corporate governance
+Regulatory compliance
+GRC
+Internal control
+Personal risk management
+Health insurance
+Stress management
+Disease management
+Operational risk management
+Supply chain
+Project
+Quality
+Security management
+Identity and access management
+Vulnerability management
+Incident management
+Business continuity planning
+Disaster risk reduction
+Financial risk management
+Diversification
+Hedge
+Risk pool
+Strategic management
+Risk communication
+Warning system
+Precautionary principle
+Insurance
+Crisis management
+Disaster management
+Occupational safety and health
+Swiss cheese model
+Risk assessment
+Exposure assessment
+Hazard analysis
+Scenario planning
+Contingency plan
+Brainstorming
+Structured or semi-structured interviews
+Delphi method
+Checklist
+Preliminary hazard analysis
+(PHA)
+Hazard and operability study
+(HAZOP)
+Hazard analysis and critical control points
+(HACCP)
+Threat assessment
+Toxicity assessment
+Structured What If Technique
+(SWIFT)
+Scenario analysis
+Business impact analysis
+Root cause analysis
+Failure mode and effects analysis
+(FMEA) /
+FMECA
+Fault tree analysis
+Event tree analysis
+Cause and consequence analysis
+Cause-and-effect analysis
+Layers of protection analysis
+(LOPA)
+Decision tree
+Human reliability analysis
+(HRA)
+Bow tie analysis
+Reliability centered maintenance
+Sneak circuit analysis
+Markov analysis
+Monte Carlo simulation
+Bayesian statistics and Bayes nets
+FN curve
+Risk index
+Risk Matrix
+Cost/benefit analysis
+Risk–benefit ratio
+Multi-criteria decision analysis
+(MCDA)
+Related concepts
+ISO 31000
+ISO/IEC 31010
+COSO
+Risk appetite
+Hazard map
+Rare events
+Problem solving
+Security
+Opportunity cost
+Crisis management
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Supply_chain_risk_management&oldid=1367734956
+Categories
+Supply chain management
+Risk management in business
+Operational risk
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+CS1 maint: multiple names: authors list

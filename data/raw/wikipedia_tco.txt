@@ -1,0 +1,222 @@
+From Wikipedia, the free encyclopedia
+Financial estimate; accounting concept
+This article
+needs
+more citations
+Please help
+improve this article
+by
+adding citations to reliable sources
+. Unsourced material may be challenged and
+removed
+Find sources:
+"Total cost of ownership"
+news
+newspapers
+books
+scholar
+JSTOR
+August 2014
+Learn how and when to remove this message
+Total cost of ownership
+TCO
+) is a financial estimate intended to help buyers and owners determine the direct and
+indirect costs
+of a product or service. It is a
+management accounting
+concept useful in
+full cost accounting
+or even
+ecological economics
+, where it includes
+social costs
+. TCO recognises that ownership costs are significantly greater than the cost of purchasing or acquiring a product.
+For
+manufacturing
+, as TCO is typically compared with doing business overseas, it goes beyond the initial manufacturing cycle time and cost to make parts. TCO includes a variety of cost of doing business items, for example, ship and re-ship, and opportunity costs, while it also considers incentives developed for an alternative approach. Incentives and other variables include tax credits, common language, expedited delivery, and customer-oriented supplier visits.
+Use of concept
+edit
+TCO, when incorporated into a financial benefit analysis, provides a cost basis for determining the total economic value of an investment. Examples include:
+return on investment
+internal rate of return
+economic value added
+, return on information technology, and rapid economic justification.
+The roots of this concept date at least back to the first quarter of the twentieth century. Many different
+methodologies
+and software tools have been developed to analyze TCO in various operational contexts. A TCO analysis includes
+total cost of acquisition
+and
+operating costs
+, as well as costs related to replacement or upgrades at the end of the life cycle. A TCO analysis is used to gauge the viability of any
+capital investment
+. An enterprise may use it as a product/process comparison tool. It is also used by
+credit markets
+and
+financing
+agencies. TCO directly relates to an enterprise's asset and/or related systems total costs across all projects and processes, thus giving a picture of the
+profitability
+over time.
+TCO analysis was popularized by the
+Gartner Group
+in 1987.
+Computer and software industries
+edit
+TCO is applied to the analysis of information technology products, seeking to quantify the financial impact of deploying a product over its
+life cycle
+. These technologies include
+software
+and hardware, and training.
+Technology deployment can include the following as part of TCO:
+Computer hardware and programs
+Network hardware and software
+Server hardware and software
+Workstation hardware and software
+Installation and integration of hardware and software
+Purchasing research
+Warranties and licenses
+License tracking/compliance
+Migration
+expenses
+Risks: susceptibility to vulnerabilities, availability of upgrades, patches and future licensing policies, etc.
+Operation expenses
+Infrastructure (floor space)
+Electricity (for related equipment, cooling, backup power)
+Testing costs
+Downtime, outage and failure expenses
+Diminished performance (i.e. users having to wait, diminished money-making ability)
+Security (including breaches, loss of reputation, recovery and prevention)
+Backup and recovery process
+Technology/user training
+Audit (internal and external)
+Insurance
+Information technology personnel
+Corporate management
+time
+Long term expenses
+Replacement
+Future upgrade or scalability expenses
+Decommissioning.
+In the case of comparing TCO of existing versus proposed solutions, consideration should be put toward costs required to maintain the existing solution that may not necessarily be required for a proposed solution. Examples include cost of manual processing that are only required to support lack of existing automation, and extended support personnel.
+Facilities and built environment
+edit
+Total cost of ownership can be applied to the structure and systems of a single building or a campus of buildings. Pioneered by Doug Christensen and the facilities department at
+Brigham Young University
+starting in the 1980s, the concept gained more traction in educational facilities in the early 21st century.
+The application of TCO in facilities goes beyond the predictive cost analysis for a new building’s “first cost” (planning, construction and commissioning), to factor in a variety of critical requirements and costs over the life of the building:
+replacement of energy, utility, and safety systems;
+continual maintenance of the building exterior and interior and replacement of materials;
+updates to design and functionality;
+and recapitalization costs.
+A key objective of planning, constructing, operating, and managing buildings via TCO principals is for building owners and facility professionals to predict needs and deliver data-driven results. TCO can be applied any time during the life of a facility asset to manage cost inputs for the life of the structure or system into the future.
+Developing standards for TCO in facilities
+edit
+APPA, an
+ANSI
+Accredited Standards Developer,
+published
+APPA 1000-1 – Total Cost of Ownership for Facilities Asset Management (TCO) – Part 1: Key Principles
+as an
+American National Standard
+in December 2017.
+APPA 1000-1 provides financial officers, facility professionals, architects, planners, construction workforce, and operations and maintenance (O&M) personnel the foundation of a standardized and holistic approach to implementing TCO key principles. Implementation of TCO key principles can improve decision making, maximizing financial strategies over the life of an asset, starting at the planning and design stage and extends to the end of the asset's life.
+APPA 1000-2, slated for publication in 2019, will focus on implementation and application of key TCO principals in facility management.
+Transportation
+edit
+The TCO concept is easily applicable to the
+transportation
+industry and to motor vehicle ownership, for example, the TCO defines the cost of owning an
+automobile
+from the time of purchase by the owner, through its operation and maintenance to the time it leaves the possession of the owner. Comparative TCO studies between various models help consumers choose a car to fit their needs and budget.
+For personal vehicles in the United States, AAA's annual
+Your Driving Costs
+study estimated the average total cost of new-vehicle ownership at $11,577 per year in 2025, driven by depreciation, financing, fuel, insurance, maintenance, and license fees.
+In the truck industry, TCO is an essential factor for truck fleet managers. By calculating the Total Cost of Ownership of a truck, the truck manager obtains a price per kilometer that varies according to fuel costs, the purchase price, and the resale price of the truck. If the truck is financed, the TCO also varies according to the interest rate on the loan.
+These factors in the trucking industry allow managers to make a clearer choice about which truck to select for their truck fleet, because when a transportation company wants to acquire 1 to 10 trucks, TCO is an essential factor to consider for the company's cash flow.
+Some of the key elements incorporated in the cost of ownership for a vehicle include:
+Depreciation costs
+Fuel
+costs
+Insurance
+Financing
+Repairs
+Fees and taxes
+Maintenance
+costs
+Opportunity costs
+Downtime
+costs.
+Limitations
+edit
+TCO does not assess how well a solution offers value for money, or how well it fits with an organisation's strategic objectives. Some TCO analyses may include social and environmental costs but this is not always the case.
+See also
+edit
+Cost to company
+(CTC)
+Capital expenditure
+(CAPEX)
+Operating expense
+(OPEX)
+Activity-based costing
+Life cycle cost analysis
+Total benefits of ownership
+Total cost
+Total cost of acquisition
+Vendor lock-in
+Notes
+edit
+One UK Government publication refers to the "often" used example of a
+rescue puppy
+, which is
+free
+to acquire but incurs significant maintenance costs over its whole lifetime.
+UK Government documentation does not include replacement within TCO, but it does include retirement, disposal and migration of data and users to a replacement product or system.
+References
+edit
+Cabinet Office
+and
+Home Office
+Total Cost of Ownership:  Things to Consider, V1.0
+, no date, accessed on 14 October 2025
+About Gartner TCO
+Christensen, Douglas K.; Rose, Rodney; Ruprecht, Terry W. (2006).
+Buildings…The Gifts That Keep on Taking
+. APPA.
+ISBN
+1-890956-37-6
+"The Total Cost of Ownership"
+(PDF)
+Facilities Manager
+32
+(4). July–August 2016. Archived from
+the original
+(PDF)
+on 2018-02-15
+. Retrieved
+2018-02-14
+"Accredited Standards Developers"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 2018-02-15
+. Retrieved
+2018-02-14
+Sonani, Ashvin J. (2026).
+"Total Cost of Car Ownership Modeling Guide for US Drivers"
+. Cars.Zone
+. Retrieved
+2026-05-27
+Bartlett, J.,
+The Cost of Car Ownership Over Time
+, updated 1 April 2020, accessed 28 January 2021
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Total_cost_of_ownership&oldid=1359304514
+Categories
+Costs
+Enterprise application integration
+Information technology governance
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Articles needing additional references from August 2014
+All articles needing additional references

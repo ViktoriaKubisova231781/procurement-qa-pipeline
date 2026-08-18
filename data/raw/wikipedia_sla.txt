@@ -1,0 +1,297 @@
+From Wikipedia, the free encyclopedia
+Official commitment between a service provider and a customer
+service-level agreement
+SLA
+) is an agreement, typically a binding
+contract
+, between a
+service provider
+and a
+customer
+that define particular aspects of the
+service
+– such as
+quality of service
+, availability, responsibilities – as
+terms of contract
+SLAs are commonly used in the technology industry, and often contain specific
+service-level objectives
+for defined
+service level indicators
+, such as
+mean time between failures
+mean time to repair
+mean time to recovery
+network throughput
+jitter
+uptime
+first-call resolution
+, and
+turnaround time
+Unlike traditional contracts, SLAs often require parties involved to meet regularly to create an open forum for communication, apply rewards and penalties for performance, and leave room for periodic revisitation to make changes.
+SLAs may be supported by
+operational-level agreements
+, or OLAs.
+History
+edit
+Since the late 1980s SLAs have been used by fixed-line telecom operators.
+Larger organizations often maintain many SLAs internally, such that two different units in an organization script an SLA with one unit being the customer and another being the service provider. This practice helps to maintain the same quality of service amongst different units in the organization and also across multiple locations of the organization. This internal scripting of SLA also helps to compare the quality of service between an in-house department and an external service provider.
+The output received by the customer as a result of the service provided is the main focus of the service level agreement.
+Service level agreements are also defined at different levels:
+Customer-based SLA: An agreement with an individual customer group, covering all the services they use.
+Service-based SLA: An agreement for all customers using the services being delivered by the service provider.
+Multilevel SLA: The SLA is split into the different levels, each addressing different set of customers for the same services, in the same SLA.
+Corporate-level SLA: Covering all the generic
+service level management
+issues appropriate to every customer throughout the organization.
+Customer-level SLA: covering all SLM issues relevant to the particular customer group, regardless of the services being used.
+Service-level SLA: covering all SLM issue relevant to the specific services, in relation to this specific customer group.
+Best practices
+edit
+According to
+Dinesh Verma
+, a well-defined and typical SLA will contain the following components:
+Type of service to be provided
+It specifies the type of service and any additional details of the type of service to be provided. In the case of an IP network connectivity, the type of service will describe functions such as operation and maintenance of networking equipment, connection bandwidth to be provided, etc.
+The service's desired performance level, especially its reliability and responsiveness
+A reliable service will be the one that suffers minimum disruption in a specific amount of time and is available at almost all times. Service with good responsiveness will perform the desired action promptly after the customer requests it.
+Monitoring process and service level reporting
+This component describes how the performance levels are supervised and monitored. This process involves gathering different types of statistics, how frequently these statistics will be collected and how they will be accessed by the customers.
+The steps for reporting issues with the service
+This component will specify the contact details to report the problem and the order in which details about the issue have to be reported. The contract will also include a time range in which the problem will be looked into and when the issue will be resolved.
+Response and issue resolution time frame
+The response time frame is the period by which the service provider will start the investigation of the issue. Issue resolution time frame is the period by which the current service issue will be resolved and fixed.
+Repercussions for the service provider not meeting its commitment
+If the provider is not able to meet the requirements as stated in SLA then the service provider will have to face consequences. These consequences may include the customer's right to terminate the contract or ask for a refund for losses incurred by the customer due to failure of service.
+Specific examples
+edit
+Backbone Internet providers
+edit
+It is not uncommon for an
+internet backbone
+service provider (or
+network service provider
+) to explicitly state its SLA on its website.
+The U.S.
+Telecommunications Act of 1996
+does not expressly mandate that companies have SLAs, but it does provide a framework for firms to do so in Sections 251 and 252.
+Section 252(c)(1) for example ("Duty to Negotiate") requires
+incumbent local exchange carriers
+(ILECs) to negotiate in good faith about matters such as resale and access to rights of way.
+New
+emerging technologies
+such as
+5G
+bring new complexities to the network operators. With more stringent SLAs and customer expectations, problem resolutions must be prioritized based on impacted subscribers.
+10
+Fixed networks
+edit
+For fixed networks subscribers, service modeling appears to be one of the most suitable ways to effectively monitor SLA's and ensure they are met.
+11
+WSLA
+edit
+web service level agreement
+WSLA
+) is a standard for service level agreement compliance monitoring of
+web services
+. It allows authors to specify the performance metrics associated with a web service application, desired performance targets, and actions that should be performed when performance is not met.
+WSLA Language Specification, version 1.0
+12
+was published by IBM in 2001.
+Cloud computing
+edit
+The underlying benefit of
+cloud computing
+is shared resources, which are supported by the underlying nature of a shared infrastructure environment. Thus, SLAs span across the cloud and are offered by service providers as a service-based agreements rather than a customer-based agreements. Measuring, monitoring and reporting on cloud performance is based on the end UX or their ability to consume resources. The downside of cloud computing relative to SLAs is the difficulty in determining the root cause of service interruptions due to the complex nature of the environment.
+As applications are moved from dedicated hardware into the
+cloud
+, they need to achieve the same even more demanding levels of service than classical installations. SLAs for cloud services focus on characteristics of the
+data center
+and more recently include characteristics of the network (see
+carrier cloud
+) to support end-to-end SLAs.
+13
+Any SLA management strategy considers two well-differentiated phases: negotiating the contract and monitoring its fulfillment in real-time. Thus, SLA management encompasses the SLA contract definition: the basic schema with the
+QoS
+parameters; SLA negotiation; SLA monitoring; SLA violation detection; and SLA enforcement—according to defined policies.
+citation needed
+The main point is to build a new layer upon the grid, cloud, or
+SOA
+middleware
+able to create a negotiation mechanism between the providers and consumers of services. An example is the EU–funded Framework 7 research project, SLA@SOI,
+14
+which is researching aspects of multi-level, multi-provider SLAs within service-oriented infrastructure and cloud computing, while another EU-funded project, VISION Cloud,
+15
+has provided results concerning content-oriented SLAs.
+FP7 IRMOS also investigated aspects of translating application-level SLA terms to resource-based attributes to bridge the gap between client-side expectations and cloud-provider resource-management mechanisms.
+16
+17
+A summary of the results of various research projects in the area of SLAs (ranging from specifications to monitoring, management and enforcement) has been provided by the European Commission.
+18
+Outsourcing
+edit
+Outsourcing
+involves the transfer of responsibility from an organization to a supplier. This new arrangement is managed through a contract that may include one or more SLAs. The contract may involve financial penalties and the right to terminate if any of the SLA metrics are consistently missed. The setting, tracking and managing SLAs is an important part of the
+outsourcing relationship management
+(ORM) discipline. Specific SLAs are typically negotiated upfront as part of the outsourcing contract and used as one of the primary tools of outsourcing governance.
+In software development, specific SLAs can apply to application outsourcing contracts in line with standards in
+software quality
+, as well as recommendations provided by neutral organizations like
+CISQ
+, which has published numerous papers on the topic (such as
+Using Software Measurement in SLAs
+19
+) that are available in to the public.
+See also
+edit
+Best-effort delivery
+IT cost transparency
+Network monitoring
+Service level
+Service-oriented architecture
+(SOA)
+References
+edit
+Kearney, K.T.; Torelli, F. (2011). "The SLA Model". In Wieder, P.; Butler, J.M.; Theilmann, W.; Yahyapour, R. (eds.).
+Service Level Agreements for Cloud Computing
+. Springer Science+Business Media, LLC. pp.
+43–
+68.
+ISBN
+9781461416142
+Shacklett, M.E. (12 January 2011).
+"Five Key Points for Every SLA"
+. Dell. Archived from
+the original
+on 22 December 2012
+. Retrieved
+22 June
+2016
+Verma, Dinesh C. "Service level agreements on IP networks." Proceedings of the IEEE, Volume 92, Issue 9, September 2004, pages 1382 to 1388. DOI 10.1109/JPROC.2004.832969. Peer-reviewed IEEE survey of SLA practice on telecommunications and IP networks, covering the historical context of SLAs in fixed-line telecom.
+Ding, Jianguo (2010).
+Advances in Network Management
+. Auerbach Publications.
+ISBN
+978-1-4200-6455-1
+Verma, Dinesh (September 2004).
+"Service level agreements on IP networks"
+(PDF)
+Proceedings of the IEEE
+92
+(9):
+1382–
+1388.
+doi
+10.1109/JPROC.2004.832969
+S2CID
+263896791
+. Archived from
+the original
+(PDF)
+on January 9, 2005.
+"Global IP Network SLA"
+. NTT Communications
+. Retrieved
+22 June
+2016
+"Global Latency and Packet Delivery SLA"
+. Verizon
+. Retrieved
+22 June
+2016
+"Business Edition - AT&T U-verse Voice and TV - Terms of Service (TOS) and AT&T Broadband - Service Level Agreement (SLA)"
+. AT&T
+. Retrieved
+22 June
+2016
+Wikisource:Telecommunications Act of 1996#SEC. 101. ESTABLISHMENT OF PART II OF TITLE II.
+"Ready for anything? How 360⁰ customer experience assurance will help to increase RoI"
+. Infovista
+. Retrieved
+12 April
+2023
+"Assuring advanced cloudified networks – why an integrated approach to automated assurance and operations is essential"
+. Infovista
+. Retrieved
+12 April
+2023
+Ludwig, Heiko; Keller, Alexander; Dan, Asit; King, Richard P.; Franck, Richard (2003-01-01).
+"Web Service Level Agreement (WSLA) Language Specification"
+(PDF)
+Rueda, J.L.; Gómez, S.G.; Chimento, A.E. (2011). "The Service Aggregator Use Case Scenario". In Wieder, P.; Butler, J.M.; Theilmann, W.; Yahyapour, R. (eds.).
+Service Level Agreements for Cloud Computing
+. Springer Science+Business Media, LLC. pp.
+329–
+342.
+ISBN
+9781461416142
+Butler, J.M.; Yahyapour, R.; Theilmann, W. (2011). "Motivation and Overview". In Wieder, P.; Butler, J.M.; Theilmann, W.; Yahyapour, R. (eds.).
+Service Level Agreements for Cloud Computing
+. Springer Science+Business Media, LLC. pp.
+3–
+12.
+ISBN
+9781461416142
+Villari, M.; Tusa, F.; Celesti, A.; Puliafito, A. (2012). "How to Federate VISION Cloud through SAML/Shibboleth Authentication". In De Paoli, F.; Pimentel, E.; Zavattaro, G. (eds.).
+Service-Oriented and Cloud Computing
+. Springer-Verlag Berlin Heidelberg. pp.
+259–
+274.
+ISBN
+9783642334276
+Boniface, M.; Nasser, B.; Papay, J.; et
+al. (2010).
+"Platform-as-a-Service Architecture for Real-Time Quality of Service Management in Clouds"
+(PDF)
+2010 Fifth International Conference on Internet and Web Applications and Services
+. pp.
+155–
+160.
+doi
+10.1109/ICIW.2010.91
+ISBN
+978-1-4244-6728-0
+S2CID
+8631786
+Cuomo, A.; Di Modica, G.; Distefano, S.; et
+al. (2013). "An SLA-based Broker for Cloud Infrastructures".
+Journal of Grid Computing
+11
+(March 2013):
+1–
+25.
+doi
+10.1007/s10723-012-9241-4
+S2CID
+10203057
+Kyriazis, D., ed. (June 2013).
+"Cloud Computing Service Level Agreements - Exploitation of Research Results"
+. European Commission. p.
+51
+. Retrieved
+22 June
+2016
+Curtis, B.; Herron, D.; Subramanyam, J. (July 2015).
+"Using Software Measurement in SLAs: Integrating CISQ Size and Structural Quality Measures into Contractual Relationships"
+(PDF)
+. CISQ
+. Retrieved
+22 June
+2016
+External links
+edit
+Service Level Agreement (SLA)
+S-Cube Knowledge Model
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Service-level_agreement&oldid=1362923384
+Categories
+Contract law
+Outsourcing
+IT service management
+Terms of service
+Services marketing
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+All articles with unsourced statements
+Articles with unsourced statements from April 2022

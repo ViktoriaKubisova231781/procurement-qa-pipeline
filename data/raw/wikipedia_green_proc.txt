@@ -1,0 +1,1106 @@
+From Wikipedia, the free encyclopedia
+Part of sustainable development
+The examples and perspectives in this article
+may not represent a
+worldwide view
+of the subject
+You may
+improve this article
+, discuss the issue on the
+talk page
+, or
+create a new article
+, as appropriate.
+January 2010
+Learn how and when to remove this message
+Sustainable procurement
+is a process whereby organizations meet their needs for goods, services, works and utilities in a way that achieves value for money on a life-cycle basis while addressing equity principles for sustainable development, therefore benefiting societies and the economy across time and geographies while remaining within the carrying capacity of the environment.
+Procurement
+is often conducted via a
+tendering
+or competitive
+bidding
+process. The process is used to ensure the buyer receives goods, services or works for the best possible price, when aspects such as quality, quantity, time, and location are compared.
+Procurement is considered sustainable when organizations broadens this framework by meeting their needs for goods, services, works, and utilities in a way that achieves value for money and promotes positive outcomes not only for the organization itself but for the economy, environment, and society.
+Sustainable procurement is a spending and investment process typically associated with
+public policy
+, although it is equally applicable to the
+private sector
+. Organizations practicing sustainable procurement meet their needs for goods, services, utilities and works not only on a private
+cost–benefit analysis
+, but also with the intention to maximizing net benefits for themselves and the wider world. In doing so they must incorporate extrinsic cost considerations into decisions alongside the conventional
+procurement
+criteria of price and quality, although in practice the sustainable impacts of a potential supplier's approach are often assessed as a form of quality consideration. It has also been proposed that other human rights can be incorporated into the extrinsic costs considered by sustainable procurement models.
+These considerations are typically divided thus: environmental, economic and social, but it should go beyond and encompass a series of equity principles for sustainable development, such as
+intragenerational equity, intergenerational equity, interspecies equity, procedural equity, and geographical equity
+These can be seen as the 'sustainability pillars' of procurement, which can be underpinned by one or several instruments for development, such as those proposed by
+Amartya Sen
+(1) economic facilities, (2) social opportunities, (3) protective security, (4) political freedoms and (5) transparency guarantees
+And to procure in a sustainable way involves looking beyond short-term needs and considering the longer-term impacts of each purchase. Sustainable procurement is used to ensure that purchasing reflects broader goals linked to
+resource efficiency
+climate change
+social responsibility
+and economic resilience, for example.
+This framework is also known as the
+triple bottom line
+, which is a business accounting framework. The concept of TBL is narrowly prescribed, and even
+John Elkington
+, who coined the term in the 1990s, now advocates its recall.
+Indeed, procurement practitioners have drawn attention to the fact that buying from smaller firms, locally, is an important aspect of sustainable procurement in the public sector.
+Ethics, culture, safety, diversity, inclusion, justice, human rights and the environment are additionally listed as important aspects of SPP.
+Furthermore, a commonly proposed framework for sustainable procurement, especially in developing countries, clarifies decision making as a balance between efficiency, social objectives, risk management and governance considerations
+10
+. The framework focuses primarily on efficiency considerations. The sustainability initiatives must operate within the efficiency constraints rather than replace them, as procurement agencies remain accountable for prudent use of public funds. Social considerations form a second dimension of the framework incorporating objectives such as labour standards, inclusion of small and local enterprises, gender sensitive procurement and broader social welfare impacts. The third dimension emphasizes on risk reduction management, a necessary step to manage financial, operational, and compliance related risks arising from the integration of sustainability in procurement processes. Lastly, there is an emphasis on transparency and accountability to ensure effective implementation.
+Sustainable procurement involves a higher degree of collaboration and engagement between all parties in a supply chain. Many businesses have adopted a broad interpretation of sustainable procurement and have developed tools and techniques to support this engagement and collaboration.
+Triple bottom line considerations
+edit
+Procurement
+– the letting of contracts for goods, works and services on the best possible terms – has historically been based on two criteria, price and quality, with a view to maximizing benefits for the procuring organization. Sustainable procurement broadens this framework to take account of third-party consequences of procurement decisions, forming a "
+triple baseline
+" of external concerns which the procuring organization must fulfill.
+11
+Environmental
+edit
+Environmental concerns are the dominant macro-level justification for sustainable procurement, born out of the growing 21st century consensus that humanity is placing excessive demands on available resources through unsustainable but well-established consumption patterns. Sustainable procurement aims to promote conservation and responsible management of resources by using renewable or recycled materials wherever possible and reducing waste.
+Sustainable procurement also involves looking at production practices and making sure there are not any negative impacts to the environment such as pollution,
+biodiversity loss
+or
+habitat disruption
+This is a sufficiently influential issue that environment-centric procurement (green procurement) is sometimes seen to stand alone from sustainable procurement. The most straightforward justification for green procurement is as a tool with which to address
+climate change
+, but it offers the broader capacity to mitigate
+over-exploitation
+of any and all scarce resources. Green procurement introduces into the procurement process a comparison between alternatives based on the criterion of their environmental impact. This comparison is extended to all stages of the procurement process, from the design stage, to the tender evaluation and realization stages.
+12
+Examples of green procurement range from the purchase of energy-saving light-bulbs to the commissioning of a new building from renewable sourced timber or
+organic food
+being served in a workplace canteen. Sometimes, the ultimate green procurement is the avoidance of the purchase altogether. For example,
+Seafood Watch
+lists which commonly consumed fish species are at risk of extinction or population decline, steering conscious consumers towards species with stable populations which can be consumed without threatening their existence or disrupting the ecosystem.
+13
+Transparency around production can help companies and individuals make more sustainable purchasing choices.  In the fashion industry, more consumers and companies are aware of the damage textile dye pollution does to waterways and the communities that rely on them, and as a result, companies and individuals can seek out producers who use natural or nonhazardous dyes.
+14
+In support of
+sustainable development
+the organization should develop and publish 'Sustainable Development Procurement Guidelines and Procedures'. When it comes to purchasing products or services, referral to these guidelines would help make the organization become a leader in environmentally responsible purchasing.
+15
+16
+Although various corporate giants have publicly acknowledged adopting sustainable procurement and reducing their carbon footprint, they have miserably failed to match their promises. The most widely discussed examples include Disney's initiative to introduce sustainable paper sourcing policy in 2012 and 3M promising to reduce its greenhouse gas emissions.
+17
+Social
+edit
+Sustainable procurement is also used to address issues of
+social policy
+, such as inclusiveness,
+equality
+international labor standards
+and diversity targets, regeneration and integration.
+Examples include addressing the needs – whether employment, care, welfare or other – of groups including
+ethnic minorities
+, children, the elderly, those with disabilities, adults lacking basic skills, and immigrant populations. Criteria for Socially Responsible Procurement can be applied to every stage of a supply-chain e.g. from mining to assembly and distribution.
+18
+Economic
+edit
+Often differences in the purchase price between a non-sustainable and sustainable alternative are negligible. Yet even where the sustainable option costs more upfront, savings of energy, water and waste over the lifetime of the product or service can provide significant financial savings.
+On a
+macroeconomic
+level, it can be argued that there are economic benefits in the form of
+efficiency
+gains from incorporating whole-life costing into decision-making. (Note: in contrast to most arguments from sustainable procurement proponents, these can be purely private benefits accrued by the procuring organization.)
+In addition, the creation of sustainable markets is essential for long-term growth while sustainable development requirements foster
+innovation
+. There are also potential global applications: sustainable procurement can favor fair trade or ethical practice, and allow extra investment to channeled towards
+developing countries
+On a
+microeconomic
+level, sustainable procurement offers the chance for economic redistribution. Targets might include creation of jobs and wealth in regeneration areas, or assistance for small and/or ethnic minority-owned businesses.
+Sustainable procurement policy and development
+edit
+Central government
+edit
+For central governments, sustainable procurement is typically viewed as the application of sustainable development criteria to spending and investment decisions. Given high-profile socioeconomic and environmental concerns such as
+globalization
+and
+climate change
+, governments are increasingly concerned that our actions meet the needs of the present without compromising the needs of the future.
+Public spending, which accounts for an average of 12% of GDP in OECD countries, and up to 30% in developing countries, wields enormous purchasing power.
+11
+Shifting that spending towards more sustainable goods and services can help drive markets in the direction of innovation and
+sustainability
+, thereby enabling the transition to a
+green economy
+19
+Through Sustainable procurement practices, governments can lead by example and deliver key policy objectives. Sustainable procurement allows governments to mitigate key issues such as
+greenhouse gas emissions
+, improve resource efficiency, recycling, among others. The key international organizations already increasingly recognize public procurement as a means of changing the unsustainable patterns of consumption and production.
+The
+United Nations
+, including its many affiliated
+agencies
+, recognize their own responsibilities in contributing to more sustainable patterns of development, maintaining a market behavior which is credible, inspirational and exemplary, and proving that UN agencies stand behind the principles they promote.
+20
+Through the development of procurement criteria that support sustainability principles, requisitioners and procurers can send strong signals to the market in favor of goods and services that promote sustainability. The United Nations agency destined to develop and promote resource efficiency and more sustainable consumption and production processes, including the promotion of sustainable resource management in a life cycle perspective for goods and services in both developed and developing countries, The United Nations Environmental Programme,
+UNEP
+, drafted sustainable public procurement implementation guideline to aid in the consideration of society, economy, and the environment in procurement processes.
+11
+Project set up and governance structure establishment
+In the project organization and set up in pilot country of Mauritius, the NFO (Mauritius public procurement office) set up monthly and biweekly newsletters on the purpose of public procurement which was then used as a communication device for later projects, activities, and events, along with other relevant information
+21
+Assessment, review, and prioritization
+Recommended method of assessing the effectiveness of public procurement plans is conducting interviews with procurers as to assess the degree of training and knowledge. Recognize and understand the obstacles in the implementation of SPP in their respective administration as well as identifying products and services which are considered a priority for the well-functioning of such projects and policies.
+21
+Some of the main obstacles in implementing SPP are informational, financial and managerial.
+Sustainable public procurement policy and action plan
+Drafting an SPP plan is necessary for the successful implementation of policies. It creates a clear path and provides a direction on sound basis on which to build coherent and efficient strategies. The SPP Action Plan should contribute to the country's sustainable development in terms of environmental protection, economic development, health, welfare, etc. In the UNEP pilot country of Chile, working to enhance previous e-learning platform for contracting managers from across the country, the UNEP agreement with the sovereign nation was modified replacing two different workshops for roughly 50 people each with the generic term "training" and the new materials for the electronic platform are currently being developed as to provide the entire Chilean public administration easier access.
+21
+Implementation
+Nations interested in applying the SPP approach in the development of domestic policies and would like to receive funding for the implementation of the various programs must directly apply to the UNEP and follow a particular procedure.
+21
+Case studies
+edit
+The Marrakech Task Force on Sustainable Public Procurement (MTF or SPP) which was managed by Switzerland from 2006 to May 2011 established an approach for the effective implementation of sustainable procurement. This approach was named the MTF Approach to SPP. Since then, the United Nations Environmental Programme have worked together with the Swiss government to develop a project to implement sustainable procurement worldwide. The project named Capacity Building for Sustainable Public Procurement in Developing Countries was piloted in seven countries: Chile, Colombia, Costa Rica, Lebanon, Mauritius, Tunisia, and Uruguay. Since then, the list of countries adopting this newly designed approach to developing has increased, adding more advanced and industrialized nations to be used as case studies to measure the efficiency and benefits of the implementation of sustainable public procurement.
+In Brazil, the project involved recycled paper; in Costa Rica, the management services was redesigned; toner cartridges for laser printers were the main objective in France; in Hong Kong and China the nations aimed to improve traffic with LED traffic light retrofitting; organic food for school children was the focus in Italy; sustainable construction was the focus in England; consultancy and temporary staff services were renovated in Scotland; and in the United States, there was a push for the sustainable transportation of waste.
+22
+The eight case studies reveal a diversity of environmental impacts at various stages of the products' life cycle. The purchase of remanufactured ink cartridges by the French Ministry of Education has led to a decrease in the amount of waste generated at the manufacturing stage. The construction or services case studies (Yorkshire and Humber Region, UK, and Oregon, USA) demonstrate significant impacts related to the reduction of
+CO
+emissions, of waste production, and of water consumption. The Ferrara study (Italy) and the recycled paper case (São Paulo, Brazil) show positive environmental effects.
+22
+Although the social component of sustainable development has often been considered as the most neglected one, the eight case studies show a strong commitment from public purchasers to tackle social issues. Employment and social inclusiveness issues are considered essential by the public entities who promote these priorities through their procurement processes. Some of the social impacts are directly targeted by tenders, such as the participation of companies employing disabled persons in the French case or the fight against illiteracy in Scotland. Other impacts are the results of the specific purchase, as in the State of São Paulo case (notebooks using recycled paper) which demonstrates a clear positive impact for waste pickers. The analysis of the case studies illustrates the diversity and strength of the recorded sustainable development impacts. Public purchasers can be clearly seen as key potential actors of society, able to impact a wide range of sustainable development fields.
+22
+The UK in 2005 pledged to be a performance-leader in sustainable procurement by 2009 and commissioned the business-led Sustainable Procurement Task Force to formulate appropriate strategy.
+23
+Broad-based procurement strategies are prominent across the EU
+24
+while it is an increasingly influential concern elsewhere, most notably Canada.
+25
+The US federal government requires certain green procurement practices in its buildings and supports the wide and inclusive use of them. The
+General Services Administration
+, an independent establishment and government corporation, is responsible for promoting green procurement and provides federal agencies with selling and purchasing guidelines and suggestions. Green procurement is primarily done by federal contracting personnel and program managers – but it is not restricted to such professionals.
+26
+Clearly, sustainable procurement is not a practice of high-income countries only. For instance, Papua New Guinea, Ecuador and Brazil have all developed strategies to provide
+economic facilities
+to selected industries, while also addressing some of the sustainability pillars in their procurement practices: for example, adopting environmental standards and giving preference to smaller and local suppliers, women-owned businesses and peasant family farmers. Papua New Guinea's Vision 2050 and Ecuador's Buen Vivir plan have also addressed
+social opportunities
+and
+intergenerational equity
+, and Brazil's
+Fome Zero
+Food Acquisition Programme has addressed
+protective security
+and
+geographical equity
+Local government
+edit
+At market-level, sustainable procurement is typically instrumental: authorities seek to address policy
+through procurement
+27
+Government departments and local bodies can use procurement to address certain chosen agendas in buying solutions that will contribute to the community or environmental goals, or to diversity or equality targets.
+28
+29
+To help local governments improve sustainability and reduce environmental impacts the
+California Sustainability Alliance
+, has developed a Green Procurement Toolkit.
+30
+Green procurement can help local governments save money, create local green jobs and improve their
+environmental sustainability
+Under sustainable procurement criteria any procuring organization must therefore take a broad approach to sustainability, reflecting localized economic, environmental and social needs as well as cross-cutting sustainable development strategies such as
+Life Cycle Assessment
+31
+ICLEI
+is a membership organization of local governments who recognizes the power of Sustainable Public Procurement to achieve environmental, social and economic benefits.
+32
+It encourages Public Procurement of Innovation as a means for achieving sustainability.  Among its various activities, it offers a Sustainable Procurement Resource Center
+33
+and a Procurement Forum,
+34
+which can be used by procurers or by anyone interested in these topics.
+Procura+ is a network of European public authorities and regions that connect, exchange and act on sustainable and innovation procurement.
+On December 8, 2006, the Greater London Authority became the first public-sector body to publish a sustainable procurement policy,
+35
+promising to award a "distinct competitive advantage" to those companies which demonstrated a commitment to sustainable procurement concerns.
+36
+The policy reflected Mayor
+Ken Livingstone
+'s enthusiasm for public procurement as a tool for fostering social inclusion, equality and environmental objectives.
+The GLA also stated that their policy was "very much as a model for broader government procurement" but this expectation was not fulfilled in the UK Government's Sustainable Procurement Action Plan, published on March 5, 2007.
+37
+The Action Plan, which incorporated answers to the Sustainable Procurement Task Force, was explicitly environment-oriented in approach (Ch 4.3) with wider social issues scarcely addressed.
+This was perhaps surprising, as was press disinterest in the publication. Despite its acknowledged importance among senior politicians and business leaders, publication of the Action Plan received only one national newspaper report, and that was markedly flippant in tone.
+38
+Private sector
+edit
+Sustainable procurement outside of the United Nations is happening everywhere, in the international community, in states and local authorities, in the private sector and in the civil society. Sustainable procurement is as applicable to the
+private sector
+as the
+public sector
+, and certainly its proponents aspire to see its application across all areas of the economy due to a vast amount of material available on the internet for organizations and companies wishing to improve their sustainability performance.
+Acquisition of goods and services may account for over 50% of the company's expenses, and may exceed 80% in sectors such as in retailing, electronic and automotive industries - with all this purchasing power, the private sector has a great ability to influence markets.
+Influencing procurement practice within a private-sector firm is not straightforward for governments, meaning that the companies themselves often have to be self-motivated to embrace sustainability. It becomes a social responsibility for both businesses and workers to promote sustainable procurement in the workplace.
+The UK's Sustainable Procurement National Action Plan argues that it is "something the best of the private sector is already doing – whether through enlightened leadership or shareholder pressure".
+39
+It also argues that government purchasing power (circa £150bn in the UK alone) can apply sustainable procurement principles to present a persuasive case to those in the private sector resisting sustainable procurement practice.
+Fair trade
+edit
+Fair trade
+and sustainable procurement demands the implementation of responsible practices in relation to workers, environment and society to be followed by suppliers as to promote a chain of sustainability between production and consumption.
+B Corporation
+edit
+B Corporation (certification)
+(B Corp) demands support for the
+triple bottom line
+. B Corps are incentivized to
+buy local
+organic
+, and from other B Corps. This promotes a chain of sustainable businesses that amplifies its effectiveness.
+Voluntary Sustainability Standards
+edit
+The private sector also implements various Voluntary Sustainability Standards (VSS), such as certifications and accreditations, in order to ensure sustainable procurement, as well as to protect company brands. Reputational risks and concerns have proven to be a powerful impetus for implementing Voluntary Sustainability standards. For example, in 2012 Wal-Mart introduced the Wal-Mart Sustainability Index in response to claims that the company was notorious for unsustainably produced and sourced products.
+40
+These Voluntary Sustainability Standards have important implications, not only for supply chain security, but also for rural development and climate change. An initiative by the Aid by Trade Foundation, for example, trains
+smallholder
+farmers to produce sustainable cotton in exchange for exclusive contracts with international brands and retailers. The initiative creates a shared value opportunity wherein the companies benefit by securing their supply chains and meeting the growing consumer demand for sustainably sourced products, while the smallholder farmers are able to grow their businesses.
+40
+Likewise, the Marine Stewardship Council leverages its certification program to encourage consumers to buy sustainably sourced fish and fisheries to fish more sustainably. The purpose of the program is not only to address growing concerns around the long-term viability of global fish populations, but also to prevent the collapse of the Northern cod fishery.
+41
+Sustainable procurement in Europe
+edit
+European Union
+edit
+In 2008, the
+European Commission
+developed a catalog for Green Public Procurement (GPP), which contains the criteria for organic food as well as for animal products produced in compliance with
+animal welfare
+standards.
+42
+Austria
+edit
+An Austria-wide instrument is the Austrian Action Plan for Sustainable Public Procurement (naBe Action Plan).
+43
+There is also the program
+ÖkoKauf
+in
+Vienna
+, which specifies criteria for the procurement of food by the public hand in Vienna.
+44
+Germany
+edit
+Sustainable procurement can be found in various institutions, e.g. Competence Center for Sustainable Procurement (KNB),
+45
+Competence Center for Innovative Procurement (KOINNO),
+46
+and National Quality Center for Nutrition in Kita and School (NQZ).
+47
+In addition, there is the Organic Cities Network, which aims to use more food from organic farming in their public institutions.
+48
+Since 2018, the public debate in Germany has centered on the German
+Supply Chain Act
+, a mandatory due diligence law for companies. A legislative proposal for the Supply Chain Act has entered the parliamentary process in March 2021.
+49
+Great Britain
+edit
+In 2014, the Department for Environment & Rural Affairs has defined the framework for sustainable food procurement in the Plan for Public Procurement.
+50
+In addition, the Animal Cruelty Free Food Procurement Policy was issued in 2009 to promote animal welfare in the procurement of animal products.
+51
+Netherlands
+edit
+The Sustainable Trade Initiative (IDH) is a collaboration between private companies, NGO's and the Dutch government to advance sustainable procurement with the goal of addressing
+United Nations
+Development Goals of reducing poverty and supporting environmental sustainability and Fair Trade.
+This joint effort increased voluntary sustainability certification among producers in developing countries as well as the rate of purchasing certified goods from the private sector. Public funding from the IDH was found to have catalyzed the industry trends of sustainable production certification and procurement in sectors such as cotton, cocoa, tea and others. Additional changes have taken place as a result of the partnership, such as the "Beyond Chocolate" movement that has emerged to include social benefits such as farmer field schools focusing on increasing productivity, as well as forming new partnerships between private and public sector stakeholders to assess living income and prevent issues like sexual harassment. The initiative also looked closely at the indicators and limitations of positive effects of sustainable certifications, drawing on diverse studies including those of the Committee on Sustainability Assessment and others examining Fair Trade and
+Rainforest Alliance
+as effective vehicles for improving the livelihoods of farmers.
+The committee on Sustainability Assessment found modest evidence of improved net income, crop yield and sustainability practices among certified coffee & cocoa farmers across 12 countries, as opposed to non-certified coffee & cocoa farmers in the same countries. There were also indirect positive impacts from sustainability standards such as improved transparency in global value chains and marketability of certified goods. However, the findings from these studies show that while there may be small economic benefits to certified farmers, it is often not enough to significantly improve their quality of life, and since the cost burden of certification itself is the responsibility of the producer, the economic benefit is minimal. Even modest economic gains are not always distributed fairly, and there were noted cases of those in positions of authority benefiting more that farm laborers, female farmers, or farmers who are too poor to pay the upfront cost of certification.
+52
+53
+Sweden
+edit
+In
+Gothenburg
+, the Meal Program, which sets a 50% organic quota (100% for meat) for all municipal facilities, was introduced. In 2010,
+Malmö
+set the goal of switching all its food procurement to organic products by 2020.
+54
+Switzerland
+edit
+The procurement platform Sustainability Compass is financed by Switzerland's
+Federal Department of Economic Affairs, Education and Research
+(SECO). Its guidelines recommend reducing the proportion of animal products and giving preference to plant products and organically and fairly produced goods.
+55
+Sustainable procurement in Developing Countries
+edit
+Mexico
+edit
+Public procurement in Mexico is primarily governed by Article 134 of the Constitution, which requires public purchases of goods and services to be conducted, as a general rule, through public tenders based on sealed bids. The statutory framework
+56
+is further defined by the Law on Public Procurement and Works (Ley de Adquisiciones, Arrendamientos y Obras Públicas) of 1993, which covers federal government expenditures related to goods, services, and public works undertaken by ministries, decentralised agencies, and state-owned enterprises. Sustainable public procurement initiatives have emerged from the energy efficiency sector of Mexico. The National Commission for Energy Conservation (CONAE) has implemented initiatives including energy audits, retrofitting of facilities, training of public officials and the promotion of energy- efficient products in public procurement.
+Brazil
+edit
+Environmental and sustainability-related procurement practices in Brazil have emerged through sector-specific regulations and international environmental commitments
+57
+. Measures such as Presidential Decree No. 2,783 of 1998, which bans ozone-depleting substances, and subnational regulations restricting the procurement of illegally harvested timber, have indirectly influenced public expenditure decision making. In addition, a proposed amendment to the National Procurement law introduces environmental sustainability as a general principle of public procurement and includes environmental protection as a criterion for supplier selection. If adopted, this amendment would significantly alter the legal basis for procurement in Brazil and facilitate the broader adoption of sustainable public procurement practices.
+South Africa
+edit
+The Preferential Procurement Policy Framework Act, 2000, provides a legal basis for integrating developmental and environmental considerations into public procurement
+58
+. Under this framework, procurement policies have been used to promote energy efficiency, sustainable consumption, local development, and the participation of medium, small and micro enterprises, as well as enterprises owned by historically disadvantaged groups. Environmental objectives, including support for renewable and clean energy industries, have been incorporated through sector-specific guidance and programmes such as the Durban Green Procurement Programme. In addition, the Broad-Based Black Economic Empowerment Act, 2003
+59
+, links public procurement to social sustainability by promoting black economic participation and employment, with oversight provided by the Black Economic Empowerment Advisory Council.
+China
+edit
+Green public procurement in China has been promoted through national development planning and policy instruments, particularly under the 11th Five-Year Plan. State Council policy documents issued in 2005 and 2006 encouraged resource-efficient and environmentally friendly consumption and explicitly called for the implementation of green public procurement within government institutions.
+60
+Implementation has largely occurred through decentralised initiatives at the local level, where finance and environmental protection authorities have issued product lists, procurement guidelines, and management regulations. Major events such as the 2008 Beijing Olympic Games and local ordinances in cities such as Qingdao and Guiyang have also played a role in advancing green public procurement practices.
+India
+edit
+In India, Public Procurement is governed by the General Financial Rules
+61
+issued by the Ministry of Finance, while state-level procurement is regulated by State General Financial Rules. Procurement is undertaken by multiple agencies and ministries and is generally conducted through open tendering procedures. To enhance transparency, the Government of India has adopted standard bidding documents, initially developed on the basis of World Bank procurement guidelines and subsequently adapted for domestic use.
+Further, India’s public procurement framework incorporates developmental objectives through reservation policies for certain sectors.
+62
+Under the General Financial Rules, specific goods such as khadi and handloom products and selected items from small-scale industries are reserved for exclusive procurement from designated entities. These measures are intended to support labour-intensive and small-scale sectors and contribute to the social dimension of sustainable procurement.  The Energy Conservation Act, 2001, empowers the Bureau of Energy Efficiency to set mandatory energy efficiency standards and restrict the purchase of non-compliant equipment.
+Approaches
+edit
+While there is no strict definition on how organizations implement sustainable procurement, there are two approaches that can be combined:
+Product-based
+edit
+This is where an organization examines a products movement along the
+supply chain
+and assesses the
+environmental
+credentials
+of themselves and of their
+suppliers
+. This path is commonly used when an organization wishes to understand the impact of a product or product range for strategic and marketing purposes. This approach can also provide a vivid picture of supplier processes.
+Supplier-based
+edit
+An organization may analyze the CSR management systems of a supplier and whether its practices conform with law and with the CSR standards of "buying" organization. Thus, the organization measures the environmental and social risk a supplier may impose upon them. Implemented effectively, this method will show whether a supplier meets the environmental standards of the organization, along with whether suppliers are meeting the requirements of law. Some assessments improve the whole supply chain by providing incentives for other businesses to be more sustainable.
+In order to assess the CSR Management systems, companies can use a variety of tools:
+self-assessment questionnaires
+B Corporation's free B Impact Assessment
+63
+Science Based Targets assessments
+on-site audits programs managed internally or through third parties
+64
+Green Public Procurement
+edit
+Green Public Procurement (GPP), a sub-component of sustainable public procurement, seeks to achieve environmental sustainability by leveraging the government sector’s purchasing power.
+65
+GPP seeks to leverage the market power of public agencies to achieve environmental objectives such as reducing greenhouse gas emissions, improving resource efficiency, and stimulating the market for environmentally preferable products. GPP policies put a lot of emphasis on the lifecycle costing approach.
+Life Cycle Costing Approach
+edit
+When a public agency acquires any product, service, or work, the amount paid at the time of purchase is only one component of the total financial commitment. Under Life Cycle Costing (LCC) Approach, all costs linked to the purchase are considered which include not just the purchase price but also expenses such as transportation, installation, training, and insurance.
+66
+Once the product or service is in use, agencies must also factor in ongoing operational requirements. These can be substantial and may include energy consumption, fuel, water, maintenance, servicing, and replacement of parts. In many cases, these recurring costs exceed the initial buying price, making them critical for long-term budgeting.
+Adoption of Green Public Procurement
+edit
+Governments have integrated environmental considerations directly into how they purchase goods, services, and works.
+Germany’s approach places emphasis on life-cycle costing and energy efficiency. Its Federal Climate Change Act of 2019
+67
+commits the federal administration to achieving climate neutrality by 2030 and encourages prioritising climate-friendly goods and services. Complementing this is the German Suitability Strategy, which outlines energy-efficiency requirements and promotes training in sustainable procurement.
+France, meanwhile, adopted a National Plan for Sustainable Purchases in 2022,
+68
+setting a voluntary target for all public procurement to include environmental criteria by 2025. This was reinforced through the 2021 Climate and Resilience Law, which elevated the importance of GPP within broader climate commitments.
+In Canada, the Policy on Green Procurement encourages integrating environmental impacts across a product’s life cycle while still ensuring value for money.
+69
+Canada’s system is supported by the EcoLogo programme, an ISO-based ecolabelling scheme, and the ENERGY STAR certification
+70
+for building energy performance.
+The United States relies heavily on ecolabels and environmental standards to guide agencies.
+71
+The US EPA maintains a reference list of preferred specifications and labels, placing strong emphasis on life-cycle-based certifications. States, such as Maryland, have created tools to quantify the environmental impacts of green purchasing, including reduced GHG emissions, energy usage, wood consumption, air pollution, and waste creation.
+The Republic of Korea’s model stands on its 2005 Act on Promoting Green Product Purchases.
+65
+Public agencies procure items certified under Korea’s ecolabel programme, and fiscal incentives reward strong performance by government entities. A sophisticated monitoring platform, GPIS-II, captures procurement data and helps track environmental gains, including reductions in carbon emissions. The country operates the Green Market, an online platform enabling agencies to purchase smaller quantities of certified products without formal tendering streamlining GPP and easing reporting burdens.
+72
+Circular Public Procurement
+edit
+Circular public procurement (CPP) is a tool that cities can use to purchase and encourage circular economy and resource-efficient solutions/
+73
+It can be defined as the process by which governments purchase goods, services, and works in ways that keep materials and energy resources in continuous use, minimize waste, and reduce environmental impacts throughout the entire life cycle.
+See also
+edit
+Sustainable development
+Triple bottom line
+United Nations Environment Programme
+Government procurement
+Government procurement in the United States
+Top 100 Contractors of the U.S. federal government
+References
+edit
+"Public Procurement for Sustainable Development"
+Chatham House – International Affairs Think Tank
+. November 19, 2020
+. Retrieved
+March 15,
+2021
+"NIGP - The Institute for Public Procurement"
+www.nigp.org
+. Retrieved
+November 16,
+2016
+Betiol, Luciana Stocco; Uehara, Thiago Hector Kanashiro; Laloe, Florence Karine; Appugliese, Gabriela Alem; Adeodato, Sergio; Ramos, Ligia; Neto, Mario Prestes Monzoni (December 15, 2015).
+Sustainable procurement: The power of public and private consumption for an inclusive green economy
+. Public Administration and Citizenship Program.
+ISBN
+9788587426314
+Tashea, Jason (September 2023).
+'A Human Rights Approach to Justice Technology Procurement"
+Georgetown Law Technology Review
+Procura+ Manual 3rd Edition
+. ICLEI Europe - Local Governments for Sustainability. 2016.
+"25 Years Ago I Coined the Phrase "Triple Bottom Line." Here's Why It's Time to Rethink It"
+Harvard Business Review
+. June 25, 2018.
+ISSN
+0017-8012
+. Retrieved
+March 15,
+2021
+Brammer, Stephen; Walker, Helen (March 22, 2011).
+"Sustainable procurement in the public sector: an international comparative study"
+International Journal of Operations & Production Management
+31
+(4):
+452–
+476.
+doi
+10.1108/01443571111119551
+ISSN
+0144-3577
+Kleine, Dorothea; Brightwell, Maria das Graças (December 2015).
+"Repoliticising and scaling-up ethical consumption: Lessons from public procurement for school meals in Brazil"
+Geoforum
+67
+135–
+147.
+doi
+10.1016/j.geoforum.2015.08.016
+Leal Filho, Walter; Azul, Anabela Marisa; Brandli, Luciana; Özuyar, Pinar Gökcin; Wall, Tony, eds. (2020). "Responsible Consumption and Production".
+Encyclopedia of the UN Sustainable Development Goals
+doi
+10.1007/978-3-319-71062-4
+ISBN
+978-3-319-71062-4
+ISSN
+2523-7403
+S2CID
+241952832
+"Engagement with Sustainability Concerns in Public Procurement in India: Why and How"
+(PDF)
+www.teriin.org
+resource-efficiency.
+"UNEP - Resource Efficiency - Society - Procurement"
+www.unep.org
+. Retrieved
+November 16,
+2016
+Decarolis, Francesco; Frey, Marco (2014). Frey, Marco; Piga, Gustavo; Decarolis, Francesco (eds.).
+Introduction to "Public Procurement's Place in the World: The Charge Towards Sustainability and Innovation"
+doi
+10.1057/9781137430649
+ISBN
+9781137430649
+"Our Projects"
+Monterey Bay Aquarium Seafood Watch
+. 2021
+. Retrieved
+January 21,
+2021
+"The true cost of colour: The impact of textile dyes on water systems"
+Fashion Revolution
+. February 12, 2020
+. Retrieved
+January 21,
+2021
+"Government of Canada – Procurement"
+. Archived from
+the original
+on October 19, 2006.
+"ISO - International Organization for Standardization"
+www.iso.org
+"Missed targets: when companies fail to keep their key sustainability promises"
+The Guardian
+. July 21, 2014.
+The Landmark Project - Success Stories in Socially Responsible Procurement
+. The LANDMARK consortium. 2014.
+See for example the UK Government's plan for
+Enabling the Transition to a Green Economy
+, published in 2011, accessed on 2 March 2026
+"Sustainable Procurement"
+www.ungm.org
+. Retrieved
+November 16,
+2016
+Sustainable Public Procurement Implementation Guidelines, Introducing UNEP’S Approach (2012).
+United Nations Environment Programme
+The Impacts of Sustainable Public Procurement, Eight Case Studies (2012).
+United Nations Environment Programme.
+"Procurement Task Force"
+. Archived from
+the original
+on December 30, 2006
+. Retrieved
+December 30,
+2006
+The Sustainable Procurement Task Force
+European Commission,
+European Union Green Public Procurement
+viewed 2020-04-12.
+Green Procurement
+. Public Works and Government Services Canada – Office of Greening Government Operations. Viewed 2101-04-12.
+"Green Procurement Compilation - About - GSA Sustainable Facilities Tool"
+sftool.gov
+"Sustainable procurement and procurement efficiency implementation - Efficiency Programme Guidance"
+(PDF)
+. Archived from
+the original
+(PDF)
+on April 6, 2011.
+Gillett, A.G., 2015. REMARKOR: RELATIONSHIP MARKETING ORIENTATION ON LOCAL GOVERNMENT PERFORMANCE. Journal of Services Research, 15(1), p.97.
+Gillett, A.G. (2016). MULTIPLE RELATIONSHIPS WITH MULTIPLE STAKEHOLDERS: THE SCOPE OF RELATIONSHIP MARKETING FOR PUBLIC SERVICES. Journal of Services Research, 16(2), pp. 1-28
+California Sustainability Alliance, Green Procurement Toolkit
+, Received October 28, 2010
+"Life Cycle Assessment (LCA) Overview - GSA Sustainable Facilities Tool"
+sftool.gov
+"SP Platform| SUSTAINABLE PROCUREMENT PLATFORM"
+sustainable-procurement.org
+. Retrieved
+December 18,
+2018
+"SP Platform| RESOURCE CENTRE"
+www.sustainable-procurement.org
+. Retrieved
+December 18,
+2018
+"Procurement Forum"
+procurement-forum.eu
+. Retrieved
+December 18,
+2018
+"The GLA Group Sustainable Procurement Policy"
+(PDF)
+. Archived from
+the original
+(PDF)
+on August 27, 2008.
+"Diversity linked to London contracts"
+Financial Times
+. December 8, 2006.
+permanent dead link
+"UK Government Sustainable - Procurement Action Plan"
+(PDF)
+. Archived from
+the original
+(PDF)
+on May 12, 2008
+. Retrieved
+May 27,
+2008
+UK Government Sustainable Procurement Action Plan
+"Government seeks green toilet paper"
+Financial Times
+. March 6, 2007.
+permanent dead link
+"Procuring the Future"
+(PDF)
+. Archived from
+the original
+(PDF)
+on December 15, 2006
+. Retrieved
+December 15,
+2006
+'Procuring the Future: Sustainable Procurement National Action Plan' by Sustainable Procurement Task Force
+"MEETING SUSTAINABILITY GOALS VOLUNTARY SUSTAINABILITY STANDARDS AND THE ROLE OF THE GOVERNMENT"
+(PDF)
+. United Nations Forum on Sustainability Standards
+. Retrieved
+October 15,
+2020
+"Marine Stewardship Council"
+Marine Stewardship Council
+. Retrieved
+October 15,
+2020
+Green Public Procurement
+retrieved on am 25. August 2020 in Ec.europa.eu
+Österreichischen Aktionsplan zur nachhaltigen öffentlichen Beschaffung
+retrieved on 25. August 2020 in Nachhaltigebeschaffung.at
+ÖkoKauf Wien - Programm für die ökologische Beschaffung der Stadt Wien
+retrieved on am 25. August 2020 in Wien.gv.at
+Das zentrale Portal für nachhaltige Beschaffung öffentlicher Auftraggeber
+retrieved on 25. August 2020 in Nachhaltige-beschaffung.info
+Das Kompetenzzentrum innovative Beschaffung
+retrieved on 25. August 2020 in Koinno-bmwi.de
+Nationales Qualitätszentrum für Ernährung in Kita und Schule
+retrieved on 25. August 2020 in Nqz.de
+Bio-Städte
+dead link
+retrieved on 25. August 2020 in Bzfe.de
+"Germany: Cabinet passes mandatory due diligence proposal; Parliament now to consider & strengthen"
+retrieved on 27 March 2021 in business-humanrights.org
+A Plan for Public Procurement
+, Dr Peter Bonfield, retrieved on 25. August 2020 (
+PDF; 2,65 MB
+Newcastle’s Social Value Commitment
+, GPP Case studies, retrieved on 25. August 2020 (
+PDF; 142 kB
+"Riding the wave of sustainable commodity sourcing: Review of the Sustainable Trade Initiative IDH 2008-2013"
+(PDF)
+The COSA
+. Retrieved
+January 21,
+2021
+Ministry of Foreign Affairs of the Netherlands (2014).
+Riding the wave of sustainable commodity sourcing: Review of the Sustainable Trade Initiative IDH 2008-2013
+. The Netherlands: Policy and Operations Evaluation Department (IOB).
+Sustainable Food for Thought in Malmö
+, GPP Case studies, retrieved on 25. August 2020 (
+PDF; 119 kB
+Sustainability Compass
+Kompass Nachhaltigkeit
+, retrieved on 25 August 2020
+"Measures Affecting Production and Trade"
+(PDF)
+. September 2, 1997.
+Archived
+(PDF)
+from the original on November 7, 2005
+. Retrieved
+December 16,
+2025
+"WTO | Trade policy review conclusions remarks - New Zealand 1996"
+www.wto.org
+. Retrieved
+December 17,
+2025
+"Policy framework act no. 5 of 2000"
+(PDF)
+. Archived from
+the original
+(PDF)
+on January 20, 2022.
+"Broad-based Black Economic Empowerment Act 53 of 2003 | South African Government"
+www.gov.za
+. Retrieved
+December 17,
+2025
+"State of Play in Sustainable Public Procurement"
+(PDF)
+. Archived from
+the original
+(PDF)
+on March 17, 2021.
+"General Financial Rules"
+(PDF)
+. 2005.
+Archived
+(PDF)
+from the original on April 12, 2012
+. Retrieved
+December 16,
+2025
+"Trade policy review mechanism India"
+(PDF)
+. Archived from
+the original
+(PDF)
+on July 10, 2007.
+"Introducing B Impact: A better way to measure and manage impact"
+www.bcorporation.net
+"Supplier Diversity - Why & How to Implement Diversity in Procurement & Supply Chain"
+"Green Public Procurement for Advancing Sustainable Development in India"
+(PDF)
+TERI
+"Life-cycle costing - Green Forum - European Commission"
+green-forum.ec.europa.eu
+. Retrieved
+December 17,
+2025
+"Germany's Sustainable Development Strategy | Federal Government"
+www.bundesregierung.de
+. Retrieved
+December 17,
+2025
+"Green Public Procurement: a key to decarbonizing construction and road transport in the EU"
+(PDF)
+. February 2023. Archived from
+the original
+(PDF)
+on April 19, 2023.
+"Canada's Performance - The Government of Canada's Contribution"
+(PDF)
+Government of Canada
+. 2006
+. Retrieved
+March 7,
+2026
+"ENERGY STAR Canada - Natural Resources Canada"
+natural-resources.canada.ca
+. Retrieved
+December 17,
+2025
+"2016 Annual Report - Empowering People to Protect the Planet"
+. Archived from
+the original
+on December 19, 2025.
+"Green Public Procurement: An Overview of Green Reforms in Country Procurement Systems"
+(PDF)
+. Archived from
+the original
+(PDF)
+on December 19, 2025.
+"Circular public procurement in cities"
+(PDF)
+. Archived from
+the original
+(PDF)
+on November 18, 2025.
+External links
+edit
+Sustainable Purchasing Leadership Council
+ICLEI Europe Sustainable Procurement Department
+European Union Green public procurement (GPP)
+OECD's Green Public Procurement
+Environmental technology
+General
+Appropriate technology
+Clean technology
+Climate smart agriculture
+Environmental design
+Environmental impact assessment
+Eco-innovation
+Ecotechnology
+Electric vehicle
+Energy recycling
+Environmental design
+Environmental impact assessment
+Environmental impact design
+Green building
+Green vehicle
+Environmentally healthy community design
+Public interest design
+Sustainability
+Sustainability science
+Sustainable (
+agriculture
+architecture
+design
+development
+food systems
+industries
+procurement
+refurbishment
+technology
+transport
+Pollution
+Air pollution (
+control
+dispersion modeling
+Industrial ecology
+Solid waste treatment
+Waste management
+Water (
+agricultural wastewater treatment
+industrial wastewater treatment
+sewage treatment
+waste-water treatment technologies
+water purification
+Sustainable energy
+Efficient energy use
+Electrification
+Energy development
+Energy recovery
+Fuel (
+alternative fuel
+biofuel
+carbon-neutral fuel
+hydrogen technologies
+List of energy storage projects
+Renewable energy
+commercialization
+transition
+Sector coupling
+Power-to-X
+Power-to-heat
+Power-to-gas
+Sustainable lighting
+Transportation
+electric vehicle
+hybrid vehicle
+Conservation
+Building (
+green
+insulation
+natural
+sustainable architecture
+New Urbanism
+New Classical
+Conservation biology
+Ecoforestry
+Efficient energy use
+Energy conservation
+Energy recovery
+Energy recycling
+Environmental movement
+Environmental remediation
+Glass in green buildings
+Green computing
+Heat recovery ventilation
+High-performance buildings
+Land rehabilitation
+Nature conservation
+Permaculture
+Recycling
+Water heat recycling
+Sustainability
+Outline
+Index
+Principles
+Anthropocene
+Environmentalism
+Global governance
+Human impact on the environment
+Planetary boundaries
+Development
+Consumption
+Anthropization
+Anti-consumerism
+Circular economy
+Durable good
+Earth Overshoot Day
+Ecological footprint
+Ethical
+Global trade of secondhand clothing
+Green consumption
+Micro-sustainability
+Over-consumption
+Product stewardship
+Simple living
+Social return on investment
+Steady-state economy
+Sustainability
+Advertising
+Brand
+Marketing myopia
+Sustainable
+Consumer behaviour
+Market
+Systemic change resistance
+Tragedy of the commons
+Technology
+Appropriate
+Building-integrated photovoltaics
+Environmental technology
+Heat recovery steam generator
+Heat recovery ventilation
+Natural building
+Sustainable architecture
+Sustainable design
+Sustainable industries
+Sustainable packaging
+Biodiversity
+Biosecurity
+Biosphere
+Conservation biology
+Endangered species
+Holocene extinction
+Invasive species
+Energy
+Carbon footprint
+Renewable energy
+Sustainable energy
+Food
+Civic agriculture
+Climate-smart agriculture
+Community-supported agriculture
+Cultured meat
+Sustainable agriculture
+Sustainable diet
+Sustainable fishery
+Water
+Air well (condenser)
+Bioretention
+Bioswale
+Blue roof
+Catchwater
+Constructed wetland
+Detention basin
+Dew pond
+Footprint
+Hydroelectricity
+Hydropower
+Infiltration basin
+Irrigation tank
+Marine energy
+Micro hydro
+Ocean thermal energy conversion
+Pico hydro
+Rain garden
+Rainwater harvesting
+Rainwater tank
+Reclaimed water
+Retention basin
+Run-of-the-river hydroelectricity
+Scarcity
+Security
+Small hydro
+Sustainable drainage system
+Tidal power
+Tidal stream generator
+Tree box filter
+Water conservation
+Water heat recycling
+Water recycling shower
+Water-sensitive urban design
+World population
+Control
+Demographic transition
+Dependency ratio
+List
+Family planning
+Intergenerational equity
+Population ageing
+Sustainable population
+Accountability
+Corporate environmental responsibility
+Corporate social responsibility
+Environmental accounting
+Environmental full-cost accounting
+Environmental planning
+Generational accounting
+Sustainability
+Accounting
+Measurement
+Metrics and indices
+Reporting
+Standards and certification
+Sustainable yield
+Economic
+Debt Sustainability Analysis
+Fiscal sustainability
+Green accounting
+Applications
+Advertising
+Art
+Business
+City
+Cultural sustainability
+Climate finance
+Community
+Disinvestment
+Eco-capitalism
+Eco-cities
+Eco-investing
+Eco-socialism
+Ecovillage
+Environmental finance
+Green economy
+Construction
+Fashion
+Finance
+Gardening
+Geopark
+Green
+Development
+Infrastructure
+Marketing
+Green anarchism
+Green roof
+Greening
+Impact investing
+Landscape
+Livelihood
+Living
+Market
+Organic movement
+Organizations
+Procurement
+Refurbishment
+Socially responsible business
+Socially responsible marketing
+Sanitation
+Solar cooker
+Sourcing
+Space
+Sustainability organization
+Tourism
+Transport
+Urban drainage systems
+Urban infrastructure
+Sustainable management
+Environmental
+Fisheries
+Forest
+Humanistic capitalism
+Landscape
+Materials
+Natural resource
+Pallet crafts
+Planetary
+Reclaimed lumber
+Recycling
+Appliance recycling
+Automotive oil recycling
+Bottle recycling
+By product
+Drug recycling
+Electronic waste recycling
+Energy recycling
+Mobile phone recycling
+Paint recycling
+Plastic recycling
+Rates by country
+Textile recycling
+Timber recycling
+Tire recycling
+Resource recovery
+Reuse
+Waste
+Waste-to-energy
+Agreements and
+conferences
+UN Conference on the Human Environment (Stockholm 1972)
+Brundtlandt Commission Report (1983)
+Our Common Future
+(1987)
+Earth Summit (1992)
+Rio Declaration on Environment and Development
+(1992)
+Agenda 21 (1992)
+Convention on Biological Diversity (1992)
+Lisbon Principles
+(1997)
+Earth Charter
+(2000)
+UN Millennium Declaration (2000)
+Earth Summit 2002
+(Rio+10, Johannesburg)
+UN Conference on Sustainable Development
+(Rio+20, 2012)
+Sustainable Development Goals
+(2015)
+UNESCO MONDIACULT conferences
+Category
+Lists
+Science
+Studies
+Degrees
+Authority control databases
+: National
+Japan
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Sustainable_procurement&oldid=1363689748
+Categories
+Government procurement
+Sustainability
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+Articles with limited geographic scope from January 2010
+Use mdy dates from September 2015
+All articles with dead external links
+Articles with dead external links from July 2026
+Articles with permanently dead external links
+Articles with dead external links from January 2026

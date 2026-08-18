@@ -1,0 +1,1210 @@
+PROCUREMENT GUIDANCE
+NOVEMBER 2023
+Procurement under World Bank
+Investment Project Financing
+A BEGINNER’S
+GUIDE FOR
+BORROWERS
+Published November 2023—Second Edition
+Published April 2018—First Edition
+Copyright © 2023 The World Bank
+1818 H Street NW
+Washington, DC 20433
+Telephone: 202-473-1000
+Internet: www.worldbank.org
+Disclaimer
+This work is a product of the staff of The World Bank. The findings, interpretations, and conclusions
+expressed in this work do not necessarily reflect the views of The World Bank, its Board of
+Executive Directors, or the governments they represent.
+Rights and Permissions
+The material in this work is subject to copyright. Because The World Bank encourages dissemination
+of its knowledge, this work may be reproduced, in whole or in part, for noncommercial purposes as
+long as full attribution to this work is given. Any queries on rights and licenses, including subsidiary
+rights, should be addressed to:
+Office of the Publisher
+The World Bank
+1818 H Street NW
+Washington, DC
+20433 USA
+Fax: 202-522-2422
+Email: pubrights@worldbank.org.
+Common Abbreviations and
+Defined Terms
+This section explains the common terms and abbreviations used in this Guidance. Defined terms are
+written using capital letters.
+Abbreviation/Term Full Terminology/Definition
+Best and Final
+Offer (BAFO)
+A near final Bid/Proposal in a multistage procurement process. During this
+stage the Bidder/Proposer has an opportunity to refine the Bid/Proposal.
+Bank The World Bank.
+Bid An offer, by a firm or joint venture, in response to a Request for Bids to
+provide the required Goods, Works, or Non-Consulting Services.
+Bidder A firm or joint venture that submits an offer, called a bid, to supply Goods,
+Works, or Non-Consulting Services.
+Borrower A Borrower or recipient of World Bank Investment Project Financing and
+any other entity involved in the implementation of a project financed by
+Investment Project Financing.
+Business Day Any day that is an official working day of the Borrower. It excludes the
+Borrower’s official public holidays.
+Consultant A variety of private entities, joint ventures, or individuals that provide
+services of an advisory or professional nature. Where the Consultant is an
+individual, they are not engaged as an employee.
+Consulting
+Services
+A range of services that are of an advisory or professional nature and are
+provided by Consultants.
+Core Procurement
+Principles
+The Bank’s Core Procurement Principles (value for money, economy,
+integrity, fit for purpose, efficiency, transparency and fairness) are set
+out in detail in Section III.C of Bank Policy: Procurement in IPF and Other
+Operational Procurement Matters.
+Evaluation Criteria Price and non-price criteria, including Rated Criteria when applicable, that
+define how the Borrower assesses which Bidder/Proposer provides the
+Most Advantageous Bid.
+Goods A category of procurement that includes commodities, raw materials,
+machinery, equipment, vehicles, plant, etc.
+GPN General Procurement Notice.
+HEIS Hands-on Expanded Implementation Support.
+IBRD International Bank for Reconstruction and Development, an institution of
+the World Bank Group.
+ICSID International Centre for Settlement of Investment Disputes, an institution of
+the World Bank Group.
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+ii
+Abbreviation/Term Full Terminology/Definition
+IDA International Development Association, an institution of the World Bank Group.
+IFC International Finance Corporation, an institution of the World Bank Group.
+Investment Project
+Financing (IPF)
+The Bank’s financing of investment projects that aim to promote poverty
+reduction and sustainable development. IPF supports projects with defined
+development objectives, activities, and results, and disburses the proceeds
+of Bank financing against specific eligible expenditures.
+MIGA Multilateral Investment Guarantee Agency, an institution of the World Bank
+Group.
+Most
+Advantageous
+Bid/Proposal
+(MABP)
+The Bid or Proposal that meets the qualification criteria and has been
+determined to be substantially responsive to the Request for Bids or
+Request for Proposals and has been evaluated as the highest-ranked Bid
+or Proposal, as defined in the Procurement Regulations paragraphs 5.68 to
+5.71 and Procurement Regulations Annex X Evaluation Criteria.
+See Section IV of this Guidance for more detailed information on how
+MABP is applied in practice.
+Non-Consulting
+Services
+Services that are not Consulting Services. Non-Consulting Services are
+normally bid and contracted on the basis of performance of measurable
+outputs, for which performance standards can be clearly identified and
+consistently applied. Examples include drilling, aerial photography, satellite
+imagery, mapping, and so on.
+PAD Project Appraisal Document.
+PP Procurement Plan.
+PPSD Project Procurement Strategy for Development.
+Procurement
+Documents
+A generic term used in the Procurement Regulations to cover all Procurement
+Documents issued by the Borrower to potential Applicants/Bidders/
+Proposers. It includes: GPN, SPN, REoI, prequalification document, Initial
+Selection document, RFB, RFP, forms of contracts, and any addenda.
+Procurement
+Process
+A process that starts with the identification of a need and continues
+through planning, preparation of specifications/requirements, budget
+considerations, selection, contract award, and contract management. It
+ends on the last day of the warranty period.
+Procurement
+Regulations
+The World Bank’s Procurement Regulations for Investment Project
+Financing. These Regulations set the rules for how procurements under
+IPF are handled.
+Proposal An offer, in response to an RFP, which may or may not include price, by one
+party to provide Goods, Works, Non-Consulting Services, or Consulting
+Services to another party.
+iii
+COMMON ABBREVIATIONS AND DEFINED TERMS
+Abbreviation/Term Full Terminology/Definition
+Rated Criteria Rated Criteria are used to evaluate non-price attributes of Bids/Proposals,
+including quality, risks/mitigations, VfM opportunities, sustainability, and
+other technical aspects.
+Specific references in the Procurement Regulations include:
+◾ Paragraph 5.50. Evaluation Criteria—requirement to apply Rated
+Criteria for procurements subject to international competition, for
+which a Bank Document is used.
+◾ Paragraphs 5.60 and 5.70—MABP.
+◾ Section VI, Paragraph 6.1—Matrix of Approved Selection Methods for
+Goods, Works, and Non-Consulting Services.
+◾ Section VI, Paragraph 6.37—Use of Rated Criteria.
+◾ Annex X—Evaluation Criteria.
+REOI Request for Expressions of Interest.
+RFB Request for Bids.
+RFP Request for Proposals.
+RFQ Request for Quotations.
+SEA/SH Sexual Exploitation and Abuse/Sexual Harassment.
+SOE State-Owned Enterprise.
+SPN Specific Procurement Notice.
+Standard
+Procurement
+Documents (SPDs)
+Procurement documents issued by the Bank to be used by Borrowers
+for IPF-financed projects. These documents include: GPN, SPN, REOI,
+Standard Prequalification documents, Initial Selection documents, RFBs,
+and RFPs.
+VfM Value for Money.
+Works A category of procurement that refers to construction, repair, rehabilitation,
+demolition, restoration, and maintenance of civil work structures, and related
+services such as transportation insurance, installation, commissioning, and
+training.
+World Bank The World Bank comprises two WBG institutions, the International Bank
+for Reconstruction and Development (IBRD), which assists middle-income
+and creditworthy poorer countries, and the International Development
+Association (IDA), which focuses on the world’s poorest countries.
+World Bank Group
+(WBG)
+The World Bank Group is a unique global partnership of five institutions
+working for sustainable solutions that reduce poverty and build shared
+prosperity in developing countries. The five institutions are the IBRD, IDA,
+IFC, MIGA, and ICSID.
+Contents
+Common Abbreviations and Defined Terms  . . . . . . . . . . . . . . . . . . . . . . . . . . i
+SECTION I . Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Purpose ......................................................................... 1
+World Bank Group ................................................................ 1
+World Bank ................................................................... 2
+Investment Project Financing ....................................................... 3
+Geographic regions and countries .................................................. 3
+SECTION II . Procurement Vision and Core Principles  . . . . . . . . . . . . . . . . . . 5
+Procurement Vision ............................................................... 5
+Core Procurement Principles ....................................................... 5
+SECTION III . Governance  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+Procurement Rules ................................................................ 9
+Financing Agreement .......................................................... 9
+Roles and Responsibilities......................................................... 10
+Borrower .................................................................... 10
+Bank........................................................................ 10
+Hands-on Expanded Implementation Support ..................................... 11
+Eligibility ......................................................................... 11
+Exceptions .................................................................. 12
+Integrity......................................................................... 13
+Application .................................................................. 13
+Bank’s Audit and Inspection Rights ............................................. 13
+Sanctions and Remedies ...................................................... 13
+Section IV . Procurement Process  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Procurement Process Overview.................................................... 15
+1. Develop Strategy .......................................................... 16
+2. Plan the Procurement ...................................................... 22
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+vi
+3. Invite Offers............................................................... 22
+4. Receive and Open Offers ................................................... 23
+5. Evaluate Offers ............................................................ 23
+6. Contract Award............................................................ 25
+7. Contract Management...................................................... 27
+Simplified Process for Emergencies and Capacity Constraints ......................... 27
+ANNEX A . Additional Resources  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+Procurement Framework.......................................................... 29
+Mandatory Documents ........................................................ 29
+Procurement Guidance........................................................ 29
+Templates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .30
+Standard Procurement Documents ............................................. 31
+Learning .................................................................... 31
+Contact the World Bank........................................................... 31
+Introduction
+Purpose
+This Guidance provides an introduction for new users to the World Bank’s (the Bank’s) Procurement
+Policy and Procurement Regulations. It summarizes the information Borrowers need when undertaking
+procurements funded by Bank Investment Project Financing (IPF). This Guidance should be read in
+conjunction with the Bank’s Procurement Policy and Procurement Regulations for IPF Borrowers.
+As such, this Guidance is not mandatory and is offered as an overview only.
+Further information and references:
+World Bank
+IBRD—International Bank for Reconstruction and Development
+IDA—International Development Association
+IPF—Investment Project Financing
+Where We Work—Seven regions and over 170 countries
+IPF-Funded Procurement
+Bank rules—Procurement Framework
+Procurement—Regulations
+Procurement—Policy
+World Bank Group
+The World Bank (Bank) is part of the wider World Bank Group (WBG). The WBG is one of the world’s
+largest sources of funding and knowledge for developing countries. The WBG comprises five insti-
+tutions, as shown in Figure 1. These institutions work together for sustainable solutions that reduce
+poverty and build shared prosperity in developing countries.
+SECTION
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+World Bank
+The World Bank (Bank), as opposed to the WBG, comprises two WBG institutions, namely, the IBRD
+and IDA. The Bank provides loans, credits, and grants to developing countries to fund development
+programs and projects. In addition, the Bank provides policy advice, and technical assistance to
+support governments when designing and implementing development projects. The goals of Bank
+financing are to promote poverty reduction and sustainable development in a manner that is aligned
+with each country’s national development strategies.
+The Bank’s Mission
+“The World Bank has two goals: end extreme poverty and promote shared prosperity in a
+sustainable way.”
+The Two Bank Institutions
+IBRD—International Bank for Reconstruction and Development
+IBRD is a global development cooperative owned by its 189 member countries. As the
+largest multilateral development bank in the world, it supports the WBG’s mission by providing
+loans, guarantees, risk management products, and advisory services to middle-income and
+creditworthy low-income countries, and by coordinating responses to regional and global
+challenges.
+IDA—International Development Association
+IDA is the world’s largest multilateral source of concessional financing for the poorest
+countries. It provides concessional development credits, grants, and guarantees to support
+these countries’ efforts to increase economic growth, reduce poverty, and improve the living
+conditions of the poor.
+I BR D
+International Bank
+for Reconstruction
+and Developm ent
+IDA
+International
+D evelopm ent
+A ssociation
+I F C
+International
+Finance
+C orporation
+MIG A
+M ultilateral
+Investment
+G uarantee A gency
+I CSI D
+International C entre
+for Settleme nt of
+Investme nt D isputes
+Pr o v i des ﬁna nci ng
+f o r  mi ddl e - i n co me
+d e v e l o p i ng  co unt r i e s
+Pr o v i des ﬁna nci ng
+f o r  l o w - i n co me
+d e v e l o p i ng  co unt r i e s
+Pr o v i des p o lit i ca l  r i sk
+i n sur a nce  a n d cr e d i t
+g ua r a nt ees
+C o nd uct s
+in t e r na t i o n a l
+a r b i t r ati o n t o se ttl e
+i n v e st me nt  di sp ut e s
+M obiliz e s p r i v a t e
+se c t o r  i nv e st me nt
+FIGURE 1 The five World Bank Group Institutions
+SECTION I: INTRODUCTION
+Investment Project Financing
+Investment Project Financing (IPF) is one of the ways in which Bank financing is provided to countries.
+This financing may take the form of an IBRD loan or IDA credit/grant or guarantee. IPF supports
+projects with defined development objectives, activities, and results, and disburses the financing
+against specific eligible expenditures. IPF provides funding for activities that produce the physical/
+social infrastructure necessary to reduce poverty and create sustainable development. To create this
+infrastructure, Borrowers use the funds from IPF loans, credits, and grants to procure Goods, Works,
+Consulting Services, and Non-Consulting Services in accordance with the Bank’s Procurement Policy
+and Procurement Regulations.
+Geographic Regions and Countries
+The Bank’s operations are divided into seven geographic regions. The diagram in Map 1 shows the
+regions and the indicative percentage of the Bank’s global commitments by region (for financial
+year 2022).
+11%
+40%
+18%
+12%
+13%
+6%
+L ati n  A m eri c a an d
+th e C ari bbean
+S u b -
+S ah aran
+Afri c a
+S ou th A si a
+E ast A si a an d  th e P ac i ﬁc
+Europ e an d
+C en tral  A si a
+M i ddl e E ast
+an d  N orth
+Afri c a
+REG IONS
+1 . Afr i c a  Wes t er n  a n d  C en t r al (A FW)
+2 . Afr i c a  East er n  a n d  S out her n  (A F E )
+3 . East  A sia a nd  P a c i ﬁc  (E A P )
+4 . E ur op e a nd  Cent r al A sia (E CA )
+5 . La t i n  A m er i c a  a n d  C a r i bbea n  (LC R )
+6 . M i ddl e E a s t  a n d  Nor t h Afr i c a  ( M NA )
+7 . S out h A sia (S A R )
+MAP 1 World Bank’s global commitments by region (2022)
+Procurement Vision and
+Core Principles
+Procurement Vision
+The Bank’s vision for IPF procurement is stated in the Procurement Policy:
+“Procurement in IPF operations supports Borrowers to achieve value for money with integrity
+in delivering sustainable development.”
+This vision informs the Procurement Regulations and the Bank’s Procurement Framework. The Frame-
+work has been designed as a modern, fit-for-purpose Procurement Framework. The Procurement
+Regulations detail the many options available for Borrowers to tailor individual procurement processes
+to meet operational needs and deliver the intended development results.
+Core Procurement Principles
+The Bank’s Core Procurement Principles, as listed in Figure 2, guide the Borrower’s decisions when
+applying the Procurement Regulations.
+SECTION
+II
+Val ue fo r mo ne y
+E co n o my
+Int egrity
+E ﬃ ci e n cy
+T ra nsp a re nc y
+Fa i rne ss
+WORLD BANK’S
+CORE
+PROCUREMENT
+PRINCIPLES
+Fi t-f o r-
+Purp o se
+FIGURE 2 The Bank’s Core Procurement Principles
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+The Core Procurement Principles are:
+1. Value for Money (VfM): The principle of VfM endorses the effective, efficient, and economic
+use of resources, which requires an evaluation of relevant costs and benefits, along with an
+assessment of risks, and non-price attributes and/or life-cycle costs, as appropriate. Price
+alone may not necessarily represent VfM.
+2. Economy: The principle of economy takes into consideration such factors as sustainability,
+quality, non-price attributes, and/or life-cycle costs, as appropriate, that support VfM. The principle
+of economy permits integrating into the procurement process economic, environmental, and
+social considerations that the Bank has agreed with the Borrower. It also permits augmenting
+identified sustainability criteria with specific criteria in support of the Borrower’s own sustainable
+procurement policy.
+3. Integrity: The principle of integrity refers to the use of funds, resources, assets, and authority
+according to the intended purposes and in a manner that is well informed, aligned with the
+public interest, and aligned with broader principles of good governance. The Bank requires
+that all parties involved in the procurement process and their personnel observe the highest
+standard of ethics during the procurement process of Bank-financed contracts and refrain from
+fraud and corruption (as defined in the Bank’s Anti-Corruption Guidelines).
+4. Fit for Purpose: The principle of fit for purpose means tailoring the procurement approach and
+methodology to meet the project development objectives and outcomes, taking into account
+the context and the risk, value, and complexity of the procurement.
+5. Efficiency: The principle of efficiency requires that procurement processes be proportional to
+the value and risks of the underlying project activities. Procurement arrangements are generally
+time-sensitive and strive to avoid delays.
+6. Transparency: The principle of transparency requires that the Borrower and the Bank enable
+appropriate reviews of procurement activities, supported by appropriate documentation and
+disclosure. Transparency requires:
+a.  that relevant procurement information be made publicly available to all interested parties,
+consistently and in a timely manner, through readily accessible and widely available sources,
+at reasonable or no cost
+b.  that procurement activities be appropriately reported
+c.  that confidentiality provisions in contracts be used only where justified.
+7. Fairness: The principle of fairness refers to:
+a.  equal opportunity for and treatment of Bidders/Proposers/Consultants
+b.  the equitable distribution of rights and obligations between Borrowers and suppliers,
+contractors, and Bidders/Proposers/Consultants
+SECTION II: PROCUREMENT VISION AND CORE PRINCIPLES
+c.  availability of credible mechanisms for addressing procurement-related complaints and
+providing recourse.
+The vision and Core Procurement Principles are set out in the Bank Policy. Bank staff use the Policy and
+the Core Procurement Principles to inform their decisions on Borrowers’ requests for review or support,
+particularly when there is no precise written rule or regulation that governs the matter in question.
+Procurement Rules
+Procurement under IPF is governed by either the Procurement Regulations or Guidelines. Which set
+of rules applies to any given project depends on the date when the project was approved by the
+Bank. This distinction relates to the introduction of the Bank’s Procurement Framework on July 1,
+2016, which modernized procurement policy and rules for IPF-funded projects and introduced the
+Procurement Regulations.
+1. Guidelines (pre-July 2016)
+IPF projects that were approved prior to July 1, 2016, are usually governed by the Bank’s
+Procurement Guidelines (for Goods, Works, and Non-Consulting Services) and Consultant
+Guidelines (for the selection and employment of Consultants). If you are involved with such
+a project, you need to understand the appropriate Guidelines, as they are different from the
+Regulations.
+Pre-July 1, 2016 Policy, Guidelines, and Documents
+2. Procurement Regulations (post-July 1, 2016)
+Under the new Procurement Framework, IPF-funded Projects that were approved by the Bank
+on or after July 1, 2016, are governed principally by the Procurement Regulations.
+Post-July 1, 2016 Procurement Framework
+Financing Agreement
+The rules (either Guidelines or Regulations) that apply to a particular project are specified in the proj-
+ect’s financing agreement. Make sure you follow the stipulated rules, including the specific edition
+of the Guidelines or Regulations that apply to the project, or the Bank may decline to finance the
+resulting contract.
+Governance
+SECTION
+III
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+10
+Focus of this Guidance
+This Guidance is primarily intended for projects subject to the Procurement Regulations. However,
+several aspects of the Guidance are also relevant for projects subject to the Guidelines.
+Roles and Responsibilities
+Borrower
+The Borrower is responsible for carrying out procurement activities financed by the Bank in accordance
+with the financing agreement signed between the Bank and the Borrower. In particular, the Borrower
+must use funds only for the purpose for which they were granted. Other responsibilities include:
+1. planning the procurement
+2. preparing a procurement strategy for the project, as defined in the Project Procurement Strategy
+for Development (PPSD)
+3. inviting offers from the market
+4. evaluating offers and determining the Most Advantageous Bid/Proposal (MABP)
+5. awarding, signing, and managing contracts.
+Bank
+To ensure that funds are used only for the purpose for which they were granted, the Bank provides
+Borrowers with procurement implementation support and oversight for each project. Implementation
+support includes providing training and advice to the Borrower. The Bank conducts its procurement
+oversight function in order to discharge its fiduciary responsibilities, as required by the Bank’s Articles
+of Agreement.
+Prior and Post Reviews
+This fiduciary responsibility entails the Bank conducting reviews of selected procurement activities
+undertaken by the Borrower. A review may be either:
+1. prior review: undertaken while the procurement activity is taking place, or
+2. post review: undertaken after the procurement activity has been completed.
+The purpose of the Bank’s review is to determine the extent to which the Borrower’s procurement
+activities are in accordance with the financing agreement for the project, including the Procure-
+ment Policy and Regulations, which are incorporated by reference in the financing agreement. The
+Procurement Plan specifies whether a procurement is subject to prior or post review. The Bank
+requires mandatory prior review where the value of the procurement is above certain thresholds.
+These thresholds are detailed in Annex I of Bank Procedure.
+SECTION III: GOVERNANCE
+11
+Prior Reviews
+For procurements subject to prior review, the Bank reviews:
+1. the PPSD and Procurement Plan for the project
+2. the draft General Procurement Notice (GPN) and Specific Procurement Notices (SPNs) before
+they are published
+3. the Borrower’s draft Procurement Documents before they are issued to the Bidders/Proposers
+4. the results of the evaluation of Bids/Proposals before they are communicated to the Bidders/
+Proposers
+5. the Borrower’s draft responses to procurement-related complaints before they are issued to
+the complainant
+6. the draft contracts before they are signed by the Borrower.
+Unless otherwise agreed with the Bank, prior review will be undertaken for all Works procurements
+under projects classified as high risk for Sexual Exploitation and Abuse/Sexual Harassment (SEA/SH)
+that use SPDs.
+Post Reviews
+For procurements subject  to post review, the Borrower conducts the procurement process and
+the Bank, on a sample basis, reviews the process to determine whether it has been conducted in
+accordance with the financing agreement.
+For further details of the Bank’s procurement oversight, see Annex II of the Procurement Regulations.
+Hands-on Expanded Implementation Support
+The Bank may also provide the Borrower with Hands-on Expanded implementation Support (HEIS).
+This support may be provided where the Borrower is deemed by the Bank to be:
+1. in urgent need of assistance because of a natural or man-made disaster or conflict, or
+2. experiencing capacity constraints because of being a fragile or small state.
+Where the Bank provides HEIS to the Borrower, the Borrower remains responsible for conducting
+the procurement.
+Eligibility
+The Bank permits eligible firms and individuals from all countries to offer Goods, Works, Consulting
+Services, and Non-Consulting Services for Bank-financed projects. In accordance with the Regulations,
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+12
+a Borrower shall not deny a Bidder/Proposer participation in a procurement, or award of a contract, for
+reasons unrelated to:
+1. the Bidder’s/Proposer’s capability and resources to successfully perform the contract, or
+2. a conflict-of-interest situation covered under the Procurement Regulations (Paragraphs 3.14 to 3.17).
+Exceptions
+1. Country
+A Borrower may deny a Bidder/Proposer the right to participate or to be awarded a contract if:
+a. the Bidder/Proposer is from a country, or the Goods are manufactured in a country, and
+i. the Borrower’s law or regulations prohibit commercial relations with that country (provided
+that the Bank is satisfied that the exclusion does not preclude effective competition), or
+ii. if the procurement is to be implemented across jurisdictional boundaries (i.e., the
+procurement involves more than one country). Exclusion of a Bidder/Proposer on this
+basis by one country may apply if the Bank and all the other countries involved in the
+procurement agree, or
+iii. in complying with a decision of the United Nations Security Council, the Borrower’s laws
+prohibit the import of Goods from that country, or prohibit payments to a country or to a
+person or entity in that country.
+2. State-Owned Enterprise
+State-Owned Enterprises or institutions (SOEs) outside the Borrower’s country are eligible to
+participate. SOEs of the Borrower’s country are not normally eligible to participate. However,
+they may be eligible if they can establish that they:
+a.  are legally and financially autonomous, and
+b.  operate under commercial law, and
+c.  are not under supervision by the agency contracting them.
+However, when the Goods, Works, or Services provided by SOEs (including state-owned
+universities, research centers, or institutions) are of a unique and exceptional nature, or when
+their participation is critical to the project, the Bank may exceptionally agree to the Borrower’s
+contracting them, on a case-by-case basis.
+3. Anticorruption Disqualification
+A firm or individual is not eligible where it has been sanctioned and declared ineligible under
+the Bank’s Anti-Corruption Guidelines (see Procurement Regulations Annex IV, Fraud and
+Corruption). For the listing of ineligible firms and individuals, see the Bank’s website.
+SECTION III: GOVERNANCE
+13
+The Borrower may request that the Bank agree to exclude a firm or individual that is under
+a legal sanction of debarment in its country. The Bank must be satisfied that the debar-
+ment relates to fraud or corruption, and that the judicial proceeding provided adequate due
+process.
+4. SEA/SH Disqualification
+The Bank may disqualify a firm from being awarded a contract, financed in whole or in part by
+the Bank, for a period of two years if the firm has been determined to be noncompliant with its
+contractual SEA/SH Prevention and Response obligations. The determination of noncompliance
+shall be made in accordance with the procedures specified in the applicable SPD.
+A firm disqualified by the Bank for noncompliance with contractual SEA/SH Prevention and
+Response obligations shall be excluded from being awarded a contract to be financed in whole
+or in part by the Bank. (Refer to the Procurement Regulations Paragraphs 3.24 and 3.34.)
+Integrity
+Application
+In line with the Core Procurement Principle of integrity, the Bank requires that all parties involved
+in the procurement process and their personnel observe the highest standard of ethics during the
+procurement process and refrain from fraud or corruption.
+The Bank will reject a Borrower’s proposal for award if it determines that the firm or individual recom-
+mended (including any of its staff, agents, suppliers, or employees) has, directly or indirectly, engaged
+in fraud or corruption in competing for the contract in question.
+Bank’s Audit and Inspection Rights
+The Bank requires that Borrowers include a clause in the procurement document requiring that
+Bidders/Proposers and Contractors/Consultants (including their sub-Contractors, sub-Consultants,
+agents, and personnel) permit the Bank to inspect and audit all accounts, records and other doc-
+uments relating to the procurement process, selection, and/or contract execution. The Bank may
+appoint auditors to act on its behalf. For further details, see Annex IV of the Procurement Regulations.
+Sanctions and Remedies
+The Bank may exercise various sanctions and remedies where fraud and corruption have been
+detected. These sanctions and remedies can be found:
+1. in the “Legal Remedies” in the financing agreement for each project
+2. in the “Legal Remedies” in the contracts between the Borrower and the Contractor/Consultant
+3. in the Procurement Regulations, Annex IV, Fraud and Corruption.
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+14
+The Bank may sanction a firm or individual that has been found by the Bank to have engaged in
+fraud or corruption in relation to a Bank-financed project. In relation to a Borrower, the Bank may
+declare a misprocurement if the Bank determines at any time that a representative of the Borrower
+has engaged in fraud or corruption during the procurement process, selection, and/or execution of
+the contract in question.
+15
+Procurement Process Overview
+The Procurement Process is defined in the Procurement Regulations as:
+“the process that starts with the identification of need and continues through planning, prepa-
+ration of specifications/requirements, budget considerations, selection, contract award and
+contract management.”
+While each procurement is unique, all Procurement Processes broadly follow seven common stages.
+Figure 3 is a simplified representation of the Procurement Process. It shows the common stages and
+their usual sequencing. Actual procurements may differ.
+Procurement Process
+SECTION
+IV
+De velop  s tr ate g y
+A ssess th e m ark et,  op erati n g
+e n v i ron m en t,  an d  p roj ec t sp ec i ﬁc  ri sk s.
+D eterm i n e a ﬁt- f or- p u rp ose
+p roc u rem en t approac h (PPS D ) .
+Invi t e  o ﬀ e r s
+Pub lish B i ddi n g  D oc u m en ts an d
+i n v i te oﬀ ers f rom  th e m ark et.
+Answ er an y q u esti on s ari si n g .
+M an ag e  con tr ac t
+F i n aliz e C on trac t M an ag em en t P l an
+an d  i m plem en t m on i tori n g ,  eval u ati on ,
+an d  p aym en t system s.  Ensu re b oth
+p arti es m eet th ei r ob lig ati on s.
+E va l u a te  o ﬀ e r s
+A ssess oﬀ ers b ased  on  th e
+p u b lish ed  ev al u ati on  c ri teri a.
+D eterm i n e m ost A d v an tag eou s
+B i d /P rop osal .
+Cr e ate  th e  p l an
+P rep are a d etailed  p l an  of  th e
+p roc u rem en t p roc ess an d  sc h ed u l e
+ac ti vi ti es.
+Rec ei v e oﬀ ers.  Rej ec t an y l at e oﬀ er.
+Pub lic l y op en  oﬀ ers an d  rec ord
+c on t en t s.  K eep  a rec ord  of  th e p roc ess
+f or au d i t p u rp oses.
+A wa r d  con tr act
+I ssu e N oti c e of  I n ten ti on  to A w ard  th e
+C on trac t.  D u ri n g  th e S tan d still P eri od
+address q u eri es an d  an y c om plai n ts.
+A w ard  c on t rac t ,  an d p u b lish C on trac t
+A w ard  N oti c e.
+Re ceive  oﬀ e r s
+FIGURE 3 Summary of the Procurement Process
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+16
+1. Develop Strategy
+During the project preparation phase, the Borrower is required to prepare a Project Procurement
+Strategy for Development (PPSD) for the project. The Bank has Guidance and a template for long-
+form PPSDs and short-form PPSDs.
+a.  Project Procurement Strategy for Development
+The PPSD, summarized in Figure 4, analyzes and summarizes the various factors that influence
+the Borrower’s procurement approach. The Borrower has some flexibility in designing the pro-
+curement approach. The design should reflect the optimal way to conduct the procurement.
+Designing the procurement optimally increases the likelihood of the mostly high-qualified Bid-
+ders/Proposers submitting offers and facilitates the Borrower’s achieving VfM and of delivering
+the desired development results. See: Procurement Guidance, Value for Money: Achieving
+VfM in Investment Projects Financed by the Bank.
+It is at the stage of writing the PPSD that the Borrower decides on the types of Evaluation Criteria
+that will be applied to each major contract, including the application of Rated Criteria to the
+non-price/technical/quality attributes of Bids/Proposals, as well as the proposed prioritization
+and weightings of such attributes, and how quality and price will be combined to determine
+the MABP. The decisions made at this stage then feed into the design of the Procurement Plan.
+For Works procurements in projects classified as high-risk for SEA/SH, the Procurement Plan
+shall also detail use of the applicable SPD for large Works. In addition, all Works procurements
+in projects classified as high risk for SEA/SH shall have a Contract Management Plan.
+The PPSD assessment covers the following:
+i.  Operating Environment: The operating environment and how it may influence the participation
+of potential Bidders/Proposers and the way in which the procurement will be conducted
+ii.  Borrower’s Capacity and Track Record: Borrower’s previous experience, track record, and
+capability in conducting similar procurements and in implementing similar projects. This
+step includes a resourcing plan to complement the Borrower’s capacity as needed, which
+may include the need for HEIS to be provided by the Bank
+iii.  Market: Review of the market to understand its nature and how it functions in the operating
+environment, including nationally, regionally, and internationally. This step includes assessing
+the level of supply (i.e., the likely number of potential Bidders/Proposers), the degree of
+competition among Bidders/Proposers, anticipated prices, the factors that influence price,
+the level of demand in the market (i.e., the likely number of buyers, including how much they
+buy and their level of influence on the market), and whether there is a shortage of supply or
+of qualified suppliers.
+b.  Procurement approach
+From analyzing this information, the Borrower designs an appropriate procurement approach,
+which details:
+SECTION IV: BENCHMARKING USING INDICES
+17
+i. the type of requirements and specifications, which may be conformance- or performance-
+based. Conformance requirements are detailed specifications of the Borrower’s precise
+needs and the method for achieving them. Performance requirements outline the Borrower’s
+desired outcomes and invite Bidders/Proposers to propose solutions to meet these needs,
+thus facilitating innovation by the market
+ii.  the type of contract
+iii. how the Borrower will approach the market for each procurement to obtain offers from
+the most high-qualified Bidders/Proposers, including whether the Borrower will include
+national or international competition
+iv.  the selection method that the Borrower will apply to request offers from Bidders/Proposers
+(RFB, RFP, RFQ, other)
+v.  the evaluation and qualification criteria that will be used to compare the offers received and
+identify the Bidder/Proposer that submits the MABP
+vi.  a Contract Management Plan outlining how the contract will be monitored to ensure that
+each party meets its obligations and that the VfM offered in the winning Bid is delivered
+through the performance of the contract.
+Bank staff then include a summary of the PPSD in the Project Appraisal Document (PAD). The
+PAD is used to seek the approval of the Bank’s Board to finance the project. It is important that
+the PPSD be sufficiently detailed to explain and justify the Borrower’s selected procurement
+approach. The level of detail in the PPSD should be proportionate to the complexity, risk, and
+value of the planned procurement under the project.
+P roj ec t  Ov er view1
+St r a t eg i c  A ssessm en t  of Op er a t i n g
+C o n t ex t  a n d  B o rro wer  C apab ilit y2
+P roc u r em en t  Ris k  A n a lys i s  3
+St a k eh o l d er  A n a lys i s4
+P roc u r em en t  Ob j ec t ives5
+P roc u r em en t  A pproa c h  Op t i o ns
+a nd R ec o mmenda t i o n s
+A ddr e sse s  t h e  f o llo w i n g  f a c t o rs:
+R e q u i r e me n t s
+C o n t r a c t  St r a teg y
+Se l e c t i o n  M eth o d
+E va l u a t i o n  M eth o d o l o g y
+C o n t r a c t  Ma n a g e me n t
+P r ef erred  Arra n g em en t  for Low -
+V a l u e Low - Ris k  A c t i v i t i es7
+Su mma r y  of PPSD  t o  support  the
+p r epar a t i o n  of t h e PA D  b y  t h e B a n k8
+A na lysis  a nd Assessm en ts Pr o cur em en t Appro a c h
+P r oj ect  P r ocu r emen t  St rat eg y f or  D evel op men t  (PPS D )
+Su mma r y  of C o n t en t s
+FIGURE 4 Content of a PPSD
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+18
+c. Approach to market options
+The Procurement Regulations provide a variety of selection methods and market approach
+options (see the Procurement Regulations, Section VI: Goods, Works, and Non-Consulting
+Services, and Section VII: Consulting Services). This variety allows greater flexibility in design-
+ing individual procurement approaches that are fit-for-purpose. Figure 5 demonstrates these
+decision points.
+BANK’s
+STANDARD
+PROCUREMENT
+DOCUMENTS
+APPLY
+NATIONAL
+PROCUREMENT
+PROCEDURES/
+DOCUMENTS
+NORMALLY
+APPLY
+(as modiﬁed, if
+required)
+DEVELOPMENT
+activity/need/requirement
+DIRECT
+SELECTION
+Limited
+Request
+for Bids
+Request
+for
+Quotations
+Open
+COMPETITIVE
+PROCESSOR
+OR
+OROR
+NATIONAL
+MARKET
+INTERNATIONAL
+MARKET
+Request
+for
+Proposal
+FIGURE 5 Example of selection methods decision logic
+d. Competitive versus non-competitive
+The first step in determining the approach to the market is deciding whether to follow a com-
+petitive or non-competitive procurement approach.
+i.  Non-competitive approach : Direct selection: Proportional, fit-for-purpose, and VfM con -
+siderations may require a direct selection approach wherein the Borrower approaches
+and negotiates with only one firm. Direct selection may be appropriate if there is genuinely
+only one qualified firm or there is justification to use a preferred firm. For circumstances
+in which a non-competitive approach may be used, see Procurement Regulations Para-
+graphs 6.8 to 6.10.
+SECTION IV: BENCHMARKING USING INDICES
+19
+ii.  Competitive approach: Multiple firms are invited to participate in the procurement and sub-
+mit offers. An open, competitive approach to the market is the Bank’s preferred approach
+as it provides opportunities for all eligible, interested Bidders/Proposers to submit offers
+and compete for the award of contract. Under an open competitive approach, the Borrower
+may approach the national or international market, as justified in the PPSD.
+e.  International versus national markets
+i.  International competition: Approaching the international market may be appropriate when
+the participation of foreign Bidders/Proposers will increase competition and deliver better
+VfM. Open international competitive procurement with international advertising is the Bank’s
+preferred approach for complex, high- risk, and/or high-value contracts. In international
+procurements, national Bidders/Proposers are also eligible to participate.
+For international competitive procurements, Borrowers are required to use the Bank’s Standard
+Procurement Documents (SPDs). The range of SPDs covers the most widely used selection
+methods (e.g., RFB, RFP) and procurement categories (Goods, Works, Consulting Services,
+Non-Consulting Services) and a wide range of sector-specific documents.
+Application of Rated Criteria for International Procurements
+With a limited number of exceptions, all procurements that are subject to international
+competition and use a Bank SPD are required to apply Rated Criteria with a two-
+envelope procedure in the evaluation of Bids/Proposals. However, the use of Rated
+Criteria is not required in the procurement of pharmaceuticals, vaccines, off-the-
+shelf goods, educational materials, or commodities.
+The Borrower/Proposer prepares the procurement documents based on the relevant Bank
+SPD. The SPDs are available in English, French, and Spanish on the Bank’s website.
+The procurement documents describe the requirements and provide instructions to
+Bidders/Proposers on how to prepare and submit their Bids/Proposals. Accompanying
+them is the Bank’s Guidance for Bidders/Proposers on Finding Business Opportunities
+and Winning Contracts Financed by the World Bank.
+ii.  National competition: For national open competitive procurement, the Borrower may use
+its own national procurement procedures and procurement documents so long as they are
+consistent with the Bank’s Core Procurement Principles and so long as the Borrower ensures
+that the Bank’s Anti-Corruption Guidelines and Sanctions Framework and contractual reme-
+dies, set out in the financing agreement, apply and have been agreed with the Bank.
+iii.  Approaching the national market may be appropriate under the following circumstances:
+a. When the procurement is unlikely to attract foreign competition because of:
+i.  the size and conditions of the market
+ii.  the value of the contract (refer to Bank Guidance on thresholds for procurement
+approaches and methods by country)
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+20
+iii.  activities that are scattered geographically, spread over time, or are labor-intensive
+iv.  the local availability of the Goods, Works, or Non-Consulting Services at prices
+below the international market.
+b.  The advantages of approaching the international market are clearly outweighed by the
+administrative or financial burden involved.
+c.  If foreign firms wish to participate in open national competitive procurement, they may
+do so on the terms and conditions that apply to national firms.
+f.  Selection Methods: Goods, Works, and Non-Consulting Services
+The selection method is the procurement process by which the Borrower approaches the
+market and invites offers (e.g., issues RFB, RFP). The Borrower selects the appropriate selection
+method based on:
+i.  the nature of the goods and services to be procured and the extent to which the Borrower
+is able to specify its requirements
+ii.  the level of competition in the market and how many suppliers in the market are able to
+meet the Borrower’s requirements
+iii. the estimated cost of the goods and services to be procured.
+By way of an example, Figure 6 explains the selection methods for the procurement of Goods,
+Works, and Non-Consulting Services.
+REQUEST FOR PROPOSALS REQUEST FOR BIDS
+competitive approach
+usually used with conformance
+speciﬁcations
+market responds by oﬀering bids
+proposals are usually compared
+by scoring against the
+requirements (rated criteria)
+Award to the most advantageous
+proposal
+competitive approach
+usually used with performance
+speciﬁcations
+REQUEST FOR QUOTATIONS
+competitive approach
+compares price of the oﬀers/
+quotations
+used when buying readily
+available low-value goods and
+services
+Direct
+Selection
+(DS) DIRECT SELECTION
+Request for
+Proposals
+(RFP)
+Request for
+Quotations
+(RFQ)
+Request
+for Bids
+(RFB) Bank
+Selection
+Methods
+market responds by oﬀering
+proposalsoﬀers are compared against the
+requirements on a pass or fail
+basis
+award to the lowest price
+conforming bid
+non competitive way of
+approaching and negotiating
+with only one ﬁrm
+used when there is only one
+suitable ﬁrm or where there is
+a good reason to approach only
+one ﬁrm
+FIGURE 6 Selection Methods for Goods, Works, and Non-Consulting Services
+SECTION IV: BENCHMARKING USING INDICES
+21
+g. Other market approach options for complex and/or high-value procurement
+The Procurement Regulations (Section VI) provide other market approach options for complex
+and/or high-value procurements that are subject to international competitive procurement.
+These market approaches are subject to the following requirements:
+i.  For transparency, their use must have been pre-disclosed in the procurement document
+issued to the prospective Bidders/Proposers,
+ii.  The procurement is subject to the Bank’s prior review owing to the level of risk and com-
+plexity, and
+iii.  An independent probity assurance provider (prior agreed with the Bank) observes the
+opening of offers and any negotiations to ensure that the processes are fair and that all
+Bidders/Proposers are treated impartially.
+These other market approach options are:
+i.  Competitive dialogue: An interactive, multistage market approach option that allows dynamic
+engagement with Bidders/Proposers. Competitive dialogue may be appropriate when there
+is no solution currently available on the market, or when several alternative solutions exist
+that could meet the Borrower’s requirements. It allows the Borrower and Bidders/Proposers
+to discuss and further refine the detailed technical and commercial arrangements required
+to support the solutions. It may also be appropriate where, as a result of the nature and
+complexity of the procurement, the Borrower is not objectively able to define its require-
+ments or adequately specify the legal and/or financial arrangements and contract. For
+further guidance on how to undertake a competitive dialogue process, see Bank Guidance
+on competitive dialogue.
+ii.  Best and Final Offer (BAFO): A near final Bid in a multistage procurement process . After the
+first stage, which determines which Bids/Proposals meet the Borrower’s requirements, the
+next stage involves providing those Bidder/Proposers an opportunity to submit their Best and
+Final Offer. BAFO is appropriate when the procurement process may benefit from Bidders/
+Proposers having a final opportunity to improve their offers, including by reducing prices,
+clarifying or modifying their offers, or providing additional information. It is normally particularly
+effective when markets are known to be highly competitive and there is strong competitive
+tension among Bidders/Proposers. See Bank Guidance on Negotiations and BAFO.
+iii.  Negotiations: In international competitive procurements, negotiations may be conducted
+following the evaluation of offers and before the award of contract. Negotiations may
+involve negotiating the terms and conditions, price, social and environmental aspects, and
+innovations. However, negotiations must not change the minimum requirements set out
+in the procurement documents. Unlike BAFO, which is conducted with several Bidders/
+Proposers in parallel, negotiations are undertaken first with the Bidder/Proposer deter-
+mined by the Bank to have the best offer. Only if this negotiation is unsuccessful may the
+Borrower negotiate with the next best ranked Bidder/Proposer. For further guidance on
+BAFO, see Bank Guidance on Negotiations and BAFO.
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+22
+h. Selection methods: Consulting Services
+When contracting individuals or firms to provide Consulting Services, Borrowers follow the
+approved selection methods for Consulting Services. For details of these methods, see
+Section VII of the Procurement Regulations.
+2. Plan the Procurement
+The Borrower is also required to prepare a Procurement Plan (PP), which is informed by analysis
+conducted and choices made in the PPSD. The PP is a detailed action plan that describes the pro-
+curement activities and sets out the schedule of dates. The PP includes:
+a.  a brief description of what is to be procured
+b.  the cost estimate for the procurement
+c. the selection method to be applied
+d.  the time schedules for the key steps of the procurement process, from initiation of the procure-
+ment to completion of contract implementation,
+e.  the type of Bank review that will apply.
+In preparing the PP, the Borrower uses the Bank’s online planning and tracking tool, called STEP
+(Systematic Tracking of Exchanges in Procurement). The Bank then reviews and agrees to the PP
+prior to completion of the loan negotiations; the final PP is then published on the Bank’s website. The
+PP is a “living document.” This means that it i s designed to be updated regularly, at least annually
+during project implementation. Any updates to the PP are subject to the Bank’s prior review.
+3. Invite Offers
+The Borrower informs the market of the procurement opportunity and invites Bids/Proposals through
+an invitation (e.g., an invitation for Bids/Proposals). For procurements subject to open international
+competition, the invitation is published:
+a.  in a local newspaper of wide circulation and/or on a free access website, and
+b.  on the UN Development Business website, and
+c.  on the Bank’s external website.
+The Borrower provides to interested Bidders/Proposers a procurement document that includes:
+a.  the instructions to Bidders/Proposers on how to prepare and submit their offers, including an
+explanation of how the MABP will be determined
+b.  a description of the Borrower’s requirements
+c.  standard forms to be completed by the Bidder/Proposer in preparing its offers, and
+d.  the draft contract.
+SECTION IV: BENCHMARKING USING INDICES
+23
+For procurements subject to international competition, Borrowers are required to use the Bank’s
+SPDs. For procurements subject to the Bank’s prior review, the Borrower submits the procurement
+document for the Bank’s review via STEP before inviting offers.
+4. Receive and Open Offers
+Borrowers should allow market participants sufficient time to review the requirements and prepare
+and submit their offers. For procurements involving international competition, this time is usually at
+least 30 business days from the date of publication of the SPN. During this period, Bidders/Proposers
+may request clarification of the procurement documents or the Borrower’s requirements. Borrowers
+should address such queries in a timely manner and share the responses with all potential Bidders/
+Proposers.
+Where Borrowers amend the procurement documents, the amendments should be sent to all poten-
+tial Bidders/Proposers. For procurement subject to prior review, these amendments should be issued
+only after the Bank’s review.
+The procurement document specifies the address where offers are to be submitted and the time and
+place they will be opened. Opening is usually in public. An exception to a public opening arises when
+a closed opening may be justified with a BAFO, Competitive Dialogue, or Negotiations. A closed
+opening is not open to the public. Instead, a probity assurance provider observes the opening to
+ensure that the process is fair and ethical and that all Bidders/Proposers are treated impartially. The
+probity assurance provider’s report is openly published later, at the time of the award of contract.
+5. Evaluate Offers
+Evaluation and qualification criteria are used by the Borrower to compare offers and determine
+the MABP.
+Evaluation criteria, and the method for applying them, must be established during the early stages
+of the procurement. They must be published in the procurement documents issued to the Bidders/
+Proposers. This requirement supports transparency and integrity in the procurement process. It is
+essential that potential Bidders/Proposers understand the criteria by which their Bid/Proposal will
+be judged, and what criteria are the least to most important to the Borrower. In this way Bidders/
+Proposers will be better able to tailor their Bid/Proposal to meet the Borrower’s requirements.
+Evaluation criteria should be proportionate and appropriate to the type, nature, market conditions,
+complexity, risk, value, and objective of what is being procured. For further details on how to prepare
+evaluation criteria, see Procurement Guidance, Evaluating Bids and Proposals.
+The process to determine the MABP differs depending on the selection method used. There are two
+main types of evaluation and qualification criteria.
+a. Monetarily quantifiable criteria
+When setting monetarily quantifiable Evaluation Criteria, the Procurement Documents shall
+specify the relevant factors to be considered in the Bid/Proposal evaluation and the manner in
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+24
+which they will be applied for the purpose of determining the evaluated financial cost of each
+Bid/Proposal.
+Examples of where monetarily quantifiable criteria may be applied to determine the total eval-
+uated Bid/Proposal financial cost may include, among others:
+i. margin of domestic preference (if agreed with the Bank)
+ii.  time schedule adjustment
+iii.  payment schedule adjustment
+iv.  life-cycle costing
+v.  functional guarantees min/max adjustment
+vi.  adjustments for nonmaterial non-conformities
+vii.  discounts.
+Monetarily quantifiable criteria are most often used with an RFB selection method and a con-
+formance specification.
+b. Rated criteria
+Use of Rated Criteria is mandatory for any Procurement Process subject to international com-
+petition and for which a Bank SPD is used. However, use of Rated Criteria is not required in
+the procurement of pharmaceuticals, vaccines, off-the-shelf goods, educational materials, or
+commodities.
+Use of Rated Criteria allows the Borrower to achieve VfM by ensuring that, in addition to
+price, all relevant technical and qualitative non-price factors are taken into account in the
+determination of the MABP.
+Rated Criteria are best suited to procurements that use a performance specification, whereby
+the Borrower specifies its desired outcomes and leaves the method of delivery of that outcome
+to the Bidder/Proposer to propose in its Bid/Proposal. RFP procurement processes are best
+suited to the use of a performance specification along with Rated Criteria.
+Two-envelope process
+In all cases where Rated Criteria are applied, the evaluation shall be conducted on the basis of
+a two-envelope procedure. Technical bids are opened and evaluated first. Then the financial
+envelopes of only those Bidders whose technical Bids are evaluated as responsive are opened
+and evaluated.
+c. Evaluation process
+The Borrower must apply the criteria and methodology described in the procurement docu-
+ments. No variation or inconsistent application is permitted. During the evaluation stage the
+SECTION IV: BENCHMARKING USING INDICES
+25
+Borrower may seek clarifications from the Bidders/Proposers, provided such clarification does
+not substantially alter the Bid/Proposal.
+As part of the evaluation, if a Bid/Proposal is suspected of being “abnormally low,” there is
+a prescribed process that the Borrower must follow. “Abnormally low” means that the offer
+price, in combination with other elements of the offer, is so low that it raises material concerns
+as to the Bidder’s/Proposer’s capability to perform the contract for that price. The Borrower
+must check the price with the Bidder/Proposer by seeking written clarification. If the Bidder/
+Proposer fails to demonstrate its capability to deliver the contract for the offered price, the
+Borrower rejects the Bid/Proposal. For further details, see Procurement Guidance: Abnormally
+Low Bids and Proposals.
+The evaluation process is confidential and should not be disclosed to any persons not involved
+in the evaluation and award decision process until the Borrower’s Notice of Intention to Award
+has been transmitted to all Bidders/Proposers.
+The Borrower prepares a report of the evaluation process. For procurements subject to the
+Bank’s prior review, the evaluation report is subject to review by the Bank before the Borrower
+communicates its intention to award the contract.
+6. Contract Award
+The award of the contract is made to the Bidder/Proposer that submits the MABP.
+a.  Where Rated Criteria are not used, the MABP is:
+the Bid/Proposal of the Bidder/Proposer that meets the qualification criteria and whose Bid/
+Proposal has been determined to be:
+i.  substantially responsive to the RFBs/RFPs document,
+ii.  the lowest evaluated cost.
+b.  Where Rated Criteria are used, the MABP is:
+the Bid/Proposal of the Bidder/Proposer that meets the qualification criteria and whose Bid/
+Proposal has been determined to be:
+i.  substantially responsive to the RFBs/RFPs document,
+ii.  the highest-ranked Bid/Proposal, based on a combination of price and technical/quality/
+non-price criteria.
+c.  In Consulting Services, the MABP is the best evaluated Proposal.
+At the contract award phase, the Borrower cannot simply sign the contract with the success-
+ful Bidder/Prop oser, as several steps must first be completed to ensure transparency and
+accountability in the procurement process.
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+26
+Notification of Intention to Award
+Following the decision to award the contract to the Bidder/Proposer with the MABP,, the Borrower
+promptly sends a written notification of its intention to award the contract to each Bidder/Proposer
+that submitted a Bid/Proposal. This is called the Notification of Intention to Award. The Notification
+must be sent to all Bidders/Proposers at the same time and by the quickest means available (e.g., by
+email). Sending the Notification of Intention to Award initiates the Standstill Period.
+Standstill Period
+The Standstill Period is a period of ten business days following transmission of the Notification of
+Intention to Award.
+During this period there is a pause in the process, during which the Borrower is prohibited from
+entering into a contract with the successful Bidder/Proposer. The purpose of the Standstill Period is
+to allow unsuccessful Bidders/Proposers an opportunity to understand why they were not successful,
+(they may request a debriefing) and to provide them an opportunity to submit a Complaint about the
+decision to award the contract, if relevant.
+The Standstill Period commences on the day following
+the transmission of the Notice of Intention to Award
+to all Bidders/Proposers.
+Transmit Notices of
+Intention to Award
+The Standstill Period expires at midnight
+on the tenth day (unless extended).
+BIDDER TO REQUEST
+A DEBRIEF WITHIN
+3 BUSINESS DAYS
+BORROWER TO PROVIDE DEBRIEF WITHIN 5
+BUSINESS DAYS OF RECEIPT OF TIMELY REQUEST
+A complaint may be submitted at anytime during the Standstill Period
+Standstill Period (10 Business Days) Award the contract on or
+after 11
+th
+day
+BUSINESS DAYS 1 2 3 4 5 6 7 8 9 10 11 12 13
+FIGURE 7 The Standstill Period
+There are procedures for requesting a debriefing and submitting a complaint. The Standstill Period
+will be automatically extended if a Bidder/Proposer has requested a debriefing on time, but the
+Borrower has been unable to provide the debriefing on time.
+For procurements subject to prior review, the Borrower’s draft response to a complainant is sub-
+mitted for the Bank’s prior review before it is issued to the complainant. For information on the
+Standstill Period, debriefing, and complaints, see Procurement Guidance: Procurement-Related
+Complaints.
+SECTION IV: BENCHMARKING USING INDICES
+27
+w. Expiry of Standstill Period
+Upon expiry of the Standstill Period, after complaints have been addressed (if appropriate), the
+Borrower may proceed to award and sign the contract with the successful Bidder/Proposer. The
+Borrower does this by transmitting the notification of award to the successful Bidder/Proposer.
+x. Contract Award Notice
+The Borrower shall publish a public notice of the award of contract. This is called the Contract
+Award Notice. There are rules about what information must be included in the notice (see
+Procurement Regulations 5.93 to 5.95). The notice should be published:
+i.  on the Borrower’s website with free access, or if not available, in at least one newspaper
+of national circulation, or
+ii.  in the official gazette.
+For international competitive procurements, the notice must also be published:
+i.  on the UN Development Business website, or
+ii.  on the Bank’s website.
+The Borrower submits the Contract Award Notice to the Bank for publication through STEP.
+7. Contract Management
+Successful delivery of contracts requires systematic planning and monitoring to ensure that both
+parties to the contract are aware of their responsibilities and perform them in a timely manner. To
+support these activities, the Borrower prepares a Contract Management Plan. The plan should be
+finalized before contract implementation starts. The key objectives of contract management are to
+ensure that the contract is:
+1. delivered on time, at the right place, and in the right quantity
+2. performed to the required specifications, standards, and quality
+3. completed within the agreed price.
+For more information, see the Bank’s Guidance:
+1. Contract Management, General Principles
+2. Contract Management, Practice.
+Simplified Process for Emergencies and Capacity Constraints
+The Procurement Regulations allow greater flexibility and simplification for procurements occurring in
+relation to emergency situations or when the Borrower has certain capacity constraints. Emergency
+situations are those in which assistance is urgently needed owing to a natural or man-made disaster
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+28
+or conflict. Capacity constraints may result from fragility or specific vulnerabilities as a small state. Such
+situations often merit a quick procurement response to address the emergency or a customized
+approach to address the capacity constraint.
+In these situations, the Regulations permit the Borrower to tailor its procurement approach to support
+a fast response. It can determine the most fit-for-purpose selection method, contract arrangement,
+and market approach option that will deliver the best possible procurement result in the response
+time required. For example, it is possible to use UN agencies to achieve results on the ground by
+delivering Goods, Works, Non-Consulting Services, and Consulting Services. The Bank may also
+provide HEIS to supplement the Borrower’s procurement capacity.
+For further details, see Bank Guidance Situations of Urgent Need of Assistance or Capacity Constraints
+29
+Procurement Framework
+The World Bank’s Procurement Framework was launched in July 2016. It modernizes the World Bank’s
+procurement policy and maximizes the strategic role of procurement in achieving key development
+goals. The Framework promotes tailored procurement approaches that emphasize choice, quality,
+and achieving Value for Money with integrity, delivering sustainable development and enabling tailored
+adaptation to country contexts.
+Mandatory Documents
+Regulations: Procurement Regulations for Investment Project Financing (IPF) Borrowers
+Policy: Procurement Policy in IPF
+Directive: Procurement Directive
+Procedures: Procurement Procedure
+Procurement Guidance
+A range of user support material has been developed to assist implementation of the Procurement
+Framework. Guidance can be found on the Procurement Framework webpage and includes informa-
+tion about the following topics:
+Abnormally Low Bids and Proposals
+Bank Reviews – Post Review, Independent Procurement Review, and Integrated Fiduciary Reviews
+Competitive Dialogue: How to undertake a Competitive Dialogue Procurement Process
+Complaints – Procurement-Related Complaints
+Conflict of Interest (see Template section below for declaration template)
+Contract Management, General Principles
+Contract Management, Practice
+ESHS – Environmental, Social, Health & Safety in Procurement
+Additional Resources
+ANNEX
+A BEGINNER’S GUIDE FOR BORROWERS: PROCUREMENT UNDER WORLD BANK INVESTMENT PROJECT FINANCING
+30
+Evaluating Bids and Proposals Using Rated Criteria
+Framework Agreements
+Guide for Borrowers – Procurement under World Bank IPF
+Guide for Suppliers – Finding Business Opportunities
+HEIS – Hands-on Expanded Implementation Support
+Health – A Buyer’s Guide to Medical Diagnostic Equipment
+Health – Engaging an Expert Consultant for Medical Diagnostic Equipment
+Negotiations and BAFO – in Procurement of Goods, Works, and Non-consulting Services
+Noncompliance in IPF Operations
+PPSD Guidance Long Form – Project Procurement Strategy for Development
+PPSD Guidance Short Form – Project Procurement Strategy for Development
+PPP – Public Private Partnerships
+SEA/SH – Prevention and Response Measures in Procurement Q&As
+Situations of Urgent Need of Assistance or Capacity Constraints
+SPDs An Overview – Standard Procurement Documents
+Supply Chain Management
+Supply Chain Management – An introduction and practical toolset
+Sustainable Procurement
+Thresholds for Procurement Approaches and Methods by Country
+Value for Money
+Templates
+A range of user tools and templates is available on the Procurement Framework webpage . These
+include the following:
+Contract Price Adjustment Computation Workbook (Excel)
+PPSD Template – Long Form
+PPSD Template – Short Form
+GPN Template
+ANNEX A: ADDITIONAL RESOURCES
+31
+Textual Part of Procurement Plan
+Letter of Acceptance of Anti-Corruption Guidelines and Sanctions Framework
+Requests for Expressions of Interest sample format
+Conflict of Interest Declaration Template
+Standard Procurement Documents
+Learning
+E-Learning Programs for Borrowers
+Contact the World Bank
+Borrowers may contact the World Bank to seek further information and guidance. The first point of
+contact should be the Bank’s local office in the Borrower’s country, if there is one. The address for
+each local office is available on the “Where We Work” web page:
+1. Navigate to the web page Where We Work
+2. Select the appropriate country
+3. On the Country page, under the “Overview” tab, scroll to the bottom of the page, where Country
+Office Contact information is listed.
+Borrowers may also contact the Task Leader for the project, who will connect them to relevant World
+Bank procurement staff and further resources.
+Y ou may contact any Bank staff member by calling: +1 202-473-1000
+For additional information, such as Standard Procurement Documents (SPDs), Guidance, briefing,
+training and e-learning materials see www.worldbank.org/procurement

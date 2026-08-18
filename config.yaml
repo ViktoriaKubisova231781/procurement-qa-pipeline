@@ -55,41 +55,36 @@ topics:
 # run; if a source extracts poorly we swap it during Phase 1 inspection.
 sources:
 
-  # --- Authoritative law / policy ----------------------------------------
-  - id: eurlex_directive_2014_24
-    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0024"
-    license: "© European Union, free reuse (Decision 2011/833/EU)"
-    type: html
-    topic: "procurement policy and compliance"
+  # --- Authoritative anchors ---------------------------------------------
+  # NOTE 1: EUR-Lex Directive 2014/24/EU was trialled but returned an empty
+  # body to non-browser HTTP requests (JS-rendered / session-gated). Dropped
+  # rather than adding a headless-browser dependency; EU concepts remain via
+  # UNCITRAL. Recovering it with Playwright is noted as a future improvement.
+  # NOTE 2: FAR Parts 1, 2, 6 were collected but dropped after chunk
+  # inspection — their table-of-contents structure and dense legal
+  # cross-referencing ("see subpart 13.5", "10 U.S.C. 3201") produced
+  # fragmented, low-content chunks unsuitable for grounded Q&A. FAR Part 9 is
+  # retained as its prose was the most coherent. This trades a little source
+  # diversity for materially better chunk quality (groundedness KPI).
   - id: uncitral_model_law
     url: "https://uncitral.un.org/en/texts/procurement/modellaw/public_procurement"
     license: "UN open / free reuse"
     type: html
-    topic: "tender process"
-  - id: oecd_integrity
-    url: "https://www.oecd.org/en/topics/sub-issues/integrity-in-public-procurement.html"
-    license: "OECD terms, free reuse with attribution"
-    type: html
     topic: "procurement policy and compliance"
-  - id: us_far
-    url: "https://www.acquisition.gov/far/part-1"
+  - id: far_part9_qualifications
+    url: "https://www.acquisition.gov/far/part-9"
     license: "US Government public domain"
     type: html
-    topic: "contract management"
-  - id: sam_gov_help
-    url: "https://www.fpds.gov/wiki/index.php/FAQ"
-    license: "US Government public domain"
-    type: html
-    topic: "procurement policy and compliance"
+    topic: "supplier evaluation"
 
   # --- Standards / official guidance -------------------------------------
-  - id: ocds_getting_started
-    url: "https://standard.open-contracting.org/latest/en/getting_started/"
+  - id: ocds_primer_what
+    url: "https://standard.open-contracting.org/latest/en/primer/what/"
     license: "Apache-2.0 / CC-BY (Open Contracting Partnership)"
     type: html
     topic: "e-procurement and data standards"
-  - id: ocds_primer
-    url: "https://standard.open-contracting.org/latest/en/primer/"
+  - id: ocds_building_blocks
+    url: "https://standard.open-contracting.org/latest/en/getting_started/building_blocks/"
     license: "CC-BY (Open Contracting Partnership)"
     type: html
     topic: "e-procurement and data standards"
@@ -98,11 +93,6 @@ sources:
     license: "CC BY 3.0 IGO (World Bank open access)"
     type: pdf
     topic: "supplier evaluation"
-  - id: usaspending_about
-    url: "https://www.usaspending.gov/about"
-    license: "US Government public domain"
-    type: html
-    topic: "logistics and KPIs"
 
   # --- Open-access research ----------------------------------------------
   - id: arxiv_digital_procurement
@@ -111,7 +101,21 @@ sources:
     type: pdf
     topic: "risk and sustainability"
 
-  # --- Wikipedia (definitional / conceptual topics only) -----------------
+  # --- World Bank topic-specific guidance (from suggested source list) ----
+  # Clean, prose-rich official PDFs, each targeting a specific sub-topic to
+  # strengthen coverage and reduce reliance on Wikipedia.
+  - id: worldbank_value_for_money
+    url: "https://thedocs.worldbank.org/en/doc/a535313d21a71139c93f09311e274093-0290012023/original/Procurement-Guidance-Value-for-Money-Nov-2023-WEB.pdf"
+    license: "CC BY 3.0 IGO (World Bank open access)"
+    type: pdf
+    topic: "tender process"
+  - id: worldbank_supply_chain_mgmt
+    url: "https://thedocs.worldbank.org/en/doc/1c3b517f003b53a2e2e170e93124be84-0290032023/original/World-Bank-Supply-Chain-Management-Guidance.pdf"
+    license: "CC BY 3.0 IGO (World Bank open access)"
+    type: pdf
+    topic: "logistics and KPIs"
+
+  # --- Wikipedia (clean definitional / conceptual prose) -----------------
   - id: wikipedia_tco
     url: "https://en.wikipedia.org/wiki/Total_cost_of_ownership"
     license: "CC BY-SA 4.0"

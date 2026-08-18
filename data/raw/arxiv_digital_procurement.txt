@@ -1,0 +1,1132 @@
+A Next-Generation Digital Procurement Workspace Focusing on
+Information Integration, Automation, Analytics, and Sustainability
+Jan-David St¨utz1, Oliver Karras2, Allard Oelen2, and S¨oren Auer2
+1Robert Bosch GmbH, Stuttgart, Germany
+2TIB - Leibniz Information Centre for Science and Technology, Hannover, Germany
+jan-david.stuetz@de.bosch.com, {oliver.karras, allard.oelen, soeren.auer}@tib.eu
+Keywords: Supply Chain Management, Procurement, Automation, Analytics, Sustainability
+Abstract: Recent events such as wars, sanctions, pandemics, and climate change have shown the importance of proper
+supply network management. A key step in managing supply networks is procurement. We present an ap-
+proach for realizing a next-generation procurement workspace that aims to facilitate resilience and sustain-
+ability. To achieve this, the approach encompasses a novel way of information integration, automation tools
+as well as analytical techniques. As a result, the procurement can be viewed from the perspective of the envi-
+ronmental impact, comprising and aggregating sustainability scores along the supply chain. We suggest and
+present an implementation of our approach, which is meanwhile used in a global Fortune 500 company. We
+further present the results of an empirical evaluation study, where we performed in-depth interviews with the
+stakeholders of the novel procurement platform to validate its adequacy, usability, and innovativeness.
+1 Introduction
+Today (2023), twenty-seven years are left until the
+goals of the Paris Agreement have to be reached. Fa-
+cilitating resilience and sustainability in supply net-
+works in procurement can contribute to accomplish-
+ing the set goals. Recent events, such as wars, sanc-
+tions, pandemics, and catastrophes, show even more
+the crucial role of a resilient and sustainable supply
+chain. Some known supply chains that were consid-
+ered stable are now disrupted. Failing suppliers can-
+not be used any longer and must be exchanged with
+new, more stable, or environmentally friendlier ones.
+Current inﬂation pressures procurement and supply
+chain management (SCM) even more. Prices and
+product quality should ideally be stable, which can
+be a difﬁcult challenge since Europe’s raw materials
+and energy costs are rising (Ari et al., 2022).
+At the Robert Bosch GmbH (Bosch), there is cur-
+rently no central digital procurement tool that com-
+bines data silos and provides valuable features in the
+day-to-day work of purchasers regarding information
+integration, automation, analytics, and sustainability.
+Various tools are used alongside the entire procure-
+ment process, which increases the complexity even
+for simple tasks. Purchasers have to pull external
+and internal information. Automation of simple and
+low-risk tasks and analytics of various supply chain-
+related data are rarely present, while sustainability is
+sometimes completely lacking in existing tools.
+Well-known Enterprise Resource Planning (ERP)
+systems and specialized procurement applications
+provide solutions. However, as Pek ˇsa and Gra-
+bis (Pekˇsa and Grabis, 2018) argue, customizing ERP
+systems are cost and time intensive. Particularly in
+the face of rapidly occurring supplier or entire supply
+chain failures, rapid development and adaptation of
+these critical systems is essential for driving compet-
+itive advantage and improving business performance.
+In addition, existing day-to-day operations involve
+complex manual processes, lack collaboration, are
+error-prone and time-consuming, do not provide new
+insights, and do not support decision-making (Pek ˇsa
+and Grabis, 2018; Tarigan et al., 2021).
+In this work, we propose a customized Digital
+Procurement Workspace (DPW) that includes a Pro-
+curement Information Space (PIS), a Procurement
+Automation and Analytics Space (PAAS), and a Sus-
+tainable Sourcing Space (SSS). The application and
+spaces aim to facilitate a faster, more supportive, re-
+silient, and sustainable procurement process. The PIS
+provides personalized, automatically aggregated, and
+summarized purchasing- and user-relevant informa-
+tion to support purchasers in their daily decisions, to
+keep them up-to-date, and to allow a quick overview
+of the most relevant information such as announce-
+arXiv:2303.03882v2  [cs.CY]  22 Mar 2023
+ments. The PAAS provides features to access ana-
+lyzed or aggregated data. PAAS also highlights key
+data and allows triggering bots to reduce human-to-
+human interaction as well as to automize low-risk but
+time-intensive work. While the SSS provides analyt-
+ical features, it focuses entirely on environmental im-
+pact, risk detection, and overall sustainability by, for
+example, providing a sustainability score.
+We deﬁned overall goals so that the DPW could
+solve the current problems. Based on those goals,
+concrete requirements are inferred to ensure that the
+required functionality is implemented. After the im-
+plementation, in-depth expert interviews were con-
+ducted and analyzed using Mayring’s qualitative con-
+tent analysis to evaluate the developed application,
+ensure that the deﬁned goals and set requirements
+were met, and discover novel use cases and bene-
+ﬁts. As the interview outcomes indicate, the three
+key advantages of our approach are increased trans-
+parency, efﬁciency, and decision-making. However,
+this work outlines further dependencies and prerequi-
+sites of beneﬁts. For example, centralization is a criti-
+cal prerequisite for increased transparency and collab-
+oration. Based on those ﬁndings, recommendations
+going beyond the presentation of the concepts and the
+developed applications are provided.
+Paper structure: section 2 presents related work.
+In section 3, we present our approach and its imple-
+mentation. We present our interview study and its re-
+sults in section 4. In section 5, we interpret and dis-
+cuss our ﬁndings before we conclude in section 6.
+2 Related Work
+Applications that support procurement are not new:
+Odoo, Precoro, and Prokuria are a few examples of
+systems that provide typical procurement functional-
+ity. Besides those tools and some features contained
+in ERP systems, there is also an increasing rise of lit-
+erature regarding SCM, public (green) procurement,
+and different technologies supporting those topics.
+2.1 SCM and Procurement
+The majority of legacy ERP systems are heteroge-
+neous systems that different software companies de-
+velop. Ma and Moln´a (Ma and Moln´ar, 2019, p. 231)
+mention that it is a “ big challenge for organizations
+to develop and implement centralized and integrated
+management systems based on their existing legacy
+ERP systems to respond to the dynamic business envi-
+ronment with agility.” They suggest the usage of on-
+tologies and propose an integration framework based
+on ontology learning including a basic workﬂow (Ma
+and Moln´ar, 2019). Pekˇsa and Grabis (Pekˇsa and Gra-
+bis, 2018) reviewed existing research on the decision-
+making capabilities of ERP systems. They identiﬁed
+different approaches for integrating decision-making
+logic for companies. Since decision-making tech-
+niques should be modiﬁable, scalable, and portable,
+they suggest decoupling decision-making logic from
+ERP systems. This decoupling enables the usage of
+advanced decision-making techniques. Implementing
+decision-making directly into existing ERP systems is
+seen as inﬂexible and cost-intensive, leading to com-
+petitive disadvantages.
+In the last years, many articles regarding SCM
+and procurement are published. For example, Re-
+jeb et al. (Rejeb et al., 2018) outline the potential of
+new technologies like Big Data analysis, Automatiza-
+tion and Robotics, IoT, and Blockchain Technology
+in procurement-related work since the entire supply
+chain has already and will continue to have techno-
+logical shifts. Nevertheless, the article does not fo-
+cus on ERP systems. However, Tarigan et al. (Tarigan
+et al., 2021) investigate and show enhanced ERP’s im-
+pact on ﬁrm performance through green SCM, sup-
+plier integration, and internal integration. The study
+suggests that a company must improve productivity,
+efﬁciency, speed, and services to innovate and sur-
+vive in the market, which results in upgrading and
+adjusting the ERP system. This suggestion, in turn,
+leads to customizations at the ERP systems that are
+regarding Grabis (Grabis, 2019) time-consuming and
+cost-intensive. Nevertheless, this study also suggests
+that ﬁt-gaps (differences between provided function-
+ality of the ERP system and the company’s needs)
+should be closed. As another gap, literature often in-
+dicates a need to consider a supplier’s green perfor-
+mance more instead of only focusing on the classi-
+cal purchasing criteria. Igarashi et al. (Igarashi et al.,
+2015) conceptualize the inclusion of green (in terms
+of environmental- and climate-friendly) criteria into
+the supplier selection process in public procurement
+since purchasers tend to ignore those impacts. Includ-
+ing the environmental and climate impacts in the pro-
+curement process can be done when all relevant data
+are gathered and provided to the corresponding pur-
+chasers. To achieve that, Barrad et al. (Barrad et al.,
+2020) focus in their study on emerging technologies
+and concepts and their ability to improve procurement
+operations. It suggests that classical Big Data ap-
+proaches like analytics and complex event processing
+can be explored and adapted to already present pro-
+curement processes to help reduce costs. The work of
+AlNuaimi et al. (AlNuaimi et al., 2021) also investi-
+gates Big Data analytics and procurement. Their work
+determines that digital procurement does not inﬂu-
+ence green digital procurement but nevertheless has a
+signiﬁcant impact on the Big Data analytics capabili-
+ties of the company. Furthermore, Big Data analytics
+as a mediator between digital procurement and envi-
+ronmental digital procurement leads to a positive im-
+pact on environmental digital procurement. In other
+words, this work describes the impact of Big Data on
+a purchaser’s decision-making process.
+A further improvement in a purchaser’s perfor-
+mance can be reached with more user-friendly dash-
+boards. Magnus and Rudra (Magnus and Rudra,
+2019) discovered a gap between theory and prac-
+tice regarding the availability of a user-friendly dash-
+board, where the dashboard design is based on princi-
+ples of cognition. The authors claim that dashboards
+can facilitate transparency and that improved dash-
+boards enhance decision-making in a supply chain.
+They also indicate that if the information is extracted
+and displayed conducive, users have a faster overview
+of needed data. It should be of interest to compa-
+nies to create better applications with the goal of user-
+friendliness since that will enable employees to work
+more efﬁciently along the supply chain. Another po-
+tential obstacle to enabling Big Data analytics is in-
+formation silos. To break down the information silos
+along the supply chain, Zhan and Tan (Zhan and Tan,
+2020) propose, in their work, an integrated infrastruc-
+ture in order to enhance supply chain performance.
+Even though there are still obstacles left, the work of
+Handﬁeld et al. (Handﬁeld et al., 2019) predicts ma-
+jor shifts in the sourcing and supply chain technol-
+ogy environment in the next years. As proposed in
+some other literature, fostering collaboration between
+logistics and purchasing departments responsible for
+managing the supply chain makes sense. (Ilie-Zudor
+et al., 2014). Hecht and Hofbauer (Hecht and Hof-
+bauer, 2022) expect potentials of up to 15 percent that
+are not realized in procurement, even though strate-
+gic procurement decisions achieve competitive advan-
+tages and guarantee a company’s success.
+Literature reviews provide a strong outline of the
+research direction. The comparison of literature re-
+views regarding green procurement done by us (St¨utz
+et al., 2023) using the Open Research Knowledge
+Graph (ORKG) shows the relevance of the topic for
+both the private and the public sectors. Signiﬁcantly,
+the ﬁndings of the compared articles indicate the
+consideration of user behavior and suggest a critical
+analysis of the current priority for monetary factors
+versus sustainability while purchasing. The arti-
+cles of S ¨onnichsen and Clement (S ¨onnichsen and
+Clement, 2020) and Adjei-Bamfo et al. (Adjei-Bamfo
+et al., 2019) indicate missing literature and a lack
+of research on the investigated topic. Appolloni et
+al.(Appolloni et al., 2014), on the other hand, indicate
+that an increase in literature is recognizable. Since
+Appolloni et al. (Appolloni et al., 2014) considered
+only the private sector until 2013 and the other two
+articles only the public sector until 2017 and 2018,
+it shows either a decrease regarding the topic, the
+different handling of the corresponding sector done
+by researchers, or a subjective view on the amount
+of published articles. Nevertheless, the work of
+Masudin et al. (Masudin et al., 2022) presents a
+peak and further increase of literature regarding
+green procurement for both the private and the public
+sectors in 2018. Considering the indicated increase
+in literature and the more emerging awareness of
+society for sustainability, research will probably
+continue focusing even more on green procurement.
+To the best of our knowledge, procurement re-
+search mainly focuses on public procurement, while
+the focus on supply chain-related topics often com-
+bines topics of ERP systems, their integration, and
+their impact. Researchers often publish studies re-
+garding the impact of new technologies, especially
+Big Data, in procurement and SCM. At the same time,
+researchers often combine Big Data with work that
+fosters green and sustainable supply chains.
+In summary, it seems like current research lacks in
+deﬁning requirements for digital procurement appli-
+cations, conceptually describing such an application
+at all, as well as in evaluating novel and innovative ap-
+plications in industrial settings. This is why our work
+introduces requirements that outline and summarize
+the set goals. We further present concepts based
+on the speciﬁed requirements. Current research, for
+example, the work of AlNuaimi et al., Grabis, and
+Tarigan et al., also inﬂuenced the motivation, con-
+cepts, and implementation. Evaluating the developed
+application with in-depth expert interviews and the
+resulting suggestions and interpretations enrich this
+work further. In the end, the developed DPW should
+be comparable to other procurement applications and
+ERP systems. Thus a similar comparison as done by
+Gomez Llanez et al. (Gomez Llanez et al., 2020) can
+be achieved. Gomez Llanez et al. (Gomez Llanez
+et al., 2020) compared the ERP systems Odoo and
+Openbravo while describing the tools in general, their
+features, and technical details.
+2.2 Procurement and ERP Systems
+Different software applications support purchasers
+already during the procurement process. Precoro,
+Odoo, and Prokuria are such well-known and estab-
+lished applications. In the following, we brieﬂy in-
+troduce these applications to give an overview on the
+current state of procurement applications.
+Precoro’s1 goal for its purchasing tool is to enable
+transparency and collaboration while eliminating dis-
+order from the procurement process. Therefore, the
+tool focuses on procurement and is meant for the pur-
+chasing department of a small to medium-sized com-
+pany. Since the ﬁrst step of the procurement process is
+the Request of Quotation (RfQ) the applications entry
+point is the RfQ-related view. There, a section of the
+created RfQs and all relevant information and actions,
+like exporting, ﬁltering, searching, and expanding, are
+provided. As soon as an RfQ is approved or rejected,
+a notiﬁcation as an email is triggered. Through this
+email, the notiﬁed user can directly access the next
+step of the procurement process, where a user can ei-
+ther place a purchase order or create a Request for
+Proposals. One prominent feature of Precocor is the
+creation of customized charts, e.g., to show the pur-
+chase order based on the supplier or the department.
+Odoo2 is considered an ERP system, but pro-
+vides features to support a company’s procurement
+processes. When selecting the purchasing view, all
+relevant details and actions like ﬁltering, grouping,
+searching, and assigning tasks of created RfQs are
+displayed. Creating further RfQs and bills is possi-
+ble, which can then be downloaded as PDFs or shared
+directly with colleagues. In general, Odoo provides
+fewer features to support the procurement process.
+However, as an ERP system, it also covers other busi-
+ness areas like human resources or marketing that are
+irrelevant to this work (Gomez Llanez et al., 2020).
+Another procurement application that allows the
+management of RfQs and suppliers is Prokuria3. In
+comparison to the other applications, it also provides
+features regarding auctions. Starting the application
+leads to a customizable dashboard view that displays
+different kinds of customizable and interactable so-
+called widgets, like a table that shows only the cur-
+rently active RfQs or a table containing all suppliers.
+Prokuria provides different kinds of detailed views,
+for example, for suppliers and events that contain
+RfQs and auctions. Since suppliers can directly place
+bids on open and active RfQs, they automatically get a
+notiﬁcation via email if they are selected. Purchasers
+can compare the suppliers’ bids in a comparison view
+that offers visual representation in the form of a chart,
+where a scoring system is provided. A report can be
+viewed and downloaded to analyze the entire gener-
+ated data. Another prominent feature is the possibil-
+1https://precoro.com/
+2https://odoo.com/
+3https://prokuria.com/
+ity of allowing communication between suppliers and
+purchasers based on the internal message system.
+The presented applications claim to work well in
+small to medium-sized companies and only if the en-
+tire procurement process is done inside the applica-
+tion. Customized features can not be easily added
+and developed, and a further dependency arises as a
+company. Bosch is a company with distributed de-
+partments and already existing solutions for various
+business cases. For this reason, a transfer to such an
+application does not make sense. Furthermore, the
+presented solutions miss general features or possibili-
+ties for customizations regarding information integra-
+tion, analytics, and automation mainly because some
+of the company’s data is deeply embedded in a tech-
+nological ecosystem. Additionally, aspects of sustain-
+ability are not taken into account at all. For this rea-
+son, among others, this work presents a proposal that
+solves the mentioned problems.
+3 Approach
+Requirements are a prerequisite to building an appli-
+cation. Therefore, we ﬁrst introduce the goals fol-
+lowed by the application’s requirements. The actual
+implementation of the containing spaces is described
+as a result of the goals and the concrete requirements.
+Thus the application can be evaluated and validated
+based on the set requirements.
+3.1 Requirements
+Among other things, requirements specify and con-
+straints the functionality of an application. Therefore
+requirements are of value for other managers or de-
+velopers who also want to adapt the concepts of this
+work to their implementation or existing system. An-
+other advantage is that stakeholders can easily verify
+requirements, and a further evaluation of the system
+can provide meaningful new insights (Glinz, 2007).
+An application usually reﬂects a vision and there-
+fore has some goals. Five domain experts in the pur-
+chasing and business development ﬁeld have been in-
+terviewed to ﬁgure out the goals of the DPW. They
+are all employed at Bosch and responsible for the
+management and/or development of digital products.
+Through the interpretation of these interviews, the vi-
+sions of the applications could be built, which signif-
+icantly reﬂect the following goals.
+1. Enabling digitalization and acceleration of digital
+processes that were previously not digital or only
+partially digital.
+2. Display aggregated data and allow interaction
+with them.
+3. Allow parallel work and collaboration between
+colleagues and also departments.
+4. Create knowledge transfer in terms of trans-
+parency between departments and colleagues.
+Since those goals are difﬁcult to verify, more con-
+crete requirements are inferred. The requirements
+were speciﬁed following the template for require-
+ments by The SOPHISTs (TheSophists, 2016) and are
+summarized in the sequel:
+1. The DPW shall be able to show user-relevant data,
+information (clustered, aggregated, and summa-
+rized news), and tasks.
+2. The DPW shall be able to show aggregated data
+that are not only maintained by the user’s depart-
+ment.
+3. The DPW shall be able to allow collaboration with
+all colleagues that uses the application.
+4. The DPW shall be able to allow working on pro-
+cesses that were not digital before.
+5. The DPW shall be able to provide analytical eval-
+uations in the form of calculations as well as
+through visual representations.
+6. The DPW shall be able to provide clustered as
+well as searchable and ﬁlterable data.
+7. The DPW shall be able to be personalized for ev-
+ery user.
+8. The DPW shall be able to break down the supply
+chain for all relevant products.
+9. The DPW shall be able to offer potential new in-
+sights based on analyzed data.
+10. The DPW shall be able to automate low-risk pro-
+cesses.
+3.2 Implementation
+We implemented the requirements in an application
+that includes three main concepts: Procurement In-
+formation Space, Procurement Analytics and Automa-
+tion Space, and Sustainable Sourcing Space. To en-
+able these three spaces, the application consists of
+multiple import jobs that fetch data from different
+data silos. Those silos can also be from other depart-
+ments and are not only maintained by the purchasing
+department. The imported raw data is aggregated, an-
+alyzed, and interpreted before being stored in a single
+database. In this way, we can fetch data faster, and
+reduce the number of on-the-ﬂy calculations.
+The User Interface (UI) handles user logins via
+Single-Sign-On and then allows the fetching of user-
+relevant, supplier-relevant, and/or material group 4-
+relevant data. This way, the separation of concerns
+is granted. Other views are, for example, the news
+feed and the admin dashboard.
+Besides the main features contained and described
+in the corresponding spaces, more minor features will
+only be mentioned and not described in detail. Those
+are, for example, ﬁltering and searching of data, sup-
+pliers, material groups, and users, favoring news, sup-
+pliers, and links, downloading tables, and showing
+context help for new hires. It is possible to adjust the
+application’s layout in widget sizes and positions to
+allow a personalized view. Additionally, users can
+switch between the user-, team 5-, and alias-view 6.
+Some widgets can be seen in Figure 1 and Figure 2.
+Figure 3, on the other hand, shows the implemented
+features of each space, the different views, and the
+minor functionalities in a ﬁve-pillar model.
+Figure 1: Overview of open auctions of a purchaser and the
+total purchase order volumes in Euro.
+3.2.1 Procurement Information Space
+The Procurement Information Space provides all
+needed information regarding news, the latest posts,
+community updates, and announcements. It repre-
+4A material group, e.g., screws and springs, categorizes
+materials with the same attributes.
+5The team-view also shows data from team members.
+6The alias-view allows seeing data from other users.
+Figure 2: Overview of total purchase order volumes (top),
+and all RfQs related to the selected supplier (bottom).
+sents a central point of information gathering and
+aims to keep users up-to-date and well-educated in
+their profession. Various structured and unstructured
+data sources are accessed to automatically collect, ag-
+gregate, and summarize their content to provide all
+the user- and purchasing-relevant information. Af-
+ter an automatic summarization, the information is
+clustered and provided in natural language to a user.
+Even though there can be different data sources with
+nearly the same content, those are considered and
+handled the same way to ensure the validity of the
+information so the PIS can act like a single point of
+truth. Data sources for news, posts, community up-
+dates, announcements, and drop-off points to other
+tools are conﬁgurable and provide even more infor-
+mation. While interacting with the features of the
+PIS (for example, the news feed), the information
+gets more and more personalized but also considers
+purchasing-relevant news based on team members’
+suggestions and reading history. The PIS aims to im-
+prove decision-making and time-saving as new infor-
+mation could lead to better and faster decisions.
+3.2.2 Procurement Analytics and Automation
+Space
+The PAAS allows users to access, analyze and interact
+with procurement-relevant data like open RfQs, auc-
+tions, and many more. All that data is divided into
+three focus groups:
+1. User-relevant data like open RfQs, auctions, and
+contracts of the logged-in user
+2. Supplier-relevant data like RfQs, auctions, and
+contracts belonging to the selected supplier
+3. Material group-relevant data like RfQs and auc-
+tions for the selected material groups
+The structured data is mainly displayed in a table
+view, as can be seen in Figure 1 (widget names “Total
+Purchase Order V olume” and “Supplier Auctions”),
+but for a faster overview of some widgets, a chart view
+is the default view, as can be seen in Figure 2 (“Total
+Purchase Order V olume” and “Supplier RfQs”). The
+chart view naturally cannot provide the same richness
+of details as the table view, but highlights the most
+important values, like statuses. In contrast, the ta-
+ble view additionally provides further interaction. In
+this way, procurement-relevant data is updatable from
+the responsible user. Besides a graphical summariza-
+tion of procurement-relevant data, users can also trig-
+ger procurement-relevant bots in trivial and/or low-
+risk tasks and processes. Those aim, for example, to
+reduce human-to-human interaction regarding nego-
+tiating low-risk volumes of materials. Another use
+case is the bundling of RfQs across different depart-
+ments. Using these and other bots saves time and
+money since actual work is automatized and volumes
+measured in Euro are optimized. Other features of
+the PAAS support the decision-making of purchasers
+since they provide, for example, a supplier rating
+based on different well-maintained characteristics, a
+forecasting of purchasing volumes, and a material
+group share that indicates the share of each supplier
+for the selected material groups. Improving trans-
+parency is achieved by breaking down complex cross-
+department processes while highlighting the current
+state of the processes and the actual task logged-in
+users have to fulﬁll.
+3.2.3 Sustainable Sourcing Space
+Transparency regarding environmental and risk im-
+pact, as well as fostering a sustainable supply chain,
+is the main subject of the SSS. Therefore, this space
+monitors the environmental and climate impacts of
+actual materials, products, and suppliers. In this way,
+purchasers can directly see the impact of their sourc-
+ing decision. The SSS automatically gathers informa-
+tion and data on suppliers and their products from in-
+ternal and external sources to calculate a transparent
+so-called sustainable score. As a result, we can re-
+duce manual research of purchasers and supply chain
+experts. This sustainable score can trigger alerts since
+a potential risk in the supply is detected or suggests
+materials or products from different, more sustain-
+able suppliers. Generally, the sustainable score ex-
+ists in four stages but concentrates either on Corpo-
+User
+information related
+Projects
+Action Plan Measures
+My Suppliers
+Contracts
+performance related
+Auctions
+RfQs
+action related
+Activities
+Material Group
+information related
+Top Parent MG Share
+performance related
+Auctions
+RfQs
+action related
+Negotiation Bot
+Bundling Bot
+User Management | Role Management | Feature Handling | Alias Function | Panel Personalization | Context Help | Excel Export |
+Search | Filter | Charts | Notiﬁcations
+User View Team View Alias View
+Procurement
+Application
+Sustainable Sourcing
+information related
+Environmental Impact
+Sustainable Score
+External Product Chain
+action related
+Bundling Bot
+Information
+dynamic
+Posts
+News
+Community Updates
+Announcements
+static
+Bookmarks
+Links
+Supplier
+information related
+Certiﬁcates
+Company Share
+General Information
+Supplier Hierachy
+Contracts
+...
+performance related
+Auctions
+RfQs
+Financial Ratings
+Volume
+action related
+Negotiation Bot
+Figure 3: This ﬁgure illustrates the Digital Procurement Workspace. The left pillar represents the PIS, the three in the middle
+the PAAS, and the right one the SSS. The top indicates the different views. The bottom lists all fundamental functionalities.
+rate Carbon Footprint (CCF) or Product Carbon Foot-
+print (PCF). The ﬁrst stage is the monetary CCF ap-
+proach. In this approach, the CO2 emissions are ob-
+tained based on the responsible revenue of a sup-
+plier. For example, if the Anonymous Company is
+responsible for 10% of a supplier’s revenue, it also
+obtains 10% of its CO2 emissions. The second CCF
+approach is based on the determined CO2 emissions
+for different sectors done by a third party. So exter-
+nal databases are accessed to retrieve data about the
+CO2 emissions if, e.g., steal-related products are pur-
+chased from a speciﬁc supplier. The third approach
+is also based on third parties and external databases.
+There, the determined emissions for speciﬁc products
+are taken from such databases. In this third stage, the
+PCF is calculated, which also applies to the last stage.
+There, the actual emissions measured by the supplier
+are communicated and taken for further CO2 emis-
+sions reporting. In general, there is a focus only on
+CO2 emissions. Other environmental- and climate-
+relevant values are represented in CO2 equivalents.
+As a result of the sustainable score and the entire SSS,
+the supply chain should be more resilient, less prone
+to stoppages, and more environment-friendly. This
+way, the goals for the overall purchasing strategy can
+be achieved more quickly, and the time for ﬁnding
+a ﬁtting supplier is reduced. Additionally, the emis-
+sions of current products can be reduced, the com-
+pany’s reputation can be increased, and, as Valbuena
+and Mandojana (Valbuena-Hernandez and Ortiz-de
+Mandojana, 2022) describe, effective and sustainable
+strategic partnerships can be achieved.
+4 Evaluation
+We conducted several interviews to evaluate the de-
+veloped application. The interviews aimed to analyze
+whether the requirements and overall goals were ful-
+ﬁlled, and the expected beneﬁts were obtained.
+4.1 Study Design
+To verify that the introduced requirements are cor-
+rectly implemented in the application, qualitative and
+quantitative analysis in the form of expert interviews
+has been done. The interviews were held after the
+launch of the ﬁrst version of the DPW. The experts
+have been asked about their experiences a purchaser
+makes while interacting with the developed applica-
+tion that contains the described concepts. First, they
+are asked about the beneﬁts of each concept. Then
+the interview changed to a quantitative manner, and
+the experts could choose between different predeﬁned
+answers regarding the time savings for each concept.
+The same has then been done regarding decision-
+making support. After that, the interviews changed
+again to a qualitative manner to summarize the main
+beneﬁts of the application and to give the experts a
+chance to say anything about the DPW the interviewer
+had not asked for.
+4.2 Sample
+In total, ten experts were interviewed. Two of them
+are women, and eight are men. The experts are all
+employed at Bosch and have different job roles like
+product owner, department lead, sustainability expert,
+junior and senior purchaser, and innovation manager.
+The interview showed that most experts could answer
+mostly without any counter questions. Nine of the
+ten interviews were valid, and all interviewees had
+the same interviewer and the same interview style,
+and all interviews were conducted online, while nine
+were held in German and one in English. One inter-
+view could not be considered since the interviewee
+struggled with answering the questions and wanted to
+avoid the interview in general.
+4.3 Data Analyses
+The interview transcripts were, according to Mayring
+(Mayring, 2000), answer-by-answer summarized, an-
+alyzed, and further categorized. This way, various
+categories have been found. Using Mayrings meth-
+ods, the summarization continues until statements can
+be generalized and further clustered so that categories
+can be combined (Mayring, 2000). As a result, each
+category is deﬁned by a deﬁnition statement. To com-
+pare the categories in their importance, they have
+been counted. The description of the complete cod-
+ing scheme is beyond the scope of this paper, but the
+emerging categories are presented in the results sec-
+tion. The quantitative part of the interview is han-
+dled differently. The answers to each question regard-
+ing time-saving and support in decision-making are
+counted and presented in the next subsection.
+4.4 Results
+In total, eleven categories describing a DPW’s bene-
+ﬁts are found. They are listed and further described
+in Table 1 and published in their raw data on Zen-
+odo (St¨utz et al., 2022). During the interviews, some
+experts mentioned several shortcomings and risks.
+Since we have not explicitly asked for shortcomings
+or disadvantages, those are further discussed and in-
+terpreted in section 5.
+Figure 4: Number of answers regarding time saving.
+Figure 5: Number of answers regarding support.
+For the three concepts, the weighting and occa-
+sionally the beneﬁts as a whole differ. The PIS mainly
+increases the purchasing experience regarding scout-
+ing new suppliers and day-to-day workﬂows, result-
+ing in increased efﬁciency, which ﬁve of the inter-
+viewed experts noted. Increased efﬁciency for a pur-
+chaser means more suppliers can be contracted man-
+ually and with better preparation which, based on the
+experts, leads to better results in Euro.
+On the other hand, seven of the experts noted that
+PAAS mainly leads to optimization, while six experts
+see increased efﬁciency in, for example, sourcing, ne-
+gotiation, and contracting. However, it also provides
+increased transparency and leads to time savings for
+purchasers. Transparency is seen as the SSS’s main
+beneﬁt, which eight of the experts noted. However,
+the space also increases decision-making and adher-
+ence and further development to the central purchas-
+ing strategy. Some beneﬁts of the single spaces had
+only a few mentions. Nevertheless, some of them are
+highlighted as the main beneﬁt of an application that
+contains such concepts. This fact applies especially to
+the collaboration aspect. While the respective spaces
+Table 1: Overview of categories mentioned across all three spaces, with deﬁnitions and examples.
+Category Frequ-
+ency
+Deﬁnition Example Require-
+ment
+Transparency 14 Statement that indicates an
+increase in transparency
+“If we want to achieve a certain target, in terms of
+CO2 footprint, then of course that relates to the en-
+tire supply chain.”
+2, 8, 9
+Efﬁciency 11 Statement that efﬁciency in
+time and the ﬁnancial out-
+come is increased.
+“You can organize activities in a more targeted man-
+ner and thus work more efﬁciently, of course, and
+you can also improve processes and then lower
+prices.”
+Decision-
+Making
+9 Statement that the process
+of decision-making is im-
+proved and better decisions
+are made.
+“It brings together decision-relevant information
+quickly and compactly so that the buyer makes
+the right decisions or is supported in the decision-
+making process.”
+Centralization 8 Statement that information
+and tasks can be worked in
+one central application.
+“You have personalized information in one place
+without system and media discontinuities.”
+1, 2, 3
+Optimization 8 Statement that the applica-
+tion optimizes the workﬂow
+of purchasers.
+“Now you see: where I haven’t had a price change
+for a long time, how have my raw material prices
+developed, is this a good time to negotiate, or a bad
+time to negotiate.”
+1, 2, 5, 6,
+9, 10
+Strategy 7 Statement that the company
+or department-wide strat-
+egy is adapted or adhered
+to.
+“If I also have a real conﬂict of goals as a result and
+I notice the effects on my subgoals more strongly,
+then I probably decide differently.”
+3, 9
+Time-saving 7 Statement that actual time
+is saved.
+“If the buyer today somehow has to do a lot of re-
+curring, i.e. relatively monotonous, tasks that add
+zero value, this naturally ties up capacity that is now
+freed up.”
+4, 10
+Personal-
+ization
+5 Statement that the applica-
+tion provides personalized
+information and is still fur-
+ther adjustable.
+“You have the information straight to you, they are
+Tailor-Made for you.”
+1, 7
+Insights 4 Statement that new insights
+are gained.
+“Purchasers don’t really know 80 to 90 percent of
+their suppliers. This means that if there is potential
+there, you have to actively point it out to them.”
+Collaboration 3 Statement that the collab-
+oration and communication
+of employees are increased.
+“Today, this is used not only for purchasing, but
+also for other areas such as logistics, sales, and pro-
+duction, so that everyone can talk directly to each
+other.”
+Informed 3 Statement that employees
+are in general better in-
+formed.
+“This also ensures that everybody is at the same
+level of information.”
+miss basic features regarding collaboration, experts
+mentioned collaboration as one of the main beneﬁts
+of the application. In general, the main beneﬁts are in-
+creased transparency and time saving, better decision-
+making, an increased collaboration of purchasers and
+departments, and a higher purchasing experience in
+day-to-day work through personalizing the entire ap-
+plication containing the three spaces.
+The quantitative part of the interview focused on
+decision-making and time-saving since those two can
+be seen as the main advantages of business infor-
+mation systems and are also mentioned as the main
+goals of the domain experts interviewed while set-
+ting up the application requirements (Mes ´aroˇs et al.,
+2021). During the evaluating expert interviews, the
+participants were asked if the respective space (PIS,
+PAAS, SSS) does not save time, saves some time,
+or saves much time. The same was done regard-
+ing decision-making, while the predeﬁned answers
+were no support in decision-making, some support
+in decision-making, and much support in decision-
+making. As the evaluation in Figure 4 and Figure 5
+shows, most time-saving can be achieved by imple-
+menting a feature-rich PAAS. Based on the experts,
+decision-making is supported almost equally while
+implementing a PAAS and SSS. Nevertheless, PIS is
+considered in both categories as some support.
+5 Discussion
+One of the goals of this work is to evaluate the appli-
+cation against the set requirements. The expert inter-
+views were designed to verify the requirements.
+5.1 Veriﬁcation of the Set Requirements
+All requirements introduced in subsection 3.1 are ful-
+ﬁlled due to the implementing of the concepts.
+User-relevant information is displayed via the PIS,
+and tasks can be assigned inside the PAAS. The ex-
+perts also mentioned as a beneﬁt that due to these
+spaces, users are more informed, and the workﬂow
+is considered more optimized. Thus, the ﬁrst require-
+ment is fulﬁlled. Assigning tasks to others and com-
+menting on processes or RfQs leads to increased and
+optimized collaboration. This was indicated by the
+experts directly and is seen as an overall beneﬁt of
+the developed application while fulﬁlling requirement
+three. On the other hand, requirements one and seven
+are fulﬁlled by favoring suppliers, selecting the news,
+and adjusting the application’s layout. That leads to
+time savings and a personalizable application. Fur-
+thermore, the implementation of the PAAS provides
+the interaction (ﬁltering, searching, adjusting) of ag-
+gregated data from different data sources. Those data
+sources are partially maintained by different depart-
+ments. The aggregated and analyzed data allows fur-
+ther evaluations and visual representations. Accord-
+ing to the experts, this results in an optimized appli-
+cation that improves decision-making, increases efﬁ-
+ciency, and saves time. Thus requirements one, two,
+ﬁve, six, nine, and ten are fulﬁlled. In some cases,
+processes that were not digital before are automatable
+using bots. Besides, some triggerable bots can also
+automate low-risk processes and thus reduce human-
+to-human interaction. Those bots save time and are
+responsible for fulﬁlling requirements four and ten.
+The SSS offers to break down the supply chain and
+provides further insights regarding the sustainability,
+risk, and environmental impact of single materials and
+products. According to the experts, that leads to in-
+creased transparency and new insights, fulﬁlling re-
+quirements two, eight, and nine. Furthermore, the
+increased transparency and the new insights can also
+lead to strategy adjustments, which can directly re-
+ﬂect carbon emissions.
+Among others, most business information systems
+have the goal of reducing costs and time (Mes ´aroˇs
+et al., 2021). Either while saving time for employees
+or improving decision-making so the company can
+reach a better result in Euros. By implementing the in-
+troduced concepts, the DPW saves time and improves
+decision-making. Besides a company’s performance,
+climate change and the goal of reaching the set goals
+of the Paris Agreement for 2050 are additionally rele-
+vant. Since the experts mentioned that the enrollment
+of the DPW improves the company’s performance but
+also fosters procurement regarding sustainability and
+resilience, the overall goals can be seen as achieved,
+even though not all relations of the found beneﬁts and
+the created requirements are described here in detail.
+5.2 General Findings
+Besides verifying the set requirements, other mean-
+ingful new insights are found, like dependencies of
+beneﬁts, some risks of the application, and sugges-
+tions for potential enablers of such a DPW.
+In general, it is recommended to focus more on
+the PAAS and SSS. Figure 4 shows that according to
+the interviewed experts, the most time can be saved
+by implementing the PAAS concept, while SSS could
+become more and more relevant in the future. On the
+other hand, Figure 5 shows that SSS leads to better
+decision-making. Due to the increased impact of pur-
+chasers’ daily business regarding sustainability and
+the environment and studies that have already shown
+that green digital procurement applications foster Big
+Data analysis competencies, it is recommended to set
+fundamentals for SSS early in development (AlNu-
+aimi et al., 2021). Concretely it is recommended to
+start with centralizing information and allow as well
+as support personalization features from the begin-
+ning of development since they inﬂuence time-saving
+and decision-making and are independent of other
+categories. After centralizing and during the develop-
+ment of new features, keep in mind that the new fea-
+tures should either improve or support transparency
+(e.g., showing the supplier’s responsible), collabora-
+tion (allowing assigning tasks), or optimization (ag-
+gregate data). As a result, new insights should occur,
+and the possibility to adapt the purchasing strategy
+based on the new insights is given. To sum it up, if
+done right, a centralized and personalizable applica-
+tion leads to the mentioned time-saving, higher efﬁ-
+ciency, and improved decision-making but enables, in
+general, all other beneﬁts presented in Table 1.
+The DPW generally provides more features than
+the presented competitors from subsection 2.2. Espe-
+cially SSS- and PIS-related features are entirely miss-
+ing in those applications. While introduced function-
+ality of PAAS also lacks in those applications. The
+found beneﬁts of the DPW are also not transmittable
+to the earlier described applications. Moreover, it is
+doubtful that the found and introduced beneﬁts can
+also be achieved in those applications. Therefore, im-
+Figure 6: Inﬂuences of the different categories. The arrow
+direction indicates the inﬂuence direction.
+plementing a customized DPW is a good solution.
+5.3 Dependencies and Risks
+While evaluating the results, we discovered some de-
+pendencies of the found beneﬁts presented in Table 1.
+In fact, some beneﬁts act as a prerequisite for oth-
+ers. For example, Centralization is considered and
+also actually mentioned as the prerequisite for en-
+abling Transparency and Collaboration. That, on the
+other hand, leads to new insights, which further leads
+then to improved decision-making and time-saving.
+Another example, according to the experts, is that
+personalization regarding news, blog posts, and an-
+nouncements lead to more up-to-date users, resulting
+in better decisions. All of those dependencies are out-
+lined and contextualized in Figure 6.
+While centralization is considered a prerequisite
+for most other beneﬁts, as seen in Figure 6, it is also
+mentioned as a risk for the company since a central
+application could lead to a single point of failure. Be-
+sides that, increased feature richness could lead to
+complex maintenance, which results in higher costs
+that purchasers must balance with a more efﬁcient
+procurement. Nevertheless, initial high costs and the
+maintenance for developing applications and new fea-
+tures inside the application are generally known is-
+sues in service-oriented software applications.
+Due to too many powerless features with a poor
+User Experience (UX), users could start to work less
+efﬁciently or, worst case, avoid the application. To
+prevent unsatisﬁed users, it is helpful to educate them,
+either with software or through personal training. An-
+other suggestion is to allow user inputs as early as
+possible because if that is not the case, users must
+use different additional tools for updating data, which
+leads to decreased user acceptance and satisfaction.
+5.4 Future Work
+The evaluation of the developed application focuses
+mainly on the beneﬁts for the company itself and its
+positive impact on the users. Future work should also
+consider the disadvantages of such an application.
+Even though centralization and the lack of proper UX
+are mentioned, experts can deliver even more possible
+disadvantages if they are speciﬁcally asked for them.
+Today the entire application does not use a knowl-
+edge graph architecture. Currently, all the data is
+imported from different sources and stored in a cen-
+tral database. Ma and Moln´ar (Ma and Moln´ar, 2019)
+suggest using ontologies and a knowledge graph
+because that is considered an effective technology to
+integrate data from multiple heterogeneous sources.
+Therefore, future work should use a knowledge graph
+as the underlying technology while implementing the
+presented concepts and features. Even if an appli-
+cation implements the presented features based on
+knowledge graphs (or any other underlying technol-
+ogy), there is still a risk left. Poor UX could lead to
+unsatisﬁed users, and as Magnus and Rudra (Magnus
+and Rudra, 2019) claim, dashboards built based on
+principles of cognition enhance decision-making in
+a supply chain. Therefore, future work should focus
+more on UX-related topics.
+6 Conclusion
+Due to the urge to accomplish carbon neutrality, wars,
+sanctions, the pandemic, and catastrophes, sustain-
+able SCM has become even more important for com-
+panies. As a global Fortune 500 company, we have
+developed an application that encompasses a novel
+way of information integration, automation tools as
+well as analytical techniques. All developed fea-
+tures can be categorized into one of the three intro-
+duced concepts - the Procurement Information Space,
+the Procurement Analytics and Automation Space,
+and the Sustainable Sourcing Space. In-depth ex-
+pert interviews were conducted to verify that the im-
+plemented spaces perform as expected. The results
+of the interviews show that the set requirements are
+met. Besides that, the interviews revealed increased
+time-saving and support in decision-making, espe-
+cially due to the Procurement Analytics and Automa-
+tion Space and the Sustainable Sourcing Space. In-
+creased transparency, efﬁciency, and decision-making
+support are mentioned most as a beneﬁt, but they may
+not be the most important ones. This work encour-
+ages other purchasing departments to build their own
+DPW and provides valuable suggestions on what con-
+cepts and features a DPW should implement. Exist-
+ing applications can also proﬁt from this work since
+new concepts are presented, and the evaluation of
+the beneﬁts could lead to strategy adjustments. Such
+strategy adjustments could then inﬂuence procure-
+ment regarding a more sustainable, resilient, and more
+carbon-reduced supply chain so that a Digital Pro-
+curement Workspace can help reach the goals of the
+Paris Agreement in the next twenty-seven years.
+ACKNOWLEDGEMENTS
+We thank all participants from the Robert Bosch
+GmbH who were, in whatever case, involved with the
+Digital Procurement Workspace and this work.
+REFERENCES
+Adjei-Bamfo, P., Maloreh-Nyamekye, T., and Ahenkan, A.
+(2019). The Role of E-Government in Sustainable
+Public Procurement in Developing Countries: A Sys-
+tematic Literature Review. Resources, Conservation
+and Recycling, 142.
+AlNuaimi, B. K., Khan, M., and Ajmal, M. M. (2021). The
+Role of Big Data Analytics Capabilities in Greening
+E-Procurement: A Higher Order PLS-SEM Analysis.
+Technological Forecasting and Social Change, 169.
+Appolloni, A., Sun, H., Jia, F., and Li, X. (2014). Green
+Procurement in the Private Sector: A State of the Art
+Review Between 1996 and 2013. Journal of Cleaner
+Production, 85.
+Ari, A., Arregui, N., Black, S., Celasun, O., Iakova, D.,
+et al. (2022). Surging Energy Prices in Europe in the
+Aftermath of the War: How to Support the Vulnerable
+and Speed up the Transition Away from Fossil Fuels.
+Barrad, S., Gagnon, S., and Valverde, R. (2020). An An-
+alytics Architecture for Procurement. International
+Journal of Information Technologies and Systems Ap-
+proach, 13.
+Glinz, M. (2007). On Non-Functional Requirements. In
+15th IEEE International Requirements Engineering
+Conference.
+Gomez Llanez, C., Diaz-Leal, N., and Angarita Sanguino,
+C. (2020). A Comparative Analysis of the ERP Tools,
+Odoo and Openbravo, for Business Management.Aibi
+revista de investigaci´on, administraci´on e ingenier´ıa.
+Grabis, J. (2019). Optimization of Gaps Resolution Strategy
+in Implementation of ERP Systems. SCITEPRESS.
+Handﬁeld, R., Jeong, S., and Choi, T. (2019). Emerging
+Procurement Technology: Data Analytics and Cogni-
+tive Analytics. International Journal of Physical Dis-
+tribution & Logistics Management, 49(10).
+Hecht, D. and Hofbauer, G. (2022). Digital Procurement.
+Springer Fachmedien Wiesbaden.
+Igarashi, M., de Boer, L., and Michelsen, O. (2015). Inves-
+tigating the Anatomy of Supplier Selection in Green
+Public Procurement. Journal of Cleaner Production,
+108.
+Ilie-Zudor, E., Kem´eny, Z., Ek´art, A., Buckingham, C. D.,
+and Monostori, L. (2014). A Solution for Informa-
+tion Management in Logistics Operations of Modern
+Manufacturing Chains. Procedia CIRP, 25.
+Ma, C. and Moln ´ar, B. (2019). A Legacy ERP System
+Integration Framework based on Ontology Learning.
+SCITEPRESS.
+Magnus, S. and Rudra, A. (2019). Real-Time Opera-
+tional Dashboards for Facilitating Transparency in
+Supply Chain Management: Some Considerations.
+SCITEPRESS.
+Masudin, I., Umamy, S. Z., Al-Imron, C. N., and Restupu-
+tri, D. P. (2022). Green Procurement Implementation
+Through Supplier Selection: A Bibliometric Review.
+Cogent Engineering, 9(1).
+Mayring, P. (2000). Qualitative content analysis. Forum:
+Qualitative Social Research, 1(2).
+Mes´aroˇs, P., Beh ´unov´a, A., Mandi ˇc´ak, T., Beh ´un, M., and
+Krajn´ıkov´a, K. (2021). Impact of Enterprise Informa-
+tion Systems on Selected Key Performance Indicators
+in Construction Project Management: An Empirical
+Study. Wireless Networks, 27(3).
+Pekˇsa, J. and Grabis, J. (2018). Integration of Decision-
+Making Components in ERP Systems. SCITEPRESS.
+Rejeb, A., Keogh, J., and Edit, S. (2018). Exploring New
+Technologies in Procurement.
+St¨utz, J.-D., Karras, O., Oelen, A., and Auer, S. (2022).
+Results of the evaluation about the expert inter-
+views regarding the beneﬁts of a digital procurement
+workspace. https://doi.org/10.5281/zenodo.
+7323210.
+St¨utz, J.-D., Karras, O., Oelen, A., and Auer, S. (2023).
+Comparison of private and public green procurement
+literature reviews. https://doi.org/10.48366/
+r287929.
+S¨onnichsen, S. D. and Clement, J. (2020). Review of Green
+and Sustainable Public Procurement: Towards Circu-
+lar Public Procurement. Journal of Cleaner Produc-
+tion, 245.
+Tarigan, Z. J. H., Siagian, H., and Jie, F. (2021). Im-
+pact of enhanced enterprise resource planning (erp) on
+ﬁrm performance through green supply chain manage-
+ment. Sustainability, 13.
+TheSophists (2016). Requirements Engineering - A short
+RE Primer.
+Valbuena-Hernandez, J. P. and Ortiz-de Mandojana,
+N. (2022). Encouraging Corporate Sustainability
+Through Effective Strategic Partnerships. Corpo-
+rate Social Responsibility and Environmental Man-
+agement, 29(1).
+Zhan, Y . and Tan, K. H. (2020). An Analytic Infrastruc-
+ture for Harvesting Big Data to Enhance Supply Chain
+Performance. European Journal of Operational Re-
+search, 281(3).

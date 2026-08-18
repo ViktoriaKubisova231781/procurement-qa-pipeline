@@ -1,0 +1,874 @@
+VALUE FOR
+MONEY
+PROCUREMENT GUIDANCE
+NOVEMBER 2023
+Achieving VfM in Investment Projects
+Financed by the World Bank
+First edition 2016.
+Second edition 2023.
+Copyright © November 2023
+The World Bank
+1818 H Street NW
+Washington, DC 20433
+Telephone: 202-473-1000
+Internet: www.worldbank.org
+Disclaimer
+This work is a product of the staff of The World Bank. The findings, interpretations, and conclusions
+expressed in this work do not necessarily reflect the views of The World Bank, its Board of Executive
+Directors, or the governments they represent.
+Rights and Permissions
+The material in this work is subject to copyright. Because The World Bank encourages dissemination
+of its knowledge, this work may be reproduced, in whole or in part, for noncommercial purposes as
+long as full attribution to this work is given. Any queries on rights and licenses, including subsidiary
+rights, should be addressed to:
+Office of the Publisher
+The World Bank
+1818 H Street NW
+Washington, DC 20433 USA
+Fax: 202-522-2422
+Email: pubrights@worldbank.org.
+Abbreviations and Defined Terms
+The following abbreviations and defined terms are used in this Guidance. Defined terms are capitalized.
+Abbreviation or TermFull Term or Definition
+ALB Abnormally low Bid or Proposal. The Bid or Proposal price, in combination
+with other elements of the Bid or Proposal, appears so low that it raises
+material concerns with the Borrower as to the capability of the Bidder or
+Proposer to perform the contract for the offered price.
+Applicant A firm, joint venture, or Consultant that submits an Application in response
+to an invitation for Prequalification, Initial Selection, or Shortlisting.
+Application A document submitted by an Applicant in response to an invitation for
+Prequalification or Initial Selection
+Bank World Bank.
+Bid An offer, by a firm or joint venture, in response to a Request for Bids to
+provide the required Goods, Works, or Nonconsulting Services.
+Bidder A firm or joint venture that submits a Bid for Goods, Works, or
+Nonconsulting Services in response to a Request for Bids.
+Borrower A Borrower or recipient of World Bank Investment Project Financing (IPF)
+and any other entity involved in the implementation of a project financed
+by IPF.
+Consultant A variety of private entities, joint ventures, or individuals that provide
+services of an advisory or professional nature. Where the Consultant is an
+individual, they are not engaged as an employee.
+Consulting
+Services
+A range of services of an advisory or professional nature provided
+by Consultants, typically providing expert or strategic advice, such
+as management consultants, policy consultants, or communications
+consultants, advisory and project-related services include feasibility
+studies, project management, engineering services, finance, and
+accounting services, training, and development.
+Evaluation Criteria Price and non-price criteria (including Rated Criteria when used) that
+define how the Borrower assesses which Bidder or Proposer provides the
+Most Advantageous Bid or Proposal.
+Fraud and
+Corruption
+Sanctionable practices of corruption, fraud, collusion, coercion, and
+obstruction defined in the Anti-Corruption Guidelines and reflected in
+paragraph 2.2a of Annex IV of the Procurement Regulations.
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+ii
+Abbreviation or TermFull Term or Definition
+Goods Category of Procurement that includes commodities, raw material, machinery,
+equipment, vehicles, plant, and related services such as transportation,
+insurance, installation, commissioning, training, and initial maintenance.
+GPN General Procurement Notice.
+Initial Selection Shortlisting process used before issuing a Request for Proposals in the
+procurement of Goods, Works, or Nonconsulting Services.
+Investment Project
+Financing (IPF)
+Bank’s financing of investment projects that aims to promote poverty
+reduction and sustainable development. IPF supports projects with
+defined development objectives, activities, and results, and disburses the
+proceeds of Bank financing against specific eligible expenditures.
+KPI Key Performance Indicator.
+Most
+Advantageous Bid/
+Proposal
+The Bid or Proposal that meets the qualification criteria and has been
+determined to be substantially responsive to the Request for Bids or
+Request for Proposals and has been evaluated as the highest-ranked Bid
+or Proposal, as defined in the Procurement Regulations paragraphs 5.68 to
+5.71 and Procurement Regulations Annex X Evaluation Criteria.
+Non-Consulting
+Services
+Services that are not Consulting Services, normally bid and contracted
+on the basis of performance of measurable outputs, and for which
+performance standards can be clearly identified and consistently applied.
+Examples include drilling, aerial photography, satellite imagery, mapping,
+and similar operations
+Prequalification Shortlisting process that can be used before inviting Requests for Bids in
+the Procurement of Goods, Works, or Nonconsulting Services.
+Probity Assurance
+Provider
+An independent third party that provides specialist probity services for
+concurrent monitoring of the Procurement Process.
+Procurement Planning for and sourcing Goods, Works, Nonconsulting services, or
+Consulting Services to meet required objectives.
+Procurement
+Approach
+The overall design of fit-for-purpose procurement to award contracts
+that deliver the Project Development Objectives and Value for Money
+(VfM). This includes the Procurement Arrangements, procurement risk
+management, contract strategy, market engagement, requirements
+drafting, and contract management (where appropriate).
+Procurement
+Arrangements
+Procurement Arrangements are the combination of Selection Methods and
+Market Approaches.
+Procurement
+Documents
+Generic term to cover all Procurement Documents issued by the Borrower
+to potential Applicants, Bidders, and Proposers, include GPN, SPN, REoI,
+prequalification document, initial selection document, Request for Bids
+document, Request for Proposal documents, forms of contracts and any
+addenda. The term is derived from the Procurement Regulations.
+Procurement Plan Borrower’s Procurement Plan for IPF projects, as referred in paragraphs
+4.4 and 4.5 of the Procurement Regulations and incorporated by reference
+in the Legal Agreement.
+Procurement
+Process
+Full procurement life cycle that starts with the identification of a need and
+continues through planning, preparation of specifications or requirements,
+budget considerations, selection, contract award, and contract management.
+It ends on the last day of the warranty period, when applicable.
+iii
+ABBREVIATIONS AND DEFINED TERMS
+Abbreviation or TermFull Term or Definition
+Procurement
+Regulations
+“The World Bank Procurement Regulations for IPF Borrowers” that
+govern the Procurement of Goods, Works, Non-Consulting and
+Consulting Services.
+Project
+Development
+Objectives
+The intended benefits to a specific community/group of people or
+organizations/institutional changes that are to be realized through one or
+more development interventions.
+Project
+Procurement
+Strategy for
+Development
+(PPSD)
+Project-level strategy document prepared by the Borrower that describes
+how Procurement in IPF operations will support the Project Development
+Objectives of the project and deliver VfM.
+Proposal Offer, in response to a RFP, which may or may not include price, by one
+party to provide Goods, Works, Nonconsulting Services, or Consulting
+Services to another party.
+Proposer Individual entity or joint venture that submits a Proposal for Goods, Works,
+and Nonconsulting Services in response to a Request for Proposals.
+Rated Criteria Rated Criteria used to evaluate non-price attributes of Bids and Proposals,
+including quality, risks and risk mitigations, opportunities, sustainability,
+and other technical aspects.
+Specific references in the Procurement Regulations include:
+◾ Paragraph 5.50. Evaluation Criteria—requirement to apply Rated
+Criteria for procurements subject to international competition, for
+which a Bank Document is used.
+◾ Paragraphs 5.60 and 5.70—MABP.
+◾ Section VI, Paragraph 6.1—Matrix of Approved Selection Methods for
+Goods, Works, and Non-Consulting Services.
+◾ Section VI, Paragraph 6.37—Use of Rated Criteria.
+◾ Annex X—Evaluation Criteria.
+REoI Request for Expressions of Interest.
+RFB Request for Bids as a selection method.
+RFP Request for Proposals as a selection method.
+Sexual Exploitation
+and Abuse (SEA)
+Sexual exploitation: actual or attempted abuse of a position of vulnerability,
+differential power or trust for sexual purposes, including, but not limited to,
+profiting monetarily, socially or politically from the sexual exploitation
+of another.
+Sexual abuse: actual or threatened physical intrusion of a sexual nature,
+whether by force or under unequal or coercive conditions.
+Procurement projects assessed as high-risk of SEA apply strict processes
+and contractor disqualification measures in relation to SEA.
+Sexual Harassment
+(SH)
+Any unwelcome sexual advances, request for sexual favors, and other
+verbal or physical conduct of a sexual nature.
+Procurement projects assessed as high-risk of SH apply strict processes
+and contractor disqualification measures in relation to SH.
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+iv
+Abbreviation or TermFull Term or Definition
+Shortlist Shortlisting process used before inviting Requests for Proposals in the
+procurement of Consulting Services.
+SPN Specific Procurement Notice.
+Standard
+Procurement
+Documents (SPDs)
+Procurement documents issued by the Bank to be used by Borrowers
+for IPF projects. Examples include GPN, SPN, EOI, REoI, Prequalification
+documents, Initial Selection documents, and RFB and RFP documents.
+Subcriteria Subsection of an Evaluation Criteria to which a Bidder or Proposer is
+required to respond.
+VfM Value for Money represents the optimum combination of total cost of
+ownership and quality (or fitness for purpose) to meet the Borrower’s
+requirements specified in the Procurement Documents.
+Works Category of procurement that refers to construction, repair, rehabilitation,
+demolition, restoration, maintenance of civil work structures, and so
+on, and related services such as transportation, insurance, installation,
+commissioning, training, operation, and maintenance.
+Contents
+Abbreviations and Defined Terms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . i
+SECTION I . Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+What Is Value for Money? .......................................................... 1
+Optimizing VfM ................................................................... 2
+Achieving VfM .................................................................... 4
+Boosting VfM Using Rated Criteria .................................................. 4
+This Guidance .................................................................... 5
+SECTION II . Procurement Strategy and Planning . . . . . . . . . . . . . . . . . . . . . . 7
+Elements......................................................................... 7
+Procurement Approach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+SECTION III . Procurement Arrangements  . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Design........................................................................... 11
+Procurement Arrangement Options ................................................ 12
+SECTION IV . Specifications  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Types of Specifications ........................................................... 15
+Conformance Specification........................................................ 15
+Performance Specification ........................................................ 16
+Sustainability Procurement Requirements ........................................... 17
+SECTION V . Evaluation Criteria  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Application ...................................................................... 20
+Prequalification and Initial Selection ................................................ 20
+Using Rated Criteria .............................................................. 22
+Evaluation of Cost................................................................ 23
+Due Diligence and Abnormally Low Bids ............................................ 23
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+vi
+SECTION VI . Contract Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Key Performance Indicators ....................................................... 26
+Contract Management Plan ....................................................... 26
+Introduction
+The intent of this Procurement Guidance is to introduce the concept of achieving Value for Money
+(VfM) throughout the Procurement Process in projects funded by World Bank Investment Project
+Financing (IPF). Information on the Bank’s Procurement Framework can be found on the Procurement
+Framework website.
+More detailed explanations of the concepts introduced in this Guidance are included in separate
+Procurement Guidance, specifically the following:
+◾ Project Procurement Strategy for Development (PPSD) (Long Form) (Short Form)
+◾ Evaluating Bids and Proposals including the use of Rated Criteria
+◾ Abnormally Low Bids
+◾ Contract Management, General Principles
+◾ Contract Management, Practice
+◾ Standard Procurement Documents—An Overview
+◾ Sustainable Procurement
+What Is Value for Money?
+The World Bank Procurement Regulations for IPF Borrowers (and in particular Annex I, Value for Money)
+include requirements for implementing the concepts outlined in this Guidance. Annex I describes VfM
+as “the effective, efficient, and economic use of resources, which requires the evaluation of relevant
+costs and benefits, along with an assessment of risks and of non-price attributes and/or life-cycle costs,
+as appropriate. Price alone may not necessarily represent VfM.”
+VfM should be considered at all stages of the Procurement Process, which is defined as the whole
+Procurement life cycle and includes the following steps:
+◾ Identify and specify the need
+◾ Assess market and operating environment to determine the optimum Procurement Approach
+SECTION
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+◾ Prepare specifications or requirements with attention to country and project specific risks and
+issues
+◾ Prepare detailed plan for the Procurement Process, including the evaluation methodology, and
+where appropriate the use of Rated Criteria
+◾ Assess budget considerations
+◾ Invite offers, evaluate, and award contract
+◾ Prepare contract management plan and implement monitoring, evaluation, and payment
+processes, proactively manage the contract to ensure that both parties meet their respective
+obligations and emerging risks are addressed quickly.
+The Procurement Process ends on successful delivery of the contracted deliverables in full. When a
+warranty applies, it ends on the last day of the warranty period.
+Optimizing VfM
+The Procurement Process includes numerous opportunities to address VfM. This supports develop-
+ing a fit-for-purpose Procurement Approach that is both country and project specific.
+Figure I demonstrates that VfM elements can be individual and cumulative and exist throughout the
+Procurement Process to more effectively, efficiently, and economically use the resources available
+to a project, in other words, to optimize VfM. Examples include ensuring:
+◾ Integrity throughout the Procurement Process
+◾ That the needs of end users and other stakeholders are appropriately identified and factored
+into the Procurement Arrangements
+◾ That risks to achieving the required objectives are appropriately identified and mitigated
+through design of the Procurement Arrangements
+◾ That the Procurement Arrangements are fit for purpose relative to the risk, value, and complex-
+ity of the Procurement and to the operating context and nature of the supply market
+◾ When appropriate, that providers are given the opportunity to offer cost-effective and innova-
+tive solutions to meet identified needs
+◾ That contract award decisions are based on suitable Evaluation Criteria and when appropriate
+the use of Rated Criteria
+◾ That contracts are managed effectively to ensure that VfM is achieved throughout delivery.
+Procurement decisions made throughout the Procurement Process entail a trade-off between the benefit
+gained and the cost of the approach relative to the benefits and costs of alternative arrangements.
+SECTION I: INTRODUCTION
+FIGURE I Maximizing VfM through a structured approach to developing the Procurement Approach
+Examples:
+a)  RFB versus RFP
+If RFB is chosen as the selection method with a conformance specification, the Procurement
+Process may be faster than with an RFP but more up-front effort will be needed in defining the
+conformance specification and the RFB will limit the ability of Bidders to offer innovative solutions.
+b) Early market engagement trade-off
+If a decision is made not to carry out early market engagement, time may be saved initially but
+a trade-off is also possible in terms of less information being made available to suppliers or less
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+market interest in the Procurement opportunity. Equally, if capability on the part of the Borrower
+to carry out the market engagement is low, or if the market is already competitive, well informed,
+and motivated to compete, market engagement may add too much cost early in the process
+without offering enough corresponding benefit.
+Achieving VfM
+Achieving VfM means that the Borrower both weighs the costs and benefits of the various options for
+selection methods and approaches and risk mitigation measures, and decides on the combination
+that meets the Procurement objectives and provides the greatest benefit relative to the cost.
+In some circumstances, the difference in VfM between one approach and another will be small, in other
+cases the choice will be obvious given the circumstances of the Procurement opportunity. Whatever the
+decision, the Procurement Arrangements for a contract need to be appropriately justified in the PPSD.
+The design of fit-for-purpose Procurement Arrangements, appropriate specification setting and use
+of appropriate Evaluation Criteria, and effective contract management are very much integrated and
+need to be considered as part of the overall Procurement approach in order to maximize VfM.
+Boosting VfM Using Rated Criteria
+Applying Rated Criteria is a method that can significantly promote VfM and achieve the optimum
+balance of whole of life cost and quality.
+A key objective of the Bank’s Procurement Framework is to enable Borrowers to adopt a more strategic
+approach to Procurement, including the use of Rated Criteria that prioritizes fit-for-purpose solutions
+rather than only the lowest-evaluated price.
+Using Rated Criteria more widely will increase Borrowers’ flexibility to procure Goods, Works, and
+Nonconsulting Services best suited to their specific situation and provide a more fit-for-purpose
+Procurement Approach.
+Rated Criteria will also increase the willingness of the best Bidders and Proposers to bid and participate
+in Bank-financed Procurements—with the knowledge that their added value will be duly considered
+as part of the evaluation process, thereby increasing supply options, global competition, and effective
+market solutions to solve the Borrower’s Procurement challenges.
+Increasing the use of Rated Criteria further contributes to successful contract outcomes and effective risk
+management, including managing a range of quality-based issues such as, for example sustainability,
+environmental, social, supply chain disruption, cybersecurity, global health emergencies. Rated Criteria
+also contribute to combating bid rigging and reducing the risk of collusion in the Procurement Process.
+Combined with financial cost (and, where appropriate, life-cycle cost formulas), applying Rated
+Criteria provide a truer assessment of value that focuses on quality, sustainability, and other key
+quality criteria.
+SECTION I: INTRODUCTION
+Rated Criteria - Procurement Regulations Requirement
+Revised international Procurements advertised on or after September 1, 2023, that use a Bank SPD
+must use Rated Criteria.
+However, application of Rated Criteria will not be mandatory for Procurement of
+◾ Pharmaceuticals
+◾ Vaccines
+◾ Off-the-shelf Goods and educational materials
+◾ Commodities
+Other exceptions may be cleared by the World Bank’s Chief Procurement Officer on a fit-for-
+purpose basis.
+This Guidance
+This Guidance introduces options to achieve VfM at five key stages of the Procurement Process, as
+detailed in the following sections:
+Section II . Procurement Planning
+Appropriate Procurement strategy and planning using the PPSD methodology to develop a fit-for-
+purpose Procurement Plan aligned to the Project Development Objectives
+Section III . Procurement Arrangements
+Designing an appropriate Procurement Arrangements that motivates quality Bidders to participate
+Section IV . Specifications
+Clear, comprehensive description specifying the requirements to be delivered, including quality
+elements
+Section V . Evaluation Criteria
+Use of appropriate Evaluation Criteria, including Rated Criteria, where appropriate
+Section VI . Contract Management
+Proactive management of the contract deliverables, including mitigations of risks and quality control
+SECTION
+II
+Procurement Strategy
+and Planning
+The best opportunity for achieving VfM is at the strategy and planning stages of the Procurement
+Process (see figure II).
+The PPSD is the cornerstone for ensuring that Procurement is properly planned, designed, and struc-
+tured to ensure that consideration is given to the specific operating context, market conditions, client
+capability, and all of the appropriate Procurement tools, techniques, and methods at the planning stage.
+Preparation of the PPSD should begin as early as possible in the project cycle, which normally will be
+at the project concept stage, after the main contracts in the project are identified.
+Elements
+The PPSD should cover all contract requirements for at least the first 18 months of the project and
+should be updated when additional important information becomes known. The PPSD prompts
+FIGURE II Key stages in Procurement
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+the Borrower to consider, among other things, the market situation, the operational context, previous
+experience, and the risks present—and then, from these, to determine the right Procurement Approach.
+Choosing the best combination of Procurement Arrangements entails appropriate levels of research
+and analysis to identify risks and opportunities in the specific market situation, the operational context,
+and previous experience. Significant Procurement risks and their associated mitigation measures can
+then be factored into the Procurement Arrangements. Examples follow.
+◾ The Borrower’s past experience implementing similar contracts can be factored in to speed
+up implementation, such as resettlement or licensing requirements that may delay contractor
+mobilization
+◾ Identified security concerns of Bidders may be addressed through early market engagement to
+encourage Bidders’ participation by highlighting measures put in place to mitigate those concerns
+◾ Low capability to implement Procurement or manage contracts can be reinforced through
+additional support
+◾ Complex Procurements that would benefit from innovative solutions proposed by Bidders may
+be better suited to an RFP, using a performance specification and the application of appropriate
+Rated Criteria, than to an RFB selection method.
+A fit-for-purpose Procurement Approach should be outlined in the PPSD. For example, in the PPSD
+Long Form the eight sections of the template should be addressed:
+1. Project overview, describing the scale and requirements of the project, including the project
+development objectives, with particular reference to those objectives that rely on Procurement
+and how Procurement financed under the project may contribute to achieving them.
+2. Strategic assessment of operating context, Borrower capability and experience, including any
+potential need for Hands-on Expanded Implementation Support, and an assessment of the gov-
+ernance, economic, sustainability, and technological aspects of the project and how they may be
+addressed through the Procurement strategy. This assessment should also include an analysis
+of the market within which the project will be implemented (including the supply capability of
+domestic and international markets), identify any supply chain risks, and assess how competition
+between major suppliers functions. The Borrower should harness all of this analysis to inform its
+Procurement strategy and Procurement Arrangements for the project.
+3. Procurement risk analysis should be undertaken to identify key potential risks that may affect
+the Borrower’s ability to achieve project development objectives through Procurement, all
+such risks, including those identified through the Bank’s Environmental and Social Framework,
+should be analyzed according to their likelihood of occurring and the severity of their impact,
+should they materialize. The PPSD should then propose appropriate mitigation measures to
+deal with such Procurement risks.
+4. Stakeholder analysis should be undertaken to identify who the key stakeholders in the project are,
+what their objectives are, and how the Borrower may best involve them in the implementation of
+the project to ensure that it addresses their objectives.
+SECTION II: PROCUREMENT STRATEGY AND PLANNING
+5. Procurement objectives are developed in such a way that they align with the project devel -
+opment objectives and are used to test alternative Procurement Approaches. Defining the
+correct Procurement objectives is essential to many of the subsequent Procurement decisions
+the Borrower makes, including defining conformance or performance specifications, allocating
+Procurement risks between the Borrower and the supplier, defining appropriate Evaluation
+Criteria, including the use of Rated Criteria, and selecting Key Performance Indicators to be
+used in contract management to ensure that contracts achieve the project’s requirements.
+6. Procurement Approach options and recommendations flow logically from and are driven by
+the analyses undertaken in all stages of Procurement strategy development. At this stage, the
+Borrower defines how it intends to approach the market, how it will select suppliers, and how
+it will manage the resultant contracts to ensure that they successfully achieve the project’s
+Procurement objectives. It is at this stage that the Borrower will typically design its overall Pro-
+curement Approach, whether it will use a conformance or performance specification for each
+contract, define the minimum required qualifications for each contract and state its requirements
+in respect of economic, environmental, or social sustainability. Also at this stage, the Borrower
+typically identifies the selection methods and market approach options to be employed and
+decides on the Evaluation Criteria to be applied in the evaluation of Bids for each major contract,
+including price and non-price criteria, incorporating the intended use of Rated Criteria to assess
+various aspects of quality, as well as the proposed weighting and scoring of such criteria.
+7. Preferred arrangements for low-value, low-risk activities are defined to ensure that related Pro-
+curement requirements are delivered efficiently through simple, reliable Procurement Arrange-
+ments that free up the Borrower’s more experienced Procurement staff to focus on high-value
+and high-risk contracts that are critical to the effective delivery of the Procurement objectives.
+8. A summary of PPSD is prepared to support the preparation of the Project Appraisal Document
+by the Bank.
+Procurement Approach
+The Procurement Approach should be designed to ensure that the suppliers, including contractors
+and consultants, most capable of delivering VfM and the best qualified to contribute to the achieve-
+ment of the project development objective are motivated to bid and given the opportunity, through
+the Procurement Process, to demonstrate the value they can offer.
+For more detailed guidance on the PPSD, see www.worldbank.org/procurement.
+11
+SECTION
+III
+Procurement Arrangements
+By designing the most appropriate Procurement Arrangements, the Borrower creates a far greater
+likelihood that the most qualified Bidders and Proposers will be motivated to participate in the Pro -
+curement Process, that better Bids will be received, and that, thereby, Procurement conducted under
+the project will deliver optimal Value for Money (VfM).
+Design
+Options are numerous for combinations of Procurement Arrangements that Borrowers may choose
+from to determine the most fit-for-purpose approach to conduct a particular Procurement. They include,
+but are not limited to, the following:
+◾ Selection method, such as Requests for Proposals (RFP) or Requests for Bids (RFB)
+◾ Market approach option , such as Open, Limited, National, International, Prequalification or
+Initial Selection), and the number of stages, use of negotiations, or Best and Final Offers
+◾ Specification type, such as conformance or performance) for each Procurement requirement
+◾ Evaluation Criteria type, including the application of Rated Criteria to evaluate the nonprice,
+technical, and quality attributes of bids, as well as the proposed prioritization and weightings
+of such attributes and how quality and price will be combined to select the Most Advantageous
+Bid or Proposal for each contract.
+The choice of selection method to be used for each contract is driven by a number of factors:
+◾ Primarily by the capacity and level of competition in the market
+◾ Number of qualified Bidders available
+◾ Specificity, complexity, and nature of the Procurement requirement
+◾ Inherent risks involved in the contract, as well as how the identified risks may best be mitigated
+through the Procurement Process and resulting contract.
+Each combination of options will present a different trade-off between costs and benefits.
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+12
+When choosing the selection method, for example, the Borrower should consider the benefits and
+costs trade-offs between options, that is, what is fit for purpose and will achieve best value for money.
+These include the following:
+◾ Time and resources to carry out the Procurement Process
+◾ Transaction costs for Bidders inherent in the Procurement Arrangements that may affect the
+willingness and ability of firms to participate
+◾ Risk of not achieving the desired outcome due to inability to manage the risk of fraud and
+corruption or the weak capability of the client to manage the Procurement Process.
+Procurement Arrangement Options
+Table I presents some of the options for Procurement Arrangements and provides an indication of
+the circumstances to which each method is best suited.
+TABLE I Example options for Procurement Arrangements
+Procurement
+Arrangement Characteristics Usage
+Open Competition Openly advertised so any eligible firm may
+participate
+Bank’s preferred approach
+Widespread use
+Limited
+Competition
+Limited number of firms invited without
+advertisement
+Exceptional reasons
+Limited pool of capable firms Justified
+departure from open competition
+Direct Selection Invitation to one firm only Only one suitable firm
+Justified invitation to sole or single firm
+Prequalification Use of qualifying criteria to rule out firms not
+capable of delivering the requirement
+Large and complex projects in which Bid costs
+are likely to limit market interest
+Optionally used for Requests for Bids
+Initial Selection Limiting the number of applicants to be invited
+to submit a proposal or participate in dialogue
+Normally used with Requests for Proposals
+Negotiations First, with first placed Bidder and, if
+unsatisfactory, with second place Bidder
+Cannot change specified minimum
+requirements and subject to probity audit
+Limited to international competition with prior
+agreement of the Bank
+Competitive
+Dialogue
+Initial conceptual design or performance
+proposal Commercial confidence must be
+maintained
+Participants must be treated fairly
+When requirements cannot be specified
+with enough certainty to allow a competitive
+process without use of dialogue
+Used to shape subsequent Requests for Proposals
+SECTION III: PROCUREMENT ARRANGEMENTS
+13
+Depending on the nature and complexity of the Procurement or the need for customized solutions,
+the Borrower may want to use Procurement Arrangements that use the suppliers’ expertise in their
+field, such as Requests for Proposals, value engineering, or competitive dialogue.
+In addition, in a selection method that evaluates quality, such as a RFP selection method with Rated
+Criteria, the Borrower may use an evaluation methodology that determines the degree to which each
+Bid meets or exceeds its Procurement requirements, such as in respect of functionality, the Bidder’s
+methodology, the environmental performance of the Goods offered or the Bidder’s ability to mitigate
+risks identified by the Borrower in the Procurement Documents or to identify and mitigate additional
+risks not identified by the Borrower.
+The choice of selection method may also influence the type of specification used. The following
+section addresses specifications.
+For more detailed guidance on the appropriate use of Procurement Arrangements, see www.worldbank.
+org/procurement.
+15
+SECTION
+IV
+Specifications
+In specifying the requireme nts, the Borrower sets the minimum or maximum characteristics of the
+Goods, Works, or Nonconsulting Services they require to achieve Value for Money (VfM), and in doing
+so clarify for Providers the Borrower’s expectations, which assists Providers in determining what they
+should offer.
+By defining the requirements clearly and through promoting the most competitive and innovative
+response from Providers, Borrowers will maximize the VfM achieved in this stage of the Procurement
+Process.
+Two broad categories of specifications generally apply.
+Types of Specifications
+Conformance-based specifications describe in detail the technical r equirements of the design,
+method of production, construction, and delivery.
+Performance-based specifications describe the outcomes or results required in terms of business
+or functional performance requirements. The evaluation of performance specifications can use a
+mixture of qualifying and rated criteria.
+When deciding between a conformance-based or a performance-based specification (see figure III),
+obtaining best VfM involves a trade-off between the cost and time to create the specification, who
+will bear the risk due to a poor specification, the ability of the suppliers to innovate in their response,
+and the complexity of the evaluation.
+Conformance Specification
+Conformance specifications are used when a thorough understanding of the req uirements is
+in place and the supplier has little or no need to innovate. In these circumstances and when
+Borrower wants to retain greater control over design and delivery, the Borrower normally has a
+comprehensive understanding of the requirement—including the technical, design, and functional
+aspects—and is able to describe it in detail, how the supplier must both perform and deliver the
+requirements.
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+16
+Conformance specifications work best for simple purchases of Goods, Consulting or Nonconsulting
+Services, and Works when the focus is on defining specific quantities and specifications for the
+requirements, unit price costing, and specifics around the time, place, and manner for delivery and
+acceptance.
+The main risk of a conformance specification is that it does not accurately meet the need or is
+technically incorrect, such as the design does not function as intended or is obsolete. In such circum-
+stances, all the up-front cost of developing the specification and the risk and cost to rectify lies with
+the Borrower because they have specified precisely what they want.
+Performance Specification
+Performance specifications are used when the understanding  of what is required in terms of out -
+comes can be described, the Borrower is uncertain of the best process or method to deliver the
+requirements, or suppliers are known to have the capability to design fit-for-purpose solutions.
+Performance-based specifications focus on outcomes or results rather than detailing the process of
+production, construction, and delivery. They are particularly effective at allowing suppliers to bring
+their own expertise, creativity, innovation, and resources to the Bidding process without restricting
+them to predetermined methods or detailed processes. This approach allows suppliers to reduce
+cost and passes the risk of both cost and performance (supplying something that works) to the
+supplier.
+As a general rule, performance-based specifications focus on achieving results, whereas confor -
+mance specifications focus on meeting specified design and resource requirements.
+Performance-based specifications should be drafted such that suppliers are allowed appropriate
+flexibility when meeting the requirements, whereas conformance specifications exclude flexibility,
+unless alternative Bids or Value Engineering are explicitly permitted.
+Min
+Max
+Control
+Max
+Min
+Max
+Deﬁnes Output
+to Satisfy Need
+Deﬁnes Precise
+Characteristics
+to Satisfy Need
+Performance
+Conformance
+Time to Create
+Risk – If Poor Performance
+Complexity of Tender Assessment
+Supplier Innovation
+FIGURE III Conformance and performance specifications
+SECTION IV: SPECIFICATIONS
+17
+Sustainability Procurement Requirements
+The Borrower may decide to include additional sustainable Procurement requirements beyond the
+economic, environmental, and social considerations the Bank requires for adherence to the its
+Environmental and Social Framework.
+Although the application of additional sustainable Procurement requirements is not mandatory, the
+Borrower may identify opportunities to achieve additional economic, environmental, or social benefits
+through the Procurement activities financed under the project, such as the reduction of greenhouse
+gas emissions or the creation of job opportunities for disadvantaged communities. The intention to
+apply additional sustainable Procurement requirements and the manner in which they will be handled
+in evaluation, such as in the application of Rated Criteria, should be detailed in the PPSD.
+Early Identification
+Early consideration of additional sustainable Procurement requirements ensures that they are included
+in the overall Procurement Approach, which may be designed to consider such requirements at a
+number of stages of the Procurement Process, such as
+◾ Prequalification or Initial Selection of Bidders
+◾ Functional or detailed technical specifications
+◾ Evaluation Criteria, including the use of Rated Criteria
+◾ Contract terms and conditions
+◾ Contract performance monitoring.
+These requirements may arise from either the Borrower’s sustainability laws or policies or from
+sustainability-related risks and opportunities identified in analysis of the market or from the business
+and operating environment of the project. Sustainability risks and opportunities that may be managed
+through the Procurement Process may also be identified in environmental or social impact assess -
+ments: for example, protection of local ecosystems near a Works site, health and safety requirements
+or minimizing potential impacts on people affected by the project.
+Sustainable Procurement requirements should be based on evidence, with supporting data, and on
+existing social-label criteria, eco-label criteria, or information collected from stakeholders in industry,
+civil society, or international development agencies. In whatever format the requirements are
+described, they should promote the broadest possible competitive response from the market in order
+to achieve VfM. The Borrower shall not request sustainable Procurement requirements that are pro-
+prietary or otherwise restrictive, such as available from only one Bidder, unless such a requirement is
+justified to the satisfaction of the Bank.
+Evaluation of Sustainability Requirements
+If sustainable Procurement requirements are specified, relevant evaluation and qualification criteria
+shall be specified in the RFB or RFP to enable the evaluation of sustainable attributes of Bids or
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+18
+Proposals, for example, the Bidder’s or Proposer’s Environmental and Social-Management Strategy
+and Implementation Plan, works methodology, key personnel, code of conduct, and so on. The
+Borrower may adopt international sustainability standards covering a wide range of product and
+service groups, provided they are consistent with Bank’s Core Procurement Principles.
+Internationally recognized certification or accreditation schemes may be used to demonstrate a
+Bidder’s or Proposer’s ability to apply environmental management measures. Such schemes may
+include ISO 14001 or other systems that conform to the relevant international standards on certifica-
+tion and environmental management. Bidders or Proposers may also be permitted to demonstrate
+that they apply equivalent sustainable management measures, even without such certification.
+When the Borrower includes economic, environmental, or social sustainability requirements in a
+contract, the Key Performance Indicators applied to the management of the contract shall reflect
+those requirements both to facilitate effective monitoring of the requirements and to ensure that the
+required sustainability benefits are successfully achieved during contract implementation.
+The World Bank Procurement Regulations for IPF Borrowers state the requirements for appropriately
+setting specifications. See https://www.worldbank.org/en/projects-operations/products-and-services/
+brief/procurement-new-framework#templates.
+19
+Evaluation Criteria
+Evaluation Criteria constitute a standard or test used in the evaluation of Bids and Proposals to select
+the Most Advantageous Bid or Proposal that best meets the Borrower’s requirements and offers the
+best Value for Money (VfM).
+The Project Procurement Strategy for Development (PPSD) informs the Evaluation Criteria to be
+applied to each Procurement Process. The specific criteria used should be appropriate to the nature,
+complexity, and risks of the Procurement to enable the Borrower to achieve VfM. See Procurement
+Guidance, Evaluating Bids and Proposals.
+The following requirements govern the Bid or Proposal Evaluation Criteria:
+◾ the Evaluation Criteria shall be proportionate and appropriate to the type, nature, market
+conditions, complexity, risk, value, and objective of the Borrower’s requirement
+◾ the Standard Procurement Document (SPD) shall include the complete Evaluation Criteria and
+Subcriteria, as well as the specific way they shall be applied
+◾ only the Evaluation Criteria, and all the Evaluation Criteria, indicated in the bidding documents
+shall be applied in the evaluation of Bids and Proposals
+◾ once the bidding documents have been issued, any change to the Evaluation Criteria shall be
+made only by an addendum to the bidding documents
+◾ the Evaluation Criteria shall be applied consistently to all Bids and Proposals submitted
+◾ the application of Rated Criteria is mandatory for all Procurement activities that are subject to
+international competition where a Bank SPD is used. However, application of Rated Criteria is
+not mandatory for Procurement of pharmaceuticals, vaccines, off-the-shelf goods, educational
+materials, textbooks and in the case of other exceptions cleared by the World Bank’s Chief
+Procurement Officer on a case-by-case, fit-for-purpose basis.
+To achieve VfM, the evaluation criteria may take into account various factors, including the following:
+◾ Cost: a method to evaluate cost that is appropriate to the nature of the Procurement, such as
+▪ adjusted Bid or Proposal price, or
+▪ adjusted Bid or Proposal price plus the running or recurrent cost over the useful lifetime of
+the asset on a net present cost basis (life-cycle costs).
+SECTION
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+20
+◾ Quality: evaluation of quality using a methodology to determine the degree to which the
+Goods, Works, Nonconsulting Services, or Consulting Services meet or exceed the Borrower’s
+requirements.
+◾ Risk: criteria that invite the Bidder to demonstrate how their methodology will mitigate the
+relevant assessed risks the Borrower has identified or to identify and mitigate additional risks
+that the Borrower has not already identified.
+◾ Sustainability: criteria that take into account stated economic, environmental, or social risks,
+opportunities or benefits in support of the project objectives and may include the flexibility of
+the Proposal to adapt to possible changes over the life cycle.
+◾ Innovation: criteria that allow the assessment of innovation in the design or delivery of the Goods,
+Works, Nonconsulting Services, or Consulting Services and that give Bidders and Proposers the
+opportunity to include, where appropriate, in their Bids and Proposals, solutions that exceed
+the requirements or alternative solutions that could deliver better VfM.
+Application
+Depending on the selection method chosen, such as RFB with or without Prequalification or RFP with
+Initial Selection, different approaches or processes may be used to initially select or qualify firms and
+to evaluate their Bids or Proposals to select the Most Advantageous Bid or Proposal.
+Rated Criteria Process
+When Rated Criteria are applied, the evaluation shall be conducted on the basis of a two-envelope
+procedure, the technical bids being opened and evaluated first, and then the financial envelopes of
+only those Bidders whose technical Bids are evaluated as responsive being opened and evaluated.
+See figure IV for an explanation of the use of Prequalification and Initial Selection with different
+selection methods.
+Prequalification and Initial Selection
+Prequalification and Initial Selection are processes used to shortlist Applicants in the Procurement of
+Goods, Works, and Nonconsulting Services. These processes ensure that only those with appropriate
+and adequate capacity, capability, and resources, as assessed against the qualification criteria in the
+SPD, are invited to submit Bids or Proposals.
+The assessment of an Applicant’s qualifications only considers the firm that submitted the Prequali-
+fication or Initial Selection Application. It does not take into consideration the qualifications of other
+firms such as its subsidiaries, parent entities, affiliates, subcontractors (other than specialized sub -
+contractors, if permitted in the Prequalification or Initial Selection document), or any other firm other
+than the one that submitted the Prequalification or Initial Selection Application.
+SECTION V: EVALUATION CRITERIA
+21
+Initial Selection is normally used with a RFPs and shall be used in all cases when the Competitive
+Dialogue selection method is applied.
+Under Initial Selection, submissions of all Applicants are first assessed on a pass-fail basis against
+a set of minimum qualification requirements. Subsequently, only those Applicants that substantially
+meet the minimum qualification requirements are further assessed using Rated Criteria and ranked
+from highest to lowest, only the highest-ranked Applicants are invited to bid.
+This approach allows the Borrower to ensure that the Bids submitted are from only the most highly
+qualified Applicants. This may in turn improve the quality of Bids received and thus contribute to the
+Borrower’s achieving better VfM.
+The use of qualification criteria for Initial Selection or with RFB with Prequalification or postqual -
+ification is summarized in figure IV and is covered in detail in each of the respective SPDs and, if
+applicable, user guides.
+FIGURE IV Prequalification and initial selection with different selection methods
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+22
+Using Rated Criteria
+Rated criteria are assessed using a scoring system. Each criterion is prioritized and weighted according
+to its relative importance to the Borrower. Weightings are then applied to the scores assigned to each
+criterion. This approach to evaluation facilitates the evaluation of technical merit, quality, risk, sustain-
+ability and other relevant technical and quality factors, and objectively compares each Bid or Proposal
+against the others in regard to the quality of the technical solution to the Borrower’s requirement offered
+by each Bid or Proposal. The application and benefits of rated type criteria and demonstrated in Figure V.
+Once the total weighted scores are known, Bids or Proposals are ranked in order of merit from the
+highest to lowest scores. The higher the technical score, the better the Bid or Proposal meets the
+rated criteria and offers VfM.
+Rated criteria may be used
+◾ in conjunction with pass-fail criteria in order to rank and initially select Applicants and
+◾ in the evaluation of Bids or Proposals to identify the Most Advantageous Bid or Proposal.
+Rated criteria may include, but are not limited to, the following attributes, as relevant:
+◾ quality of methodology and work plan
+◾ innovation, performance, capacity, or functionality
+◾ sustainability
+◾ identification and mitigation of risks.
+FIGURE V Application and benefits of rated-type criteria
+Rated criteria can be used
+• When price is not the key determining factor
+• To support ranking of Proposals
+• To assess alternative approaches and innovation
+• To reward Proposals that exceed minimum requirements and demonstrate best VfM
+• When criteria cannot be expressed in monetary terms
+Potential beneﬁts of using rated criteria
+• Allows Borrower to rank Proposals in order of merit
+• The Borrower can set a minimum score that Proposals must meet, this supports selecting only
+the best quality Proposals
+• Rewards Proposals that exceed minimum requirements
+• Enables consideration of nonprice attributes where price is not the key determining factor
+• Requirements are based on performance and outputs, not functions or inputs
+• Where the Borrower wishes to compare the merits of alternative proposals
+• For sustainable Procurement such as ability to oﬀer products or services with low
+environmental impact or ability to reduce over the life of contract, for example, fuel eﬃciency,
+reduction in waste, avoiding hazardous substances
+SECTION V: EVALUATION CRITERIA
+23
+Evaluation of Cost
+As specified in the SPD, quoted costs are evaluated against monetarily quantifiable criteria. This
+allows the Borrower to compare and evaluate costs of each Bidder or Proposer.
+The Borrower’s chosen method for the evaluation of cost shall be guided by the factors that will
+be considered for the purpose of evaluation besides the quoted costs. If factors selected can be
+quantified in monetary terms, an RFB approach that uses monetarily quantifiable criteria should be
+selected. If factors cannot be monetized, an RFP approach using Rated Criteria should be selected.
+When setting monetarily quantifiable evaluation criteria, the SPD shall specify the relevant factors, in
+addition to price, that are to be considered in evaluation, and the manner in which they will be applied
+for the purpose of determining the evaluated cost of each Bid or Proposal.
+Examples of when monetarily quantifiable methodology may apply include
+◾ margin of domestic preference
+◾ time schedule
+◾ payment schedule
+◾ life-cycle costing
+◾ functional guarantees
+◾ discounts for the award of multiple lots.
+Due Diligence and Abnormally Low Bids
+Achieving VfM requires that the contractor delivers what it is being paid to deliver under the contract.
+Due diligence involves independently verifying the ability of the contractor to fully deliver against the
+contract over the term of the contract. It is a matter of prudence and good business practice.
+An Abnormally Low Bid (ALB) poses a potential risk to the Borrower, given that the contractor may not
+be able to meet its obligations under the contract. When a Bidder intentionally or inadvertently submits
+an ALB and when a Bid is identified as such, the Borrower shall undertake due diligence in accordance
+with the procedure outlined in the ALB Guidance note.
+For more information on the identification and treatment of Abnormally Low Bids, see www.worldbank.
+org/procurement.
+25
+SECTION
+VI
+Contract Management
+Contract management is critical to ensuring that both the supplier and the Borrower meet their con-
+tractual commitments to time, cost, and quality, and deliver the expected VfM. It requires systematic
+and efficient planning, execution, monitoring, and evaluation to ensure that both parties fulfill their
+contractual obligations with the ultimate goal of achieving VfM and contractual results. It involves:
+◾ Tracking and monitoring of delivery and costs, time, and quality
+◾ Supplier development to collaboratively improve performance and promote opportunities for
+ongoing innovation, for example, value engineering in appropriate contracts
+◾ Being clear on roles and responsibilities of both Borrower and supplier
+◾ Managing relationships with both the supplier and key stakeholders
+◾ Managing payments
+◾ Being proactive throughout the contract to anticipate problems and issues before they arise
+◾ Managing problems and issues as they arise, quickly, effectively, fairly, and transparently.
+From the Borrower’s perspective, contract management:
+◾ Ensures the supplier delivers upon its commitments
+◾ Obtains best VfM during the life of the contract
+◾ Manages supply risks for the duration of the contract
+◾ Continually challenges to drive best value in its contracts
+◾ Ensures effective contracts that continue to deliver the requirements
+◾ Demonstrates best Procurement practice in the management of contracts
+◾ Provides evidence to support any audits.
+VALUE FOR MONEY: ACHIEVING VfM IN INVESTMENT PROJECTS FINANCED BY THE WORLD BANK
+26
+Key Performance Indicators
+Key Performance Indicators (KPIs) are measures of contract performance that are aligned to the
+key outcomes that the Procurement Approach has been designed to deliver. The KPIs should be
+SMART (Specific, Measurable, Attributable, Relevant, and Time-bound) indicators. They should also
+be directly linked to the Project Development Objectives and the Procurement objectives. This will
+help ensure that contract delivery is fully aligned with the desired outcome.
+The KPIs should be included in the contract management plan, if they link to incentive mechanisms
+or payment decisions, they will need to be agreed to and included as part of the contract before it
+is signed.
+Contract Management Plan
+To effectively manage a contract, it is best practice for the Borrower to develop a contract man -
+agement plan with KPIs and milestone events. The Borrower should monitor the performance and
+progress of contracts, in accordance with the Contract Management Plan, and provide timely reports
+to the Bank.
+Normally the contract management plan should at least include:
+◾ Key roles and responsibilities,
+◾ Key contractual dates and delivery milestones,
+◾ KPIs,
+◾ Budget and payment milestones, and
+◾ Recordkeeping requirements.
+For more detail on contract management, see guidance at www.worldbank.org/procurement.
+For additional information, such as Standard Procurement Documents, Guidance, briefing, training
+and e-learning materials see www.worldbank.org/procurement

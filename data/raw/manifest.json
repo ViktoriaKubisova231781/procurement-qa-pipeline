@@ -1,0 +1,119 @@
+[
+  {
+    "id": "uncitral_model_law",
+    "url": "https://uncitral.un.org/en/texts/procurement/modellaw/public_procurement",
+    "license": "UN open / free reuse",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 4506,
+    "text_path": "data\\raw\\uncitral_model_law.txt"
+  },
+  {
+    "id": "far_part9_qualifications",
+    "url": "https://www.acquisition.gov/far/part-9",
+    "license": "US Government public domain",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 162338,
+    "text_path": "data\\raw\\far_part9_qualifications.txt"
+  },
+  {
+    "id": "ocds_primer_what",
+    "url": "https://standard.open-contracting.org/latest/en/primer/what/",
+    "license": "Apache-2.0 / CC-BY (Open Contracting Partnership)",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 3408,
+    "text_path": "data\\raw\\ocds_primer_what.txt"
+  },
+  {
+    "id": "ocds_building_blocks",
+    "url": "https://standard.open-contracting.org/latest/en/getting_started/building_blocks/",
+    "license": "CC-BY (Open Contracting Partnership)",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 4775,
+    "text_path": "data\\raw\\ocds_building_blocks.txt"
+  },
+  {
+    "id": "worldbank_beginners_guide",
+    "url": "https://thedocs.worldbank.org/en/doc/caf6a3f677305292d799dbe55fd83bfe-0290012023/original/PROCUREMENT-Beginners-Guide-to-IPF-WEB-VERSION-Nov-2023.pdf",
+    "license": "CC BY 3.0 IGO (World Bank open access)",
+    "type": "pdf",
+    "date_accessed": "2026-08-18",
+    "n_chars": 68577,
+    "text_path": "data\\raw\\worldbank_beginners_guide.txt"
+  },
+  {
+    "id": "arxiv_digital_procurement",
+    "url": "https://arxiv.org/pdf/2303.03882",
+    "license": "arXiv.org perpetual non-exclusive license (open access)",
+    "type": "pdf",
+    "date_accessed": "2026-08-18",
+    "n_chars": 53661,
+    "text_path": "data\\raw\\arxiv_digital_procurement.txt"
+  },
+  {
+    "id": "worldbank_value_for_money",
+    "url": "https://thedocs.worldbank.org/en/doc/a535313d21a71139c93f09311e274093-0290012023/original/Procurement-Guidance-Value-for-Money-Nov-2023-WEB.pdf",
+    "license": "CC BY 3.0 IGO (World Bank open access)",
+    "type": "pdf",
+    "date_accessed": "2026-08-18",
+    "n_chars": 56170,
+    "text_path": "data\\raw\\worldbank_value_for_money.txt"
+  },
+  {
+    "id": "worldbank_supply_chain_mgmt",
+    "url": "https://thedocs.worldbank.org/en/doc/1c3b517f003b53a2e2e170e93124be84-0290032023/original/World-Bank-Supply-Chain-Management-Guidance.pdf",
+    "license": "CC BY 3.0 IGO (World Bank open access)",
+    "type": "pdf",
+    "date_accessed": "2026-08-18",
+    "n_chars": 240193,
+    "text_path": "data\\raw\\worldbank_supply_chain_mgmt.txt"
+  },
+  {
+    "id": "wikipedia_tco",
+    "url": "https://en.wikipedia.org/wiki/Total_cost_of_ownership",
+    "license": "CC BY-SA 4.0",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 9418,
+    "text_path": "data\\raw\\wikipedia_tco.txt"
+  },
+  {
+    "id": "wikipedia_incoterms",
+    "url": "https://en.wikipedia.org/wiki/Incoterms",
+    "license": "CC BY-SA 4.0",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 33346,
+    "text_path": "data\\raw\\wikipedia_incoterms.txt"
+  },
+  {
+    "id": "wikipedia_sla",
+    "url": "https://en.wikipedia.org/wiki/Service-level_agreement",
+    "license": "CC BY-SA 4.0",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 13006,
+    "text_path": "data\\raw\\wikipedia_sla.txt"
+  },
+  {
+    "id": "wikipedia_supplier_risk",
+    "url": "https://en.wikipedia.org/wiki/Supply_chain_risk_management",
+    "license": "CC BY-SA 4.0",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 19810,
+    "text_path": "data\\raw\\wikipedia_supplier_risk.txt"
+  },
+  {
+    "id": "wikipedia_green_proc",
+    "url": "https://en.wikipedia.org/wiki/Sustainable_procurement",
+    "license": "CC BY-SA 4.0",
+    "type": "html",
+    "date_accessed": "2026-08-18",
+    "n_chars": 55490,
+    "text_path": "data\\raw\\wikipedia_green_proc.txt"
+  }
+]
