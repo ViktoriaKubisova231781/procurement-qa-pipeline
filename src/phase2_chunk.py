@@ -142,15 +142,29 @@ def fixed_chunks(sentences: list[str], target_tokens: int,
 
 # --- topic tagging ---------------------------------------------------------
 def tag_topics(chunk_texts: list[str], topics: list[str],
-               embedder: str) -> list[str]:
-    """Assign each chunk its nearest topic label by cosine similarity."""
+               embedder: str, topic_descriptions: dict[str, str] | None = None
+               ) -> list[str]:
+    """Assign each chunk its nearest topic by cosine similarity.
+
+    We embed richer topic DESCRIPTIONS (when provided) rather than the bare
+    labels. Bare labels are short and abstract, so many chunks landed on
+    whichever label was vaguest ("procurement policy and compliance"),
+    collapsing the distribution. Descriptions carry concrete topic vocabulary,
+    which spreads chunks onto their true topic. We still return the clean
+    label, not the description.
+    """
     if not chunk_texts:
         return []
-    topic_vecs = embed(embedder, topics)
+    # Build the list of strings to embed, one per topic, in `topics` order.
+    if topic_descriptions:
+        topic_texts = [topic_descriptions.get(t, t) for t in topics]
+    else:
+        topic_texts = topics
+    topic_vecs = embed(embedder, topic_texts)
     chunk_vecs = embed(embedder, chunk_texts)
     sims = chunk_vecs @ topic_vecs.T          # (n_chunks, n_topics)
     best = sims.argmax(axis=1)
-    return [topics[i] for i in best]
+    return [topics[i] for i in best]          # map back to the clean label
 
 
 def run(config: dict) -> list[Chunk]:
@@ -185,7 +199,8 @@ def run(config: dict) -> list[Chunk]:
                                      cfg_c["min_tokens"],
                                      cfg_c["breakpoint_percentile"])
 
-        tags = tag_topics(pieces, config["topics"], embedder)
+        tags = tag_topics(pieces, config["topics"], embedder,
+                          config.get("topic_descriptions"))
         for i, (piece, tag) in enumerate(zip(pieces, tags)):
             all_chunks.append(Chunk(
                 chunk_id=f"{doc.id}::c{i:03d}",

@@ -26,6 +26,13 @@ chunking:
   min_tokens: 80            # discard chunks smaller than this
   breakpoint_percentile: 90 # semantic split sensitivity (higher = fewer splits)
 
+# --- Generation (Phase 3) -------------------------------------------------
+generation:
+  n_candidates: 50          # how many candidate pairs to generate (Phase 4 trims to 25)
+  min_chunk_tokens: 90      # skip chunks shorter than this (usually stubs/ToC)
+  max_per_source: 8         # cap candidates from any single source (diversity)
+  balance_by_topic: true    # sample chunks evenly across the 7 topics
+
 # --- Validation thresholds (Phase 4) — mirror the KPI table ---------------
 validation:
   groundedness_min: 0.60    # keyword+embedding overlap answer<->passage
@@ -34,7 +41,10 @@ validation:
   judge_quality_min: 3      # 5-point rubric, keep >= 3
 
 # --- Topic taxonomy — drives the diversity KPI (>= 5 sub-topics) ----------
-# Passages get tagged to the closest topic by embedding similarity.
+# Passages get tagged to the closest topic by embedding similarity. We match
+# against the richer DESCRIPTIONS below (not the bare labels), because bare
+# labels caused everything vague to collapse into "policy and compliance".
+# The descriptions give the embedding model concrete vocabulary per topic.
 topics:
   - "tender process"
   - "supplier evaluation"
@@ -43,6 +53,16 @@ topics:
   - "procurement policy and compliance"
   - "risk and sustainability"
   - "e-procurement and data standards"
+
+topic_descriptions:
+  tender process: "tendering, bidding, invitation to tender, request for proposal, competitive bids, sealed bids, solicitation, award of contract, bid evaluation"
+  supplier evaluation: "supplier selection, vendor qualification, contractor responsibility, prequalification, total cost of ownership, evaluating bidders, supplier performance and capability"
+  contract management: "managing contracts, contract terms, service level agreements, contract performance, amendments, renewal, termination, obligations and deliverables"
+  logistics and KPIs: "logistics, shipping and delivery, Incoterms, supply chain operations, performance indicators, metrics, on-time delivery, warehousing and transport"
+  procurement policy and compliance: "procurement law, regulations, policy, integrity, anti-corruption, transparency, legal principles, public procurement rules and governance"
+  risk and sustainability: "supply chain risk, disruption, resilience, sustainable and green procurement, environmental and social factors, risk management and mitigation"
+  e-procurement and data standards: "electronic procurement, e-procurement systems, open contracting data standard, OCDS, data schema, digital procurement, machine-readable contracting data"
+
 
 # --- Sources (Phase 1) ----------------------------------------------------
 # 15 open sources, rebalanced toward authoritative law/policy/standards.
@@ -114,6 +134,10 @@ sources:
     license: "CC BY 3.0 IGO (World Bank open access)"
     type: pdf
     topic: "logistics and KPIs"
+  # NOTE: World Bank Framework Agreements guidebook was trialled here but its
+  # PDF extracted as table-of-contents only (~4.5k chars, no body prose —
+  # likely an image/scanned layout pypdf couldn't read). Dropped and replaced
+  # with the Wikipedia CLM article below for clean contract-management prose.
 
   # --- Wikipedia (clean definitional / conceptual prose) -----------------
   - id: wikipedia_tco
