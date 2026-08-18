@@ -80,11 +80,17 @@ Requirements:
 - The QUESTION must be answerable using ONLY this passage, and must make sense
   on its own (a reader shouldn't need to see the passage to understand it).
   Do NOT reference "the passage", "the text", section numbers, or clause codes.
-- The ANSWER must be accurate, complete, and grounded ONLY in the passage.
+- The ANSWER must be accurate, complete, and grounded ONLY in the passage. Every
+  claim, figure, and list item in the answer MUST be supported by the passage.
+  Do NOT add facts, numbers, or examples that are not stated in the passage,
+  even if they sound plausible or you know them to be true.
 - supporting_quote must be an EXACT substring copied verbatim from the passage
-  that justifies the answer (do not paraphrase it).
+  that justifies the answer (do not paraphrase it). The answer must not claim
+  more than this quote (and the surrounding passage) actually supports.
 - question_type: "factual" (a definition/fact), "analytical" (why/how/compare),
-  or "scenario" (applies a concept to a situation).
+  or "scenario" (applies a concept to a situation). For analytical questions,
+  keep the ANSWER strictly within what the passage states — reason only from the
+  passage, never from outside knowledge.
 - difficulty: "easy", "medium", or "hard".
 - Prefer substantive procurement knowledge over trivia about document structure,
   section numbers, contact details, or website addresses.

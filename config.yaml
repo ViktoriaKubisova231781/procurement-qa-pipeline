@@ -11,9 +11,12 @@ random_seed: 42           # fixes sampling / shuffling for reproducibility
 
 # --- Models ---------------------------------------------------------------
 models:
-  # Generation + judging both run locally through Ollama.
+  # Generation and judging use DIFFERENT model families on purpose: a judge
+  # from the same family as the generator tends to rubber-stamp its own style
+  # (LLM self-preference bias). Using Llama to judge Qwen's output gives a more
+  # credible, independent quality signal.
   generator: "qwen2.5:7b-instruct"     # reads a passage, writes cited Q&A
-  judge: "qwen2.5:7b-instruct"         # LLM-as-judge for validation (Phase 4)
+  judge: "llama3.1:8b"                  # cross-family LLM-as-judge (Phase 4)
   ollama_host: "http://localhost:11434"
   temperature: 0.4                     # low = more grounded, less inventive
   # Embeddings run locally via sentence-transformers (CPU/GPU).

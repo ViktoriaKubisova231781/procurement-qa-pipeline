@@ -70,14 +70,18 @@ JUDGE_SCHEMA = {
 }
 
 JUDGE_SYSTEM = (
-    "You are a strict data-quality reviewer for a procurement Q&A dataset. "
-    "You judge whether a question/answer pair is accurate, complete, and "
-    "genuinely useful for learning about procurement — not trivia about "
-    "document structure."
+    "You are a strict, discerning data-quality reviewer for a procurement Q&A "
+    "dataset. You use the full 1-5 scale and do not inflate scores. You reserve "
+    "5 for flawless pairs and readily assign 3-4 when you find any weakness. You "
+    "judge whether a pair is accurate, complete, and genuinely useful for "
+    "learning about procurement — not trivia about document structure."
 )
 
 JUDGE_PROMPT = """\
 Evaluate this question/answer pair against the SOURCE PASSAGE it came from.
+Be a STRICT reviewer. Most pairs have at least one weakness — actively look for
+it. Reserve a score of 5 for pairs that are genuinely flawless; if you can find
+any issue, the score must be 4 or lower. Do not give 5 by default.
 
 SOURCE PASSAGE:
 \"\"\"
@@ -87,22 +91,31 @@ SOURCE PASSAGE:
 QUESTION: {question}
 ANSWER: {answer}
 
-Score on a 1-5 scale:
-- correct: is the ANSWER accurate and fully supported by the passage?
-  (5 = fully supported, 1 = contradicted or unsupported)
-- complete: does the ANSWER fully address the QUESTION? (5 = complete)
+Score CORRECTNESS (1-5): is every claim in the ANSWER supported by the passage?
+  5 = every fact, figure and list item is explicitly in the passage; nothing added
+  4 = essentially correct, but slightly rephrased in a way that risks meaning drift
+  3 = mostly correct, but includes one detail not clearly stated in the passage
+  2 = includes facts NOT in the passage, or misreads the passage
+  1 = contradicts the passage or is largely unsupported
+
+Score COMPLETENESS (1-5): does the ANSWER fully and directly answer the QUESTION?
+  5 = complete, direct, self-contained
+  4 = answers it, but omits a minor relevant detail present in the passage
+  3 = partially answers, or is vague / padded
+  2 = only tangentially answers the question
+  1 = does not really answer the question
 
 Also judge two booleans:
 - relevant: is this QUESTION genuinely about procurement, purchasing, tendering,
   supplier/vendor management, contracts, supply chain, logistics, or procurement
-  policy/data? true if a procurement professional would find it on-topic.
+  policy/data? true only if a procurement professional would find it on-topic.
 - is_junk: true if the pair is NOT useful procurement knowledge, e.g. the
   question is about a citation/reference, a book or journal title, an author,
   a table of contents, a list of section numbers, a website/URL, a navigation
-  menu, or document formatting. Otherwise false.
+  menu, document formatting, or names an institution with no procurement content.
 
-Give a one-sentence reason. Return ONLY JSON with keys:
-correct, complete, relevant, is_junk, reason."""
+Give a one-sentence reason that names the specific weakness (or confirms none).
+Return ONLY JSON with keys: correct, complete, relevant, is_junk, reason."""
 
 
 def load_config() -> dict:
