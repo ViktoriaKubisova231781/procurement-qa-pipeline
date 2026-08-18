@@ -1,0 +1,104 @@
+# ==========================================================================
+# Procurement Q&A Dataset Pipeline — Configuration
+# --------------------------------------------------------------------------
+# Everything the pipeline needs is declared here so a re-run is fully
+# reproducible and adding new sources requires NO code changes.
+# ==========================================================================
+
+# --- Target output --------------------------------------------------------
+target_pairs: 25          # how many final Q&A pairs we want
+random_seed: 42           # fixes sampling / shuffling for reproducibility
+
+# --- Models ---------------------------------------------------------------
+models:
+  # Generation + judging both run locally through Ollama.
+  generator: "qwen2.5:7b-instruct"     # reads a passage, writes cited Q&A
+  judge: "qwen2.5:7b-instruct"         # LLM-as-judge for validation (Phase 4)
+  ollama_host: "http://localhost:11434"
+  temperature: 0.4                     # low = more grounded, less inventive
+  # Embeddings run locally via sentence-transformers (CPU/GPU).
+  embedder: "sentence-transformers/all-MiniLM-L6-v2"
+
+# --- Chunking (Phase 2) ---------------------------------------------------
+chunking:
+  method: "semantic"        # "semantic" | "fixed"
+  target_tokens: 220        # approx passage size
+  min_tokens: 80            # discard chunks smaller than this
+  breakpoint_percentile: 90 # semantic split sensitivity (higher = fewer splits)
+
+# --- Validation thresholds (Phase 4) — mirror the KPI table ---------------
+validation:
+  groundedness_min: 0.60    # keyword+embedding overlap answer<->passage
+  relevance_min: 0.60       # procurement-domain relevance
+  dedup_cosine_max: 0.90    # drop pairs more similar than this to another
+  judge_quality_min: 3      # 5-point rubric, keep >= 3
+
+# --- Topic taxonomy — drives the diversity KPI (>= 5 sub-topics) ----------
+# Passages get tagged to the closest topic by embedding similarity.
+topics:
+  - "tender process"
+  - "supplier evaluation"
+  - "contract management"
+  - "logistics and KPIs"
+  - "procurement policy and compliance"
+  - "risk and sustainability"
+  - "e-procurement and data standards"
+
+# --- Sources (Phase 1) ----------------------------------------------------
+# license field is recorded in the manifest for the citation KPI.
+# type: "html" (scrape readable text) | "pdf" (extract text)
+sources:
+  - id: ocds_getting_started
+    url: "https://standard.open-contracting.org/latest/en/getting_started/"
+    license: "Apache-2.0 / CC-BY (Open Contracting Partnership)"
+    type: html
+  - id: ocds_principles
+    url: "https://standard.open-contracting.org/latest/en/primer/"
+    license: "CC-BY (Open Contracting Partnership)"
+    type: html
+  - id: wikipedia_procurement
+    url: "https://en.wikipedia.org/wiki/Procurement"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_tco
+    url: "https://en.wikipedia.org/wiki/Total_cost_of_ownership"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_scm
+    url: "https://en.wikipedia.org/wiki/Supply_chain_management"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_eauction
+    url: "https://en.wikipedia.org/wiki/E-procurement"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_rfp
+    url: "https://en.wikipedia.org/wiki/Request_for_proposal"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_sla
+    url: "https://en.wikipedia.org/wiki/Service-level_agreement"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_incoterms
+    url: "https://en.wikipedia.org/wiki/Incoterms"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_kpi
+    url: "https://en.wikipedia.org/wiki/Performance_indicator"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_supplier_risk
+    url: "https://en.wikipedia.org/wiki/Supply_chain_risk_management"
+    license: "CC BY-SA 4.0"
+    type: html
+  - id: wikipedia_green_proc
+    url: "https://en.wikipedia.org/wiki/Sustainable_procurement"
+    license: "CC BY-SA 4.0"
+    type: html
+
+# --- Paths ----------------------------------------------------------------
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  output: "data/output"
