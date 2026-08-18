@@ -109,10 +109,20 @@ Also judge two booleans:
 - relevant: is this QUESTION genuinely about procurement, purchasing, tendering,
   supplier/vendor management, contracts, supply chain, logistics, or procurement
   policy/data? true only if a procurement professional would find it on-topic.
-- is_junk: true if the pair is NOT useful procurement knowledge, e.g. the
-  question is about a citation/reference, a book or journal title, an author,
-  a table of contents, a list of section numbers, a website/URL, a navigation
-  menu, document formatting, or names an institution with no procurement content.
+- is_junk: true if the pair is NOT useful, general procurement knowledge. Set
+  is_junk = true if ANY of these apply:
+  * the QUESTION refers to "the passage", "the text", "this document", "the
+    study", "this research", "the article", "the guidance", "the report", or
+    otherwise assumes the reader has seen a specific source;
+  * the QUESTION names or asks about specific researchers, authors, or a
+    specific paper (e.g. "Why do Pekša and Grabis suggest...", "What do the
+    authors propose...");
+  * the QUESTION is about a citation/reference, a book or journal title, a table
+    of contents, a list of section numbers, a website/URL, a navigation menu, or
+    document formatting;
+  * the QUESTION only makes sense with hidden context and is not a universal
+    procurement question a professional could ask on its own.
+  Otherwise is_junk = false.
 
 Give a one-sentence reason that names the specific weakness (or confirms none).
 Return ONLY JSON with keys: correct, complete, relevant, is_junk, reason."""
@@ -125,6 +135,34 @@ def load_config() -> dict:
 
 def _normalize(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
+
+
+# Deterministic guard: questions that reference a source the reader can't see,
+# or that ask about specific authors/papers, are not universal procurement
+# questions. This is a code-level safety net independent of the (lenient) judge.
+_NON_UNIVERSAL_RE = re.compile(
+    r"\b(the passage|this passage|the text|this text|the document|this document|"
+    r"the study|this study|this research|the research|the article|this article|"
+    r"the guidance|the report|this report|the author|the authors|according to "
+    r"(the|this)|in their (research|paper|study|article)|"
+    r"et al\.?)\b",
+    re.IGNORECASE,
+)
+
+# Second guard: questions tied to one organisation's internal jargon or that ask
+# organisational trivia rather than general procurement knowledge. These are
+# grounded but not universally useful in a procurement Q&A dataset.
+_ORG_SPECIFIC_RE = re.compile(
+    r"\b(the borrower|borrower's|investment project financing|\bIPF\b|"
+    r"the bank\b|world bank|two (main )?institutions|"
+    r"which institutions|make up the)\b",
+    re.IGNORECASE,
+)
+
+
+def is_non_universal(question: str) -> bool:
+    return bool(_NON_UNIVERSAL_RE.search(question)
+                or _ORG_SPECIFIC_RE.search(question))
 
 
 def quote_grounded(quote: str, passage: str) -> float:
@@ -203,6 +241,8 @@ def run(config: dict) -> list[dict]:
         reasons = []
         if c["judge_is_junk"]:
             reasons.append("judge:junk")
+        if is_non_universal(c["question"]):
+            reasons.append("non_universal")
         if not c["judge_relevant"]:
             reasons.append("relevance")
         if c["groundedness_score"] < v["groundedness_min"]:

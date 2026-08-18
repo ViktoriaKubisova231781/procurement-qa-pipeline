@@ -50,7 +50,7 @@ QA_SCHEMA = {
         "answer": {"type": "string"},
         "supporting_quote": {"type": "string"},
         "question_type": {"type": "string",
-                          "enum": ["factual", "analytical", "scenario"]},
+                          "enum": ["factual"]},
         "difficulty": {"type": "string",
                        "enum": ["easy", "medium", "hard"]},
     },
@@ -74,29 +74,46 @@ PASSAGE:
 {passage}
 \"\"\"
 
-Write ONE high-quality question-answer pair that this passage answers.
+Write ONE high-quality FACTUAL question-answer pair that this passage answers.
+A FACTUAL question asks about a definition, a specific fact, a figure, a rule,
+a purpose, or a concrete piece of information stated in the passage. Do NOT write
+open-ended "discuss" questions or hypothetical scenarios.
 
-Requirements:
-- The QUESTION must be answerable using ONLY this passage, and must make sense
-  on its own (a reader shouldn't need to see the passage to understand it).
-  Do NOT reference "the passage", "the text", section numbers, or clause codes.
+CRITICAL RULE — the QUESTION must be a UNIVERSAL procurement question that a
+procurement professional could ask and understand WITHOUT ever seeing this
+passage. It must be self-contained and general.
+
+The QUESTION must NEVER:
+- refer to "the passage", "the text", "this document", "the study", "this
+  research", "the article", "the guidance", "the author(s)", or "the report";
+- name or reference specific researchers, authors, or papers (e.g. do NOT write
+  "Why do Pekša and Grabis suggest..." or "What do the authors propose...");
+- ask about a specific figure, table, section, or citation in a document;
+- depend on any context that a general reader would not already share.
+
+GOOD question (universal): "What is the purpose of a framework agreement in
+public procurement?"
+BAD question (passage-bound): "What does this guidance say about framework
+agreements?"
+BAD question (author-bound): "Why do the authors recommend decoupling decision
+logic from ERP systems?"
+
+Other requirements:
 - The ANSWER must be accurate, complete, and grounded ONLY in the passage. Every
   claim, figure, and list item in the answer MUST be supported by the passage.
-  Do NOT add facts, numbers, or examples that are not stated in the passage,
-  even if they sound plausible or you know them to be true.
+  Do NOT add facts, numbers, or examples not stated in the passage, even if they
+  sound plausible or you know them to be true.
 - supporting_quote must be an EXACT substring copied verbatim from the passage
   that justifies the answer (do not paraphrase it). The answer must not claim
   more than this quote (and the surrounding passage) actually supports.
-- question_type: "factual" (a definition/fact), "analytical" (why/how/compare),
-  or "scenario" (applies a concept to a situation). For analytical questions,
-  keep the ANSWER strictly within what the passage states — reason only from the
-  passage, never from outside knowledge.
-- difficulty: "easy", "medium", or "hard".
-- Prefer substantive procurement knowledge over trivia about document structure,
-  section numbers, contact details, or website addresses.
+- difficulty: rate the question "easy" (a simple definition or single fact),
+  "medium" (requires understanding a rule or relationship), or "hard" (requires
+  connecting several details or precise domain knowledge).
+- Prefer substantive, general procurement knowledge over trivia about document
+  structure, section numbers, authors, citations, contact details, or websites.
 
 Return ONLY a JSON object with keys: question, answer, supporting_quote,
-question_type, difficulty."""
+question_type, difficulty. Always set question_type to "factual"."""
 
 
 def load_config() -> dict:

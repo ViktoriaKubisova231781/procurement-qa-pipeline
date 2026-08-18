@@ -7,7 +7,7 @@ Final dataset size: **25 pairs**
 | KPI | Target | Result | Pass |
 |-----|--------|--------|------|
 | Topic diversity | >= 5 sub-topics | 7 topics | PASS |
-| Groundedness | >= 90% traceable | 100% (verbatim quote: 88%) | PASS |
+| Groundedness | >= 90% traceable | 100% (verbatim quote: 84%) | PASS |
 | Relevance | >= 85% relevant | 100% | PASS |
 | Answer quality | >= 80% correct & complete | 100% rated 4-5 | PASS |
 | Low duplication | <= 10% near-dupes | 0% (deduped at cos >= 0.9) | PASS |
@@ -23,11 +23,11 @@ Final dataset size: **25 pairs**
 
 ## Distributions
 
-**By topic:** e-procurement and data standards (4), procurement policy and compliance (4), tender process (4), risk and sustainability (4), contract management (4), supplier evaluation (3), logistics and KPIs (2)
+**By topic:** risk and sustainability (4), logistics and KPIs (4), tender process (4), contract management (4), supplier evaluation (4), e-procurement and data standards (3), procurement policy and compliance (2)
 
-**By question type:** factual (20), analytical (5)
+**By question type:** factual (25)
 
-**By difficulty:** easy (13), medium (12)
+**By difficulty:** easy (15), medium (10)
 
 ## Honest limitations
 
