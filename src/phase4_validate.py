@@ -54,23 +54,19 @@ from embeddings import embed, cosine  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config.yaml"
 
-# Reference text used to score how "procurement-like" a question is.
-PROCUREMENT_REF = (
-    "public procurement, tendering and bidding, supplier and vendor evaluation, "
-    "contract management, purchasing, supply chain management, logistics, "
-    "procurement policy, sourcing, e-procurement and open contracting data, "
-    "value for money, sustainable and green procurement, supply chain risk"
-)
+# The LLM judge assesses procurement relevance directly (an embedding cosine of
+# a short question against a reference paragraph proved too noisy to be useful).
 
 JUDGE_SCHEMA = {
     "type": "object",
     "properties": {
         "correct": {"type": "integer"},       # 1-5 accuracy vs passage
         "complete": {"type": "integer"},       # 1-5 completeness
+        "relevant": {"type": "boolean"},       # is it a procurement/SC question?
         "is_junk": {"type": "boolean"},        # about citations/ToC/nav/etc.
         "reason": {"type": "string"},
     },
-    "required": ["correct", "complete", "is_junk", "reason"],
+    "required": ["correct", "complete", "relevant", "is_junk", "reason"],
 }
 
 JUDGE_SYSTEM = (
@@ -96,13 +92,17 @@ Score on a 1-5 scale:
   (5 = fully supported, 1 = contradicted or unsupported)
 - complete: does the ANSWER fully address the QUESTION? (5 = complete)
 
-Also set is_junk = true if the pair is NOT useful procurement knowledge, e.g.
-the question is about: a citation/reference, a book or journal title, an author,
-a table of contents, a list of section numbers, a website/URL, a navigation menu,
-or document formatting. Otherwise is_junk = false.
+Also judge two booleans:
+- relevant: is this QUESTION genuinely about procurement, purchasing, tendering,
+  supplier/vendor management, contracts, supply chain, logistics, or procurement
+  policy/data? true if a procurement professional would find it on-topic.
+- is_junk: true if the pair is NOT useful procurement knowledge, e.g. the
+  question is about a citation/reference, a book or journal title, an author,
+  a table of contents, a list of section numbers, a website/URL, a navigation
+  menu, or document formatting. Otherwise false.
 
 Give a one-sentence reason. Return ONLY JSON with keys:
-correct, complete, is_junk, reason."""
+correct, complete, relevant, is_junk, reason."""
 
 
 def load_config() -> dict:
@@ -134,11 +134,6 @@ def groundedness_score(cand: dict, embedder: str) -> tuple[float, float]:
     return qmatch, ans_sim
 
 
-def relevance_score(question: str, embedder: str, ref_vec: np.ndarray) -> float:
-    qv = embed(embedder, [question])[0]
-    return cosine(qv, ref_vec)
-
-
 def run(config: dict) -> list[dict]:
     proc = ROOT / config["paths"]["processed"]
     cands = json.loads((proc / "candidates.json").read_text(encoding="utf-8"))
@@ -153,8 +148,6 @@ def run(config: dict) -> list[dict]:
         print("!! Ollama not reachable. Start it and pull the model.")
         sys.exit(1)
 
-    ref_vec = embed(embedder, [PROCUREMENT_REF])[0]
-
     print(f"Validating {len(cands)} candidates...\n")
 
     # --- score every candidate --------------------------------------------
@@ -163,9 +156,8 @@ def run(config: dict) -> list[dict]:
         # groundedness = mostly the verbatim quote check, backed by answer sim
         c["groundedness_score"] = round(0.7 * qmatch + 0.3 * max(0.0, ans_sim), 3)
         c["quote_verbatim"] = round(qmatch, 3)
-        c["relevance_score"] = round(relevance_score(c["question"], embedder, ref_vec), 3)
 
-        # LLM judge
+        # LLM judge (correctness, completeness, relevance, junk)
         try:
             jr = judge.generate_json(
                 JUDGE_SYSTEM,
@@ -175,17 +167,21 @@ def run(config: dict) -> list[dict]:
             )
             c["judge_correct"] = int(jr.get("correct", 0))
             c["judge_complete"] = int(jr.get("complete", 0))
+            c["judge_relevant"] = bool(jr.get("relevant", False))
             c["judge_is_junk"] = bool(jr.get("is_junk", False))
             c["judge_reason"] = jr.get("reason", "")
         except Exception as e:  # noqa: BLE001
             c["judge_correct"] = c["judge_complete"] = 0
+            c["judge_relevant"] = False
             c["judge_is_junk"] = True
             c["judge_reason"] = f"judge error: {type(e).__name__}"
         # a single 1-5 quality number for convenience (min of the two rubric axes)
         c["judge_quality"] = min(c["judge_correct"], c["judge_complete"])
+        # relevance_score kept as a 0/1 for the KPI rollup + xlsx column
+        c["relevance_score"] = 1.0 if c["judge_relevant"] else 0.0
         print(f"  [{i:>2}/{len(cands)}] {c['id']}  "
               f"ground={c['groundedness_score']:.2f} "
-              f"rel={c['relevance_score']:.2f} "
+              f"rel={'Y' if c['judge_relevant'] else 'N'} "
               f"judge={c['judge_quality']} "
               f"{'JUNK' if c['judge_is_junk'] else ''}")
 
@@ -194,10 +190,10 @@ def run(config: dict) -> list[dict]:
         reasons = []
         if c["judge_is_junk"]:
             reasons.append("judge:junk")
+        if not c["judge_relevant"]:
+            reasons.append("relevance")
         if c["groundedness_score"] < v["groundedness_min"]:
             reasons.append("groundedness")
-        if c["relevance_score"] < v["relevance_min"]:
-            reasons.append("relevance")
         if c["judge_quality"] < v["judge_quality_min"]:
             reasons.append("judge:quality")
         c["passed_gates"] = not reasons
@@ -274,7 +270,7 @@ def _summary(cands, final, out_path, v) -> None:
     n = len(final)
     if n:
         gnd = sum(1 for c in final if c["groundedness_score"] >= v["groundedness_min"]) / n
-        rel = sum(1 for c in final if c["relevance_score"] >= v["relevance_min"]) / n
+        rel = sum(1 for c in final if c["judge_relevant"]) / n
         verb = sum(1 for c in final if c["quote_verbatim"] >= 0.99) / n
         qual = sum(1 for c in final if c["judge_quality"] >= 4) / n
         print(f"FINAL SET: {n} pairs")

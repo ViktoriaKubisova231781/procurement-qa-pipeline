@@ -34,11 +34,15 @@ generation:
   balance_by_topic: true    # sample chunks evenly across the 7 topics
 
 # --- Validation thresholds (Phase 4) — mirror the KPI table ---------------
+# RELEVANCE is judged by the LLM (a boolean per pair), not by an embedding
+# cosine: comparing a short question to a reference paragraph produced noisy,
+# uninformative scores, so relevance is assessed by the judge that already
+# reads each pair. The numeric thresholds below are calibrated to the metrics
+# that ARE numeric (groundedness via verbatim-quote match, dedup similarity).
 validation:
-  groundedness_min: 0.60    # keyword+embedding overlap answer<->passage
-  relevance_min: 0.60       # procurement-domain relevance
+  groundedness_min: 0.60    # verbatim-quote match + answer<->passage similarity
   dedup_cosine_max: 0.90    # drop pairs more similar than this to another
-  judge_quality_min: 3      # 5-point rubric, keep >= 3
+  judge_quality_min: 3      # 5-point rubric (min of correct & complete), keep >= 3
 
 # --- Topic taxonomy — drives the diversity KPI (>= 5 sub-topics) ----------
 # Passages get tagged to the closest topic by embedding similarity. We match
