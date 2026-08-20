@@ -16,7 +16,7 @@ models:
   # (LLM self-preference bias). Using Llama to judge Qwen's output gives a more
   # credible, independent quality signal.
   generator: "qwen2.5:7b-instruct"     # reads a passage, writes cited Q&A
-  judge: "llama3.1:8b"                  # cross-family LLM-as-judge (Phase 4)
+  judge: "llama3.1:8b"                 # cross-family LLM-as-judge (Phase 4)
   ollama_host: "http://localhost:11434"
   temperature: 0.4                     # low = more grounded, less inventive
   # Embeddings run locally via sentence-transformers (CPU/GPU).
@@ -72,8 +72,8 @@ topic_descriptions:
 
 
 # --- Sources (Phase 1) ----------------------------------------------------
-# 15 open sources, rebalanced toward authoritative law/policy/standards.
-# Only ~33% Wikipedia, kept for definitional/conceptual topics where it is
+# 13 open sources, rebalanced toward authoritative law/policy/standards.
+# Only ~38% Wikipedia, kept for definitional/conceptual topics where it is
 # genuinely reliable. license is recorded in the manifest (citation KPI).
 # type: "html" (scrape readable text) | "pdf" (extract text)
 #
@@ -141,10 +141,10 @@ sources:
     license: "CC BY 3.0 IGO (World Bank open access)"
     type: pdf
     topic: "logistics and KPIs"
-  # NOTE: World Bank Framework Agreements guidebook was trialled here but its
-  # PDF extracted as table-of-contents only (~4.5k chars, no body prose —
-  # likely an image/scanned layout pypdf couldn't read). Dropped and replaced
-  # with the Wikipedia CLM article below for clean contract-management prose.
+  # NOTE: The World Bank Framework Agreements guidebook was trialled here but
+  # its PDF extracted as table-of-contents only (~4.5k chars, no body prose —
+  # likely an image/scanned layout pypdf couldn't read), so it was dropped.
+  # Contract management is covered by the Service-Level Agreement source below.
 
   # --- Wikipedia (clean definitional / conceptual prose) -----------------
   - id: wikipedia_tco

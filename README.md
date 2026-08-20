@@ -10,7 +10,6 @@ The pipeline is fully config-driven: sources, models, thresholds, and targets al
 live in `config.yaml`, so re-running it (or pointing it at new sources) produces a
 fresh, valid dataset with no manual edits to the code.
 
----
 
 ## What it produces
 
@@ -22,7 +21,6 @@ Running the pipeline end-to-end writes:
   sheet keeps the full scoring detail.
 - `data/output/kpi_report.md` — a self-evaluation against every KPI target.
 
----
 
 ## Requirements
 
@@ -35,7 +33,6 @@ Running the pipeline end-to-end writes:
 The pipeline runs comfortably on a laptop with 16 GB RAM; a GPU speeds up
 generation but is not required.
 
----
 
 ## Setup
 
@@ -54,7 +51,6 @@ ollama pull llama3.1:8b           # judge (different family, on purpose)
 
 Make sure Ollama is running (the desktop app or `ollama serve`) before Phase 3.
 
----
 
 ## Running the pipeline
 
@@ -74,7 +70,6 @@ sequence. Phases 1–2 need no LLM; Phases 3–4 call the local Ollama models.
 > **Tip:** close `procurement_qa_dataset.xlsx` in Excel before re-running Phase 5,
 > or Windows will lock the file.
 
----
 
 ## How it works (phase by phase)
 
@@ -106,7 +101,6 @@ are selected round-robin across topics to keep the final 25 diverse.
 
 **Phase 5 — Output & reporting.** Writes the final `.xlsx` and the KPI report.
 
----
 
 ## Configuration
 
@@ -122,7 +116,6 @@ Everything tunable lives in `config.yaml`:
 To use different sources, edit the `sources` list and re-run from Phase 1. To swap
 models, change `models` and re-run from Phase 3. No code changes required.
 
----
 
 ## Project structure
 
@@ -146,7 +139,6 @@ procurement-qa-pipeline/
     └── output/                 # procurement_qa_dataset.xlsx, kpi_report.md
 ```
 
----
 
 ## Notes on model choice
 

@@ -6,26 +6,32 @@ Turns the ~50 raw candidates from Phase 3 into the final 25 high-quality pairs,
 measuring the KPIs from the assignment along the way. Nothing is hand-picked —
 every pair is scored and filtered by explicit, reproducible rules.
 
-Five checks per candidate
--------------------------
+Six checks per candidate
+------------------------
 1. GROUNDEDNESS (provable): does the model's `supporting_quote` actually occur
    in the source passage? We check verbatim, then fall back to a fuzzy overlap
    for minor whitespace/OCR differences. This is the core of the groundedness
    guarantee — a pair whose "evidence" isn't in the source is dropped.
    We combine this with answer<->passage embedding similarity for a 0-1 score.
 
-2. RELEVANCE: is the question actually about procurement / supply chain? Scored
-   by embedding similarity of the question against a procurement reference text.
+2. RELEVANCE: is the question genuinely about procurement / supply chain?
+   Judged by the LLM-as-judge (Llama 3.1) as a boolean. An earlier version used
+   embedding similarity of the question against a procurement reference text,
+   but those cosines were too noisy to threshold, so relevance moved to the
+   judge that already reads each pair.
 
 3. LLM-JUDGE (quality): a second model call scores correctness + completeness
-   on a 1-5 rubric AND flags "junk" questions (about citations, book/journal
-   titles, tables of contents, navigation menus, section numbers) — the failure
-   mode we saw in Phase 3 from reference lists and page furniture.
+   on a strict 1-5 rubric and flags "junk" questions (citations, book/journal
+   titles, tables of contents, navigation menus, section numbers).
 
-4. DEDUP: near-duplicate questions (cosine >= threshold) are collapsed so the
+4. UNIVERSALITY: a deterministic regex guard drops questions that reference
+   "the passage"/"the authors" or one organisation's internal jargon, so every
+   kept question stands on its own without hidden context.
+
+5. DEDUP: near-duplicate questions (cosine >= threshold) are collapsed so the
    final set is diverse (low-duplication KPI).
 
-5. SELECTION: survivors are ranked by a blended score and picked round-robin
+6. SELECTION: survivors are ranked by a blended score and picked round-robin
    across topics, so the final 25 stay diverse (topic-diversity KPI).
 
 Output
